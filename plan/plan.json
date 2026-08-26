@@ -46,12 +46,12 @@
   },
   {
     "date": "2026-08-30",
-    "title": "Base Builder (Power)",
+    "title": "Zn1 - Recuperação pós-brick",
     "sport": "bike",
-    "description": "Ride on a flat to gently rolling course. Get at least 50% of ride time in power zone 2. Avoid 3-5 zones. Keep the 2-zone effort steady and continuous. After the ride confirm that you got at least 50% of the ride in zone 2.",
-    "duration_h": 3.0,
+    "description": "Rolar muito fácil em Zn1, percurso plano. Pernas ainda cansadas do dia anterior (3h bike + 1h corrida) -- foco em soltar, não em treinar.",
+    "duration_h": 1.0,
     "distance_m": null,
-    "source": "history"
+    "source": "adjusted"
   },
   {
     "date": "2026-08-30",
