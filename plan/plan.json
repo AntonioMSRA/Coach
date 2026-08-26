@@ -3,7 +3,7 @@
     "date": "2026-08-27",
     "title": "Corrida fácil (troca de bike)",
     "sport": "run",
-    "description": "Warmup\n- corrida fácil, percurso plano e piso macio 1h Z2 HR",
+    "description": "Warmup\n- corrida facil, percurso plano e piso macio 1h Z2 HR",
     "duration_h": 1.0,
     "distance_m": null,
     "source": "athlete-swap"
@@ -30,7 +30,7 @@
     "date": "2026-08-29",
     "title": "Transição - 4x1km",
     "sport": "run",
-    "description": "Main Set 4x\n- 4m Z3 HR\n- 1m Z1 HR\n\nCooldown\n- 5m Z1 HR",
+    "description": "Main Set 4x\n- 1 km forte 4m Z3 HR\n- recuperacao 1m Z1 HR\n\nCooldown\n- 5m Z1 HR",
     "duration_h": 0.407,
     "distance_m": null,
     "source": "real-coach-tp"
@@ -66,7 +66,7 @@
     "date": "2026-09-02",
     "title": "Bike tempo - 4x5'",
     "sport": "bike",
-    "description": "Warmup\n- aquecimento 20m Z1 Power\n\nMain Set 4x\n- 5m Z3 Power\n- recuperacao 2m Z1 Power\n\nCooldown\n- 12m Z1 Power",
+    "description": "Warmup\n- aquecimento 8m Z1 Power\n\nMain Set 4x\n- 5m Z3 Power\n- recuperacao 1m Z1 Power\n\nCooldown\n- 3m Z1 Power",
     "duration_h": 0.5833333333333334,
     "distance_m": null,
     "source": "history"
@@ -75,7 +75,7 @@
     "date": "2026-09-03",
     "title": "Intervalado Curto 200+200",
     "sport": "run",
-    "description": "Warmup\n- aquecimento 20m Z2 HR\n\nMain Set 10x\n- 200m forte 30s Z5 HR\n- 200m leve 30s Z1 HR\n\nCooldown\n- 5m Z1 HR",
+    "description": "Warmup\n- aquecimento 20m Z2 HR\n\nMain Set 10x\n- 200 metros forte 30s Z5 HR\n- 200 metros leve 30s Z1 HR\n\nCooldown\n- 5m Z1 HR",
     "duration_h": 0.5833333333333334,
     "distance_m": null,
     "source": "history"
@@ -156,7 +156,7 @@
     "date": "2026-09-08",
     "title": "Swim #2",
     "sport": "swim",
-    "description": "Warmup\n- snorkel 800mtr Z2 HR\n\nMain Set 4x\n- pull saida 1' 50mtr Z2 HR\n\nMain Set 5x\n- palas snorkel elastico pull 100mtr Z2 HR\n\nMain Set 5x\n- snorkel e fins 100mtr Z3 HR\n\nMain Set 4x\n- pernas 25 fast + 25 easy 50mtr Z4 HR\n\nCooldown\n- 200mtr Z1 HR",
+    "description": "Warmup\n- snorkel 800mtr Z2 HR\n\nMain Set 4x\n- pull saida 1 min 50mtr Z2 HR\n\nMain Set 5x\n- palas snorkel elastico pull 100mtr Z2 HR\n\nMain Set 5x\n- snorkel e fins 100mtr Z3 HR\n\nMain Set 4x\n- pernas 25 forte mais 25 leve 50mtr Z4 HR\n\nCooldown\n- 200mtr Z1 HR",
     "duration_h": 0.5833333333333334,
     "distance_m": 2400.0,
     "source": "history"
@@ -183,7 +183,7 @@
     "date": "2026-09-10",
     "title": "Tempo run progressivo",
     "sport": "run",
-    "description": "Warmup\n- aquecimento 15m Z2 HR\n\nMain Set\n- 1m Z4 HR\n- 1m Z1 HR\n- 2m Z4 HR\n- 2m Z1 HR\n- 3m Z4 HR\n- 3m Z1 HR\n- 4m Z4 HR\n- 4m Z1 HR\n- 5m Z4 HR\n- 5m Z1 HR\n\nCooldown\n- 5m Z1 HR",
+    "description": "Warmup\n- aquecimento 10m Z2 HR\n\nMain Set\n- 1m Z4 HR\n- 1m Z1 HR\n- 2m Z4 HR\n- 2m Z1 HR\n- 3m Z4 HR\n- 3m Z1 HR\n- 4m Z4 HR\n- 4m Z1 HR\n\nCooldown\n- 5m Z1 HR",
     "duration_h": 0.5833333333333334,
     "distance_m": null,
     "source": "history"
@@ -228,7 +228,7 @@
     "date": "2026-09-14",
     "title": "Zn1 - Regenerativo",
     "sport": "bike",
-    "description": "Warmup\n- rolar fácil percurso plano 35m Z1 Power",
+    "description": "Warmup\n- rolar facil percurso plano 35m Z1 Power",
     "duration_h": 0.5833333333333334,
     "distance_m": null,
     "source": "history"
@@ -435,7 +435,7 @@
     "date": "2026-09-27",
     "title": "Base Builder (Power)",
     "sport": "bike",
-    "description": "Warmup\n- aquecimento 15m ramp Z1-Z2\n\nMain Set 2x\n- bloco continuo 25m Z2 Power\n- recuperacao suave 5m Z1 Power\n\nCooldown\n- 15m Z1 Power",
+    "description": "Warmup\n- aquecimento 15m ramp Z1-Z2 Power\n\nMain Set 2x\n- bloco continuo 25m Z2 Power\n- recuperacao suave 5m Z1 Power\n\nCooldown\n- 15m Z1 Power",
     "duration_h": 1.5,
     "distance_m": null,
     "source": "history"
@@ -579,7 +579,7 @@
     "date": "2026-10-07",
     "title": "Bike tempo - 4x5'",
     "sport": "bike",
-    "description": "Warmup\n- aquecimento easy 20m Z1 Power\n\nMain Set 4x\n- bloco tempo 5m Z3 Power\n- recuperacao easy 2m Z1 Power\n\nCooldown\n- 12m Z1 Power",
+    "description": "Warmup\n- aquecimento easy 3m Z1 Power\n\nMain Set 4x\n- bloco tempo 2m Z3 Power\n- recuperacao easy 30s Z1 Power\n\nCooldown\n- 2m Z1 Power",
     "duration_h": 0.25,
     "distance_m": null,
     "source": "history"
@@ -624,7 +624,7 @@
     "date": "2026-10-10",
     "title": "Transição - 8kms a race pace",
     "sport": "run",
-    "description": "Warmup\n- transição 2m Z2 HR\n\nMain Set\n- race pace 11m Z4 HR\n\nCooldown\n- easy 2m Z1 HR",
+    "description": "Warmup\n- transicao 2m Z2 HR\n\nMain Set\n- race pace 11m Z4 HR\n\nCooldown\n- easy 2m Z1 HR",
     "duration_h": 0.25,
     "distance_m": null,
     "source": "history"
@@ -687,7 +687,7 @@
     "date": "2026-10-14",
     "title": "Transição 3x1000 Intensidade Progressiva",
     "sport": "run",
-    "description": "Warmup\n- aquecimento 5m Z2 HR\n\nMain Set\n- 1000m tempo 4m Z3 HR\n- recuperacao 1m Z1 HR\n- 1000m threshold 4m Z4 HR\n- recuperacao 2m Z1 HR\n- 1000m vo2max 4m Z5 HR\n\nCooldown\n- 5m Z1 HR",
+    "description": "Warmup\n- aquecimento 5m Z2 HR\n\nMain Set\n- 1000 metros tempo 4m Z3 HR\n- recuperacao 1m Z1 HR\n- 1000 metros threshold 4m Z4 HR\n- recuperacao 2m Z1 HR\n- 1000 metros vo2max 4m Z5 HR\n\nCooldown\n- 5m Z1 HR",
     "duration_h": 0.417,
     "distance_m": null,
     "source": "history"
@@ -705,7 +705,7 @@
     "date": "2026-10-16",
     "title": "Pre-Race Swim @Pool",
     "sport": "swim",
-    "description": "Warmup\n- 200mtr Z2 HR\n\nMain Set 4x\n- 50mtr Z2 HR\n\nMain Set 4x\n- 50mtr Z2 HR\n\nMain Set 4x\n- pernas 50mtr Z3 HR\n\nMain Set 2x\n- estilos progressivo 100mtr Z3 HR\n\nMain Set 4x\n- fast 25mtr Z5 HR\n\nMain Set 3x\n- 100mtr Z3 HR\n\nCooldown\n- 100mtr Z1 HR",
+    "description": "Warmup\n- 200mtr Z2 HR\n\nMain Set 4x\n- 50mtr Z2 HR\n\nMain Set 4x\n- 50mtr Z2 HR\n\nMain Set 4x\n- pernas 50mtr Z3 HR\n\nMain Set 2x\n- estilos progressivo 100mtr Z3 HR\n\nMain Set 4x\n- forte 25mtr Z5 HR\n\nMain Set 3x\n- 100mtr Z3 HR\n\nCooldown\n- 100mtr Z1 HR",
     "duration_h": 0.5,
     "distance_m": 1500.0,
     "source": "history"
@@ -723,7 +723,7 @@
     "date": "2026-10-16",
     "title": "Pre-race Run",
     "sport": "run",
-    "description": "Warmup\n- aquecimento 8m Z2 HR\n\nMain Set 4x\n- acelerações curtas 20s Z4 HR\n- recuperação 40s Z1 HR\n\nCooldown\n- 3m Z1 HR",
+    "description": "Warmup\n- aquecimento 8m Z2 HR\n\nMain Set 4x\n- aceleracoes curtas 20s Z4 HR\n- recuperacao 40s Z1 HR\n\nCooldown\n- 3m Z1 HR",
     "duration_h": 0.25,
     "distance_m": null,
     "source": "history"
@@ -876,7 +876,7 @@
     "date": "2026-10-31",
     "title": "Base Builder (Heart Rate)",
     "sport": "bike",
-    "description": "Warmup\n- rolar continuo em Zn2 90m Z2 Power",
+    "description": "Warmup\n- rolar continuo em Zona 2 90m Z2 Power",
     "duration_h": 1.5,
     "distance_m": null,
     "source": "recovery-plan"
@@ -1038,7 +1038,7 @@
     "date": "2026-11-16",
     "title": "Zn1 - Regenerativo",
     "sport": "bike",
-    "description": "Warmup\n- rolar fácil percurso plano 40m Z1 Power",
+    "description": "Warmup\n- rolar facil percurso plano 40m Z1 Power",
     "duration_h": 0.667,
     "distance_m": null,
     "source": "history"
@@ -1128,7 +1128,7 @@
     "date": "2026-11-24",
     "title": "Rolos 1 - Técnica",
     "sport": "bike",
-    "description": "Warmup\n- aquecimento 20m ramp Z1-Z2 Power\n\nMain Set 5x\n- sprint 30s Z6 Power\n- spinning 30s Z2 Power\n- recuperacao 1m Z1 Power\n\nMain Set 2 11x\n- degrau de cadencia 30s Z3 Power\n- recuperacao 90rpm 1m30s Z1 Power\n\nCooldown\n- 10m Z1 Power",
+    "description": "Warmup\n- aquecimento 20m ramp Z1-Z2 Power\n\nMain Set 5x\n- sprint 30s Z6 Power\n- spinning 30s Z2 Power\n- recuperacao 1m Z1 Power\n\nMain Set 2 11x\n- degrau de cadencia 30s Z3 Power\n- recuperacao cadencia alta 1m30s Z1 Power\n\nCooldown\n- 10m Z1 Power",
     "duration_h": 1.033,
     "distance_m": null,
     "source": "history"
@@ -1155,7 +1155,7 @@
     "date": "2026-11-26",
     "title": "Swim Pré-epoca 1",
     "sport": "swim",
-    "description": "Warmup\n- snorkel + fins 400mtr Z2 HR\n- snorkel + pull 200mtr Z2 HR\n\nMain Set 4x\n- pernas mariposa, bracos brucos 50mtr Z3 HR\n\nMain Set 4x\n- 25 sculling + 25 normal 50mtr Z2 HR\n\nMain Set\n- pernas 200mtr Z2 HR\n- pull 400mtr Z3 HR\n- estilos invertidos 200mtr Z3 HR\n- crawl 200mtr Z3 HR\n- pernas 200mtr Z2 HR\n- pull 400mtr Z3 HR\n\nCooldown\n- easy 200mtr Z1 HR",
+    "description": "Warmup\n- snorkel + fins 400mtr Z2 HR\n- snorkel + pull 200mtr Z2 HR\n\nMain Set 4x\n- pernas mariposa, bracos brucos 50mtr Z3 HR\n\nMain Set 4x\n- 25 sculling mais 25 normal 50mtr Z2 HR\n\nMain Set\n- pernas 200mtr Z2 HR\n- pull 400mtr Z3 HR\n- estilos invertidos 200mtr Z3 HR\n- crawl 200mtr Z3 HR\n- pernas 200mtr Z2 HR\n- pull 400mtr Z3 HR\n\nCooldown\n- easy 200mtr Z1 HR",
     "duration_h": 0.917,
     "distance_m": 2800.0,
     "source": "history"
@@ -1290,7 +1290,7 @@
     "date": "2026-12-09",
     "title": "30' Run - Zn2",
     "sport": "run",
-    "description": "Warmup\n- corrida continua em piso soft, pulso @140 40m Z2 HR",
+    "description": "Warmup\n- corrida continua em piso soft, pulso 140 40m Z2 HR",
     "duration_h": 0.667,
     "distance_m": null,
     "source": "history"
@@ -1407,7 +1407,7 @@
     "date": "2026-12-21",
     "title": "40 com 100metros",
     "sport": "run",
-    "description": "Warmup\n- aquecimento 15m Z2 HR\n\nMain Set 5x\n- sprint 100m 20s Z6 HR\n- restantes 900m 5m Z2 HR\n\nCooldown\n- 4m Z1 HR",
+    "description": "Warmup\n- aquecimento 15m Z2 HR\n\nMain Set 5x\n- sprint 100 metros 20s Z6 HR\n- restantes 900 metros 5m Z2 HR\n\nCooldown\n- 4m Z1 HR",
     "duration_h": 0.761,
     "distance_m": null,
     "source": "history"
