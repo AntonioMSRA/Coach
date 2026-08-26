@@ -124,12 +124,9 @@ Actions deste repositório — não aparecem em lado nenhum do código.
 
 ### 4. Testar manualmente antes de confiares na automação
 
-Os scripts nunca foram corridos contra as APIs reais neste ambiente (não
-tinha acesso de rede ao intervals.icu nem à Anthropic para verificar), por
-isso o primeiro teste deve ser feito por ti, com cuidado. Como ainda não há
-nenhum treino no teu calendário do intervals.icu, faz sentido saltar o
-ajuste automático nesta primeira vez (não há "semana passada" para
-comparar) e só carregar o plano:
+**Já testado e confirmado a funcionar (26/ago/2026): os 172 treinos foram
+criados com sucesso no intervals.icu.** Passos que qualquer pessoa deve
+repetir se recriar isto de raiz:
 
 1. No GitHub, vai a **Actions → Sync training plan to intervals.icu → Run
    workflow**.
@@ -143,13 +140,16 @@ comparar) e só carregar o plano:
 6. Confirma no teu Garmin Connect / relógio que os treinos planeados chegaram
    (pode demorar alguns minutos a sincronizar).
 
-Se algum passo falhar, os logs da Action mostram o erro exato devolvido pela
-API (por exemplo um campo com nome diferente) — nesse caso confirma o nome
-certo do campo em https://intervals.icu/api-docs.html e ajusta
-`scripts/sync_to_intervals.py`.
-
 Passada esta primeira vez, o cron semanal já corre com o ajuste automático
 ligado (não precisas de marcar skip_adapt outra vez — isso é só para hoje).
+
+**Marcar o dia da prova como "corrida":** a API do intervals.icu recusou
+tanto `type: "Triathlon"` como `category: "RACE"` (erro 400 "JSON parse
+error" nos dois), por isso o evento "IronMan 70.3 Cascais" (17/out) foi
+criado como um treino normal, sem a marcação especial de prova. Para
+ativares isso: no intervals.icu → Calendar → abre o evento do dia 17/out →
+deve haver uma opção tipo "This is a race" / categoria — ativa-a e guarda.
+É um ajuste manual único, só para esse dia.
 
 ### 5. Automação recorrente
 
@@ -179,3 +179,21 @@ Depois do primeiro teste manual correr bem, já não precisas de fazer nada:
   `python3 plan/generate_plan.py` e faz commit dos ficheiros gerados.
 - Para qualquer coisa fora do comum — lesão a sério, mudar de objetivo,
   dúvidas sobre o plano — fala comigo diretamente nesta conversa.
+
+## Notas técnicas (problemas já resolvidos)
+
+Se algum dia isto voltar a falhar, começa por aqui:
+
+- **HTTP 403 "error code: 1010"** → bloqueio da Cloudflare por causa do
+  User-Agent por omissão do Python. Resolvido em `scripts/intervals_client.py`
+  ao enviar um `User-Agent` normal.
+- **HTTP 401 "Auth failed"** → API key ou Athlete ID errados/copiados com
+  espaços. Confirma os secrets no GitHub.
+- **HTTP 400 "JSON parse error"** → a API tem enums estritos nalguns campos.
+  Confirmado que `type: "Triathlon"` e `category: "RACE"` não são aceites;
+  usa sempre valores já comprovados (`Run`, `Ride`, `Swim`, `WeightTraining`,
+  `Yoga`, `Other` para type; `WORKOUT` ou `NOTE` para category).
+- Se os runs do GitHub Actions ficarem presos em "queued" sem nenhum job:
+  confirma em `Settings → Billing and licensing → Budgets and alerts` que o
+  orçamento de Actions não está a 0€, e que há um método de pagamento
+  associado à conta.
