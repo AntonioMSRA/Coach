@@ -1,0 +1,55 @@
+name: Structure workout descriptions (one-off)
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "So mostrar as conversoes, sem escrever em plan.json nem fazer commit"
+        type: boolean
+        default: true
+      limit:
+        description: "Limitar a N treinos (vazio = todos). Usa um numero pequeno para testar primeiro."
+        type: string
+        default: ""
+
+permissions:
+  contents: write
+
+jobs:
+  structure:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Structure workouts
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          ARGS=""
+          if [ "${{ inputs.dry_run }}" = "true" ]; then
+            ARGS="$ARGS --dry-run"
+          fi
+          if [ -n "${{ inputs.limit }}" ]; then
+            ARGS="$ARGS --limit ${{ inputs.limit }}"
+          fi
+          python3 scripts/structure_workouts.py $ARGS
+
+      - name: Commit plan.json (if changed)
+        if: ${{ inputs.dry_run != true }}
+        run: |
+          git config user.name "coach-bot"
+          git config user.email "coach-bot@users.noreply.github.com"
+          if ! git diff --quiet -- plan/plan.json; then
+            git add plan/plan.json
+            git commit -m "Structure bike/run workout descriptions for on-watch guidance"
+            git push
+          else
+            echo "Sem alteracoes a plan.json."
+          fi
