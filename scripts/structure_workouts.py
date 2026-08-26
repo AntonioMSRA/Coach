@@ -88,10 +88,13 @@ def build_prompt(workout):
     zone_suffix = ZONE_TARGET[sport]
     swim_note = (
         "\nEste treino e de natacao: os passos sao normalmente por distancia "
-        "(ex: \"- 100m Z2 HR\", \"- 50m Z4 HR\") em vez de duracao, porque e "
-        "assim que a descricao original os da (series de piscina). Repeticoes "
-        "de series (ex: \"8x50\") continuam a usar \"Main Set 8x\" + um passo "
-        "\"- 50m Z_ HR\" por baixo, tal como nos outros desportos.\n"
+        "em vez de duracao, porque e assim que a descricao original os da "
+        "(series de piscina). CUIDADO: no intervals.icu \"m\" significa "
+        "MINUTOS, nao metros -- para distancia em metros tens de usar "
+        "\"mtr\" (ex: \"- 100mtr Z2 HR\", \"- 50mtr Z4 HR\"), NUNCA \"100m\" "
+        "(isso seria lido como 100 minutos!). Repeticoes de series (ex: "
+        "\"8x50\") continuam a usar \"Main Set 8x\" + um passo "
+        "\"- 50mtr Z_ HR\" por baixo, tal como nos outros desportos.\n"
         if sport == "swim" else ""
     )
     return f"""{SYNTAX_RULES.format(zone_suffix=zone_suffix)}
@@ -135,6 +138,10 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--limit", type=int, default=None)
+    ap.add_argument("--sport", action="append", choices=sorted(ZONE_TARGET),
+                     help="restringe a um ou mais desportos (repete a opcao para varios); por omissao todos")
+    ap.add_argument("--force", action="store_true",
+                     help="reconverte mesmo treinos que ja parecem estruturados (ignora already_structured)")
     args = ap.parse_args()
 
     if not os.environ.get("ANTHROPIC_API_KEY"):
@@ -144,7 +151,11 @@ def main():
     with open(PLAN_PATH, encoding="utf-8") as f:
         plan = json.load(f)
 
-    targets = [w for w in plan if w["sport"] in ZONE_TARGET and not already_structured(w["description"])]
+    sports = set(args.sport) if args.sport else set(ZONE_TARGET)
+    targets = [
+        w for w in plan
+        if w["sport"] in sports and (args.force or not already_structured(w["description"]))
+    ]
     if args.limit:
         targets = targets[:args.limit]
 

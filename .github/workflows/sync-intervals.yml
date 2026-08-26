@@ -2,8 +2,10 @@ name: Sync training plan to intervals.icu
 
 on:
   schedule:
-    # todas as segundas-feiras as 06:00 UTC (07:00/08:00 em Lisboa consoante DST)
-    - cron: "0 6 * * 1"
+    # todos os dias as 05:00 UTC (06:00/07:00 em Lisboa consoante DST) --
+    # deixa margem para o atleta escrever notas/wellness na noite anterior
+    # e o dia seguinte ja vir ajustado quando ele acorda.
+    - cron: "0 5 * * *"
   workflow_dispatch:
     inputs:
       dry_run:
@@ -59,7 +61,7 @@ jobs:
           git config user.email "coach-bot@users.noreply.github.com"
           if ! git diff --quiet -- plan/plan.json plan/CHANGELOG.md; then
             git add plan/plan.json plan/CHANGELOG.md
-            git commit -m "Ajuste automatico semanal do plano"
+            git commit -m "Ajuste automatico diario do plano"
             git push
           else
             echo "Sem alteracoes ao plano esta semana."

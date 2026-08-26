@@ -12,11 +12,11 @@ Ficheiros:
 - `plan/plan.json` — **fonte de verdade** do plano (o que vai ser sincronizado com o intervals.icu).
 - `plan/plan.csv` — o mesmo plano em CSV, para leres/editares facilmente numa folha de cálculo.
 - `plan/PLAN.md` — resumo das fases e do volume semanal planeado.
-- `plan/athlete_input.md` — **escreve aqui** notas para o coach automático (dores, viagens, cansaço, boa forma). É lido todas as semanas antes de qualquer ajuste.
-- `plan/CHANGELOG.md` — criado automaticamente na primeira vez que o coach ajustar algo. Histórico, semana a semana, do que mudou e porquê.
-- `scripts/adapt_plan.py` — todas as semanas, compara o que treinaste de facto (via intervals.icu) com o que estava planeado + as tuas notas, e propõe pequenos ajustes às próximas ~2 semanas usando a API da Anthropic (Claude). Tem regras fixas (guardrails) que travam qualquer alteração fora do razoável — ver secção "Como funciona o ajuste automático" abaixo.
+- `plan/athlete_input.md` — **escreve aqui** notas para o coach automático (dores, viagens, cansaço, boa forma). É lido todos os dias antes de qualquer ajuste.
+- `plan/CHANGELOG.md` — criado automaticamente na primeira vez que o coach ajustar algo. Histórico, dia a dia, do que mudou e porquê.
+- `scripts/adapt_plan.py` — todos os dias, compara o que treinaste de facto (via intervals.icu) com o que estava planeado + as tuas notas, e propõe pequenos ajustes às próximas ~2 semanas usando a API da Anthropic (Claude). Tem regras fixas (guardrails) que travam qualquer alteração fora do razoável — ver secção "Como funciona o ajuste automático" abaixo.
 - `scripts/sync_to_intervals.py` — sincroniza `plan/plan.json` (já ajustado) com o calendário do intervals.icu — cria, atualiza e remove eventos conforme necessário.
-- `.github/workflows/sync-intervals.yml` — corre os dois scripts acima automaticamente todas as segundas-feiras (e sempre que fazes push a `plan/plan.json`).
+- `.github/workflows/sync-intervals.yml` — corre os dois scripts acima automaticamente todos os dias de manhã (e sempre que fazes push a `plan/plan.json`).
 
 ## Como foi feito o plano
 
@@ -46,7 +46,7 @@ workflow sincroniza automaticamente as diferenças para o intervals.icu.
 
 ## Como funciona o ajuste automático
 
-Todas as segundas-feiras, antes de sincronizar com o intervals.icu, o
+Todos os dias de manhã, antes de sincronizar com o intervals.icu, o
 workflow corre `scripts/adapt_plan.py`, que:
 
 1. Vai buscar ao intervals.icu o que treinaste **de facto** nos últimos 7
@@ -59,11 +59,11 @@ workflow corre `scripts/adapt_plan.py`, que:
 4. Pede a Claude (a IA da Anthropic) para propor ajustes pequenos e
    conservadores às **próximas ~2 semanas** — nunca ao plano todo.
 5. Cada proposta passa por regras fixas antes de ser aceite: no máximo 10
-   alterações por semana, nunca em datas passadas, nunca durante o taper /
+   alterações por corrida do ajuste, nunca em datas passadas, nunca durante o taper /
    semana de prova / primeira semana pós-prova (17/set → 24/out fica sempre
    intocável), nunca no próprio dia da prova, e a duração de qualquer treino
    tem um teto razoável por modalidade. Se não houver motivo para mudar
-   nada — que vai ser a maioria das semanas — a lista de alterações fica
+   nada — que vai ser a maioria dos dias — a lista de alterações fica
    vazia, e é suposto ser assim.
 6. Escreve sempre uma entrada em `plan/CHANGELOG.md` a explicar o que
    mudou (ou que não mudou nada) e porquê, para leres quando quiseres.
@@ -102,14 +102,14 @@ nesta conversa.
 
 ### 2b. Obter uma API Key da Anthropic (para o ajuste automático)
 
-Isto é o que permite ao robô "pensar" sobre a tua semana em vez de só copiar
+Isto é o que permite ao robô "pensar" sobre os teus dias em vez de só copiar
 um plano fixo.
 
 1. Vai a [console.anthropic.com](https://console.anthropic.com), cria conta
    se ainda não tiveres, e em **Settings → API Keys** cria uma nova chave.
 2. Vais precisar de ter crédito associado à conta (a Anthropic pede cartão
    ou compra de crédito pré-pago). O custo real disto é muito baixo — cada
-   ajuste semanal usa poucos milhares de tokens, tipicamente cêntimos por
+   ajuste diário usa poucos milhares de tokens, tipicamente cêntimos por
    mês, não euros.
 3. Guarda a chave — só é mostrada uma vez.
 
@@ -144,7 +144,7 @@ repetir se recriar isto de raiz:
 6. Confirma no teu Garmin Connect / relógio que os treinos planeados chegaram
    (pode demorar alguns minutos a sincronizar).
 
-Passada esta primeira vez, o cron semanal já corre com o ajuste automático
+Passada esta primeira vez, o cron diário já corre com o ajuste automático
 ligado (não precisas de marcar skip_adapt outra vez — isso é só para hoje).
 
 **Marcar o dia da prova como "corrida":** a API do intervals.icu recusou
@@ -159,8 +159,8 @@ deve haver uma opção tipo "This is a race" / categoria — ativa-a e guarda.
 
 Depois do primeiro teste manual correr bem, já não precisas de fazer nada:
 
-- O workflow corre **automaticamente todas as segundas-feiras às 6h UTC**:
-  primeiro ajusta o plano (`adapt_plan.py`), depois sincroniza
+- O workflow corre **automaticamente todos os dias às 5h UTC**: primeiro
+  ajusta o plano (`adapt_plan.py`), depois sincroniza
   (`sync_to_intervals.py`).
 - Também corre sempre que fizeres `git push` a uma alteração em
   `plan/plan.json`.
@@ -172,7 +172,7 @@ Depois do primeiro teste manual correr bem, já não precisas de fazer nada:
 
 - **Para o dia a dia** (cansaço, dores, motivação, sono): usa o **Wellness**
   do intervals.icu (site ou telemóvel — "Adicionar ao ecrã principal" no
-  browser do telemóvel funciona como uma app) — o ajuste automático semanal
+  browser do telemóvel funciona como uma app) — o ajuste automático diário
   lê isto sozinho, não precisas de tocar no GitHub.
 - **Para notas mais específicas/livres** (viagens, contexto que não encaixa
   no Wellness): escreve uma linha em `plan/athlete_input.md`.
@@ -205,3 +205,10 @@ Se algum dia isto voltar a falhar, começa por aqui:
   confirma em `Settings → Billing and licensing → Budgets and alerts` que o
   orçamento de Actions não está a 0€, e que há um método de pagamento
   associado à conta.
+- **Treino de natação com duração absurda (ex: horas em vez de minutos)** →
+  na sintaxe de treino estruturado do intervals.icu, `m` significa
+  **minutos**, não metros. Um passo de piscina tem de usar `mtr` (ex:
+  `- 100mtr Z2 HR`), nunca `100m`. Corrigido em
+  `scripts/structure_workouts.py`; se acontecer de novo num treino
+  específico, corre o workflow **Structure workout descriptions (one-off)**
+  com `sport = swim` e `force = true` para reconverter só a natação.

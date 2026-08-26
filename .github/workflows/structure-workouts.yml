@@ -11,6 +11,14 @@ on:
         description: "Limitar a N treinos (vazio = todos). Usa um numero pequeno para testar primeiro."
         type: string
         default: ""
+      sport:
+        description: "Restringir a um desporto (run/bike/swim). Vazio = todos."
+        type: string
+        default: ""
+      force:
+        description: "Reconverter mesmo treinos que ja parecem estruturados (usar para corrigir bugs num desporto ja convertido)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -38,6 +46,12 @@ jobs:
           fi
           if [ -n "${{ inputs.limit }}" ]; then
             ARGS="$ARGS --limit ${{ inputs.limit }}"
+          fi
+          if [ -n "${{ inputs.sport }}" ]; then
+            ARGS="$ARGS --sport ${{ inputs.sport }}"
+          fi
+          if [ "${{ inputs.force }}" = "true" ]; then
+            ARGS="$ARGS --force"
           fi
           python3 scripts/structure_workouts.py $ARGS
 

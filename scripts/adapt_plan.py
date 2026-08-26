@@ -9,8 +9,10 @@ Ajusta as proximas ~2 semanas de plan/plan.json com base em:
 
 Usa a API da Anthropic (Claude) para propor ajustes, mas nunca aplica nada
 as cegas: cada alteracao proposta passa por um conjunto de regras fixas
-(guardrails) antes de ser aceite. Corre uma vez por semana, antes do
-scripts/sync_to_intervals.py, dentro do workflow do GitHub Actions.
+(guardrails) antes de ser aceite. Corre todos os dias, antes do
+scripts/sync_to_intervals.py, dentro do workflow do GitHub Actions -- assim
+qualquer wellness/nota escrita no dia anterior e processada logo na manha
+seguinte, sem precisar de pedir nada.
 
 Nunca mexe:
   - em dias de hoje para tras
