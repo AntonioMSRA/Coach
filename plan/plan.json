@@ -57,7 +57,7 @@
     "date": "2026-09-01",
     "title": "12,5 Fast",
     "sport": "swim",
-    "description": "Warmup\n- 400m snorkel + fins 400m Z2 HR\n- 400m snorkel + pull 400m Z2 HR\n\nMain Set 8x\n- progressivo saida 40\" 25m Z3 HR\n\nMain Set 20x\n- 12,5 fast / 37,5 easy 50m Z4 HR\n\nCooldown\n- easy 200m Z1 HR",
+    "description": "Warmup\n- snorkel + fins 400mtr Z2 HR\n- snorkel + pull 400mtr Z2 HR\n\nMain Set 8x\n- progressivo saida 40\" 25mtr Z3 HR\n\nMain Set 20x\n- 12,5 fast / 37,5 easy 50mtr Z4 HR\n\nCooldown\n- easy 200mtr Z1 HR",
     "duration_h": 0.4166666666666667,
     "distance_m": 2000.0,
     "source": "history"
@@ -156,7 +156,7 @@
     "date": "2026-09-08",
     "title": "Swim #2",
     "sport": "swim",
-    "description": "Warmup\n- 800m snorkel Z2 HR\n\nMain Set 4x\n- pull saida 1' 50m Z2 HR\n\nMain Set 5x\n- palas snorkel elastico pull 100m Z2 HR\n\nMain Set 5x\n- snorkel e fins 100m Z3 HR\n\nMain Set 4x\n- pernas 25 fast + 25 easy 50m Z4 HR\n\nCooldown\n- 200m Z1 HR",
+    "description": "Warmup\n- snorkel 800mtr Z2 HR\n\nMain Set 4x\n- pull saida 1' 50mtr Z2 HR\n\nMain Set 5x\n- palas snorkel elastico pull 100mtr Z2 HR\n\nMain Set 5x\n- snorkel e fins 100mtr Z3 HR\n\nMain Set 4x\n- pernas 25 fast + 25 easy 50mtr Z4 HR\n\nCooldown\n- 200mtr Z1 HR",
     "duration_h": 0.5833333333333334,
     "distance_m": 2400.0,
     "source": "history"
@@ -192,7 +192,7 @@
     "date": "2026-09-11",
     "title": "12,5 Fast",
     "sport": "swim",
-    "description": "Warmup\n- 400m snorkel + fins Z1 HR\n- 400m snorkel + pull Z2 HR\n\nMain Set 8x\n- 25m progressivo saida 40\" Z3 HR\n\nMain Set 20x\n- 50m 12,5 fast + 37,5 easy Z4 HR\n\nCooldown\n- 200m easy Z1 HR",
+    "description": "Warmup\n- snorkel + fins 400mtr Z1 HR\n- snorkel + pull 400mtr Z2 HR\n\nMain Set 8x\n- progressivo saida 40\" 25mtr Z3 HR\n\nMain Set 20x\n- 12,5 fast + 37,5 easy 50mtr Z4 HR\n\nCooldown\n- easy 200mtr Z1 HR",
     "duration_h": 0.5833333333333334,
     "distance_m": 2000.0,
     "source": "history"
@@ -237,7 +237,7 @@
     "date": "2026-09-15",
     "title": "Swim - palas",
     "sport": "swim",
-    "description": "Warmup\n- aquecimento 10m Z1 HR\n\nMain Set\n- com palas 20m Z2 HR\n\nCooldown\n- easy 5m Z1 HR",
+    "description": "Warmup\n- aquecimento 5m Z1 HR\n\nMain Set\n- com palas 12m Z2 HR\n\nCooldown\n- easy 3m Z1 HR",
     "duration_h": 0.3333333333333333,
     "distance_m": null,
     "source": "history"
@@ -264,7 +264,7 @@
     "date": "2026-09-17",
     "title": "2kms",
     "sport": "swim",
-    "description": "Warmup\n- 2kms seguidos em ritmo de prova 2000m Z3 HR",
+    "description": "Warmup\n- 2000mtr Z3 HR",
     "duration_h": 0.4166666666666667,
     "distance_m": 2000.0,
     "source": "history"
@@ -372,7 +372,7 @@
     "date": "2026-09-22",
     "title": "Swim - palas + fins",
     "sport": "swim",
-    "description": "Warmup\n- snorkel + fins 400m Z2 HR\n- snorkel + pull 400m Z2 HR\n\nMain Set 8x\n- pernas com barbatanas 50m Z3 HR\n\nMain Set 4x\n- palas + fins 100m Z4 HR\n\nMain Set\n- easy 200m Z1 HR\n\nMain Set 4x\n- palas + fins 100m Z4 HR\n\nMain Set\n- easy 200m Z1 HR\n\nMain Set 4x\n- palas + fins 100m Z4 HR\n\nCooldown\n- easy 200m Z1 HR",
+    "description": "Warmup\n- snorkel + fins 400mtr Z2 HR\n- snorkel + pull 400mtr Z2 HR\n\nMain Set 8x\n- pernas com barbatanas 50mtr Z3 HR\n\nMain Set 4x\n- palas + fins 100mtr Z4 HR\n\nMain Set\n- easy 200mtr Z1 HR\n\nMain Set 4x\n- palas + fins 100mtr Z4 HR\n\nMain Set\n- easy 200mtr Z1 HR\n\nMain Set 4x\n- palas + fins 100mtr Z4 HR\n\nCooldown\n- easy 200mtr Z1 HR",
     "duration_h": 0.5,
     "distance_m": 3000.0,
     "source": "history"
@@ -399,7 +399,7 @@
     "date": "2026-09-25",
     "title": "Swim - 2sets - wetsuit",
     "sport": "swim",
-    "description": "Warmup\n- snorkel + fins 300m Z1 HR\n- snorkel + pull 300m Z1 HR\n\nMain Set 5x\n- 100m Z2 HR\n- descanso 15s Z1 HR\n\nMain Set 2x\n- palas 300m Z2 HR\n- descanso 50s Z1 HR\n\nMain Set 2x\n- palas e fins 200m Z3 HR\n- descanso 30s Z1 HR\n\nCooldown\n- fins maximo 100m Z5 HR\n- easy 100m Z1 HR",
+    "description": "Warmup\n- snorkel + fins 300mtr Z1 HR\n- snorkel + pull 300mtr Z1 HR\n\nMain Set 5x\n- 100mtr Z2 HR\n- descanso 15s Z1 HR\n\nMain Set 2x\n- palas 300mtr Z2 HR\n- descanso 50s Z1 HR\n\nMain Set 2x\n- palas e fins 200mtr Z3 HR\n- descanso 30s Z1 HR\n\nCooldown\n- fins maximo 100mtr Z5 HR\n- easy 100mtr Z1 HR",
     "duration_h": 0.5,
     "distance_m": 2900.0,
     "source": "history"
@@ -462,7 +462,7 @@
     "date": "2026-09-29",
     "title": "Swim",
     "sport": "swim",
-    "description": "Warmup\n- snorkel + fins 300m Z1 HR\n- snorkel + pull 300m Z1 HR\n\nMain Set 5x\n- 100m Z2 HR\n\nMain Set\n- palas 300m Z2 HR\n\nMain Set 2x\n- palas e fins 200m Z3 HR\n\nMain Set\n- fins maximo 100m Z5 HR\n\nCooldown\n- 100m Z1 HR",
+    "description": "Warmup\n- snorkel + fins 300mtr Z1 HR\n- snorkel + pull 300mtr Z1 HR\n\nMain Set 5x\n- 100mtr Z2 HR\n\nMain Set\n- palas 300mtr Z2 HR\n\nMain Set 2x\n- palas e fins 200mtr Z3 HR\n\nMain Set\n- fins maximo 100mtr Z5 HR\n\nCooldown\n- 100mtr Z1 HR",
     "duration_h": 0.25,
     "distance_m": 2000.0,
     "source": "history"
@@ -507,7 +507,7 @@
     "date": "2026-10-02",
     "title": "Swim - palas + fins",
     "sport": "swim",
-    "description": "Warmup\n- 400m snorkel + fins Z2 HR\n- 400m snorkel + pull Z2 HR\n\nMain Set 8x\n- 50m pernas com barbatanas Z3 HR\n\nMain Set 4x\n- 100m palas + fins Z4 HR\n\nMain Set\n- 200m easy Z1 HR\n\nMain Set 4x\n- 100m palas + fins Z4 HR\n\nCooldown\n- 200m easy Z1 HR",
+    "description": "Warmup\n- snorkel + fins 400mtr Z2 HR\n- snorkel + pull 400mtr Z2 HR\n\nMain Set 8x\n- pernas com barbatanas 50mtr Z3 HR\n\nMain Set 4x\n- palas + fins 100mtr Z4 HR\n\nMain Set\n- easy 200mtr Z1 HR\n\nMain Set 4x\n- palas + fins 100mtr Z4 HR\n\nCooldown\n- easy 200mtr Z1 HR",
     "duration_h": 0.25,
     "distance_m": 2400.0,
     "source": "history"
@@ -570,7 +570,7 @@
     "date": "2026-10-06",
     "title": "Swim - VO2 - wetsuit",
     "sport": "swim",
-    "description": "Warmup\n- snorkel 400m Z2 HR\n- estilos 100m Z2 HR\n- pernas 100m Z2 HR\n\nMain Set 2x\n- braco direito 50m Z2 HR\n- braco esquerdo 50m Z2 HR\n- normal 50m Z3 HR\n\nMain Set 10x\n- 25m Z5 HR\n- 25m Z2 HR\n- 25m Z5 HR\n- 25m Z2 HR\n\nMain Set 8x\n- mariposa 25m Z4 HR\n- crawl com barbatanas 25m Z3 HR\n\nCooldown\n- easy 200m Z1 HR",
+    "description": "Warmup\n- snorkel 400mtr Z2 HR\n- estilos 100mtr Z2 HR\n- pernas 100mtr Z2 HR\n\nMain Set 2x\n- braco direito 50mtr Z2 HR\n- braco esquerdo 50mtr Z2 HR\n- normal 50mtr Z3 HR\n\nMain Set 10x\n- 25mtr Z5 HR\n- 25mtr Z2 HR\n- 25mtr Z5 HR\n- 25mtr Z2 HR\n\nMain Set 8x\n- mariposa 25mtr Z4 HR\n- crawl com barbatanas 25mtr Z3 HR\n\nCooldown\n- easy 200mtr Z1 HR",
     "duration_h": 0.25,
     "distance_m": 2400.0,
     "source": "history"
@@ -606,7 +606,7 @@
     "date": "2026-10-09",
     "title": "Swim Endurance",
     "sport": "swim",
-    "description": "Warmup\n- snorkel 400m Z2 HR\n- fins 200m Z2 HR\n\nMain Set 8x\n- 25 crawl rapido 50m Z4 HR\n\nMain Set\n- non stop palas 1800m Z2 HR\n\nCooldown\n- 200m Z1 HR",
+    "description": "Warmup\n- snorkel 400mtr Z2 HR\n- fins 200mtr Z2 HR\n\nMain Set 8x\n- 25 crawl rapido 50mtr Z4 HR\n\nMain Set\n- non stop palas 1800mtr Z2 HR\n\nCooldown\n- 200mtr Z1 HR",
     "duration_h": 0.25,
     "distance_m": 3000.0,
     "source": "history"
@@ -642,7 +642,7 @@
     "date": "2026-10-11",
     "title": "Open Water Swimming",
     "sport": "swim",
-    "description": "Warmup\n- aquecimento 200m Z2 HR\n\nMain Set 4x\n- 100m Z3 HR\n\nCooldown\n- 100m Z1 HR",
+    "description": "Warmup\n- aquecimento 200mtr Z2 HR\n\nMain Set 4x\n- 100mtr Z3 HR\n\nCooldown\n- 100mtr Z1 HR",
     "duration_h": 0.25,
     "distance_m": null,
     "source": "history"
@@ -669,7 +669,7 @@
     "date": "2026-10-13",
     "title": "Swim#3",
     "sport": "swim",
-    "description": "Warmup\n- 400m Z2 HR\n\nMain Set 4x\n- progressivo 50m Z3 HR\n\nMain Set 2 4x\n- forte 50m Z5 HR\n\nMain Set 3 4x\n- pull easy 50m Z1 HR\n\nMain Set 4 2x\n- 100m Z4 HR\n\nMain Set 5 4x\n- pull easy 50m Z1 HR\n\nMain Set 6\n- 200m Z3 HR\n\nMain Set 7 4x\n- pernas com barbatanas 50m Z3 HR\n\nCooldown\n- 200m Z1 HR",
+    "description": "Warmup\n- 400mtr Z2 HR\n\nMain Set 4x\n- progressivo 50mtr Z3 HR\n\nMain Set 2 4x\n- forte 50mtr Z5 HR\n\nMain Set 3 4x\n- pull easy 50mtr Z1 HR\n\nMain Set 4 2x\n- 100mtr Z4 HR\n\nMain Set 5 4x\n- pull easy 50mtr Z1 HR\n\nMain Set 6\n- 200mtr Z3 HR\n\nMain Set 7 4x\n- pernas com barbatanas 50mtr Z3 HR\n\nCooldown\n- 200mtr Z1 HR",
     "duration_h": 0.667,
     "distance_m": 2000.0,
     "source": "history"
@@ -705,7 +705,7 @@
     "date": "2026-10-16",
     "title": "Pre-Race Swim @Pool",
     "sport": "swim",
-    "description": "Warmup\n- 200m Z2 HR\n\nMain Set 4x\n- 50m Z2 HR\n\nMain Set 4x\n- 50m Z2 HR\n\nMain Set 4x\n- pernas 50m Z3 HR\n\nMain Set 2x\n- estilos progressivo 100m Z3 HR\n\nMain Set 4x\n- fast 25m Z5 HR\n\nMain Set 3x\n- 100m Z3 HR\n\nCooldown\n- 100m Z1 HR",
+    "description": "Warmup\n- 200mtr Z2 HR\n\nMain Set 4x\n- 50mtr Z2 HR\n\nMain Set 4x\n- 50mtr Z2 HR\n\nMain Set 4x\n- pernas 50mtr Z3 HR\n\nMain Set 2x\n- estilos progressivo 100mtr Z3 HR\n\nMain Set 4x\n- fast 25mtr Z5 HR\n\nMain Set 3x\n- 100mtr Z3 HR\n\nCooldown\n- 100mtr Z1 HR",
     "duration_h": 0.5,
     "distance_m": 1500.0,
     "source": "history"
@@ -831,7 +831,7 @@
     "date": "2026-10-26",
     "title": "Swim tecnica",
     "sport": "swim",
-    "description": "Warmup\n- aquecimento suave 300m Z1 HR\n\nMain Set 8x\n- drill tecnica 50m Z2 HR\n\nCooldown\n- nado facil 300m Z1 HR",
+    "description": "Warmup\n- aquecimento suave 300mtr Z1 HR\n\nMain Set 8x\n- drill tecnica 50mtr Z2 HR\n\nCooldown\n- nado facil 300mtr Z1 HR",
     "duration_h": 0.5,
     "distance_m": null,
     "source": "recovery-plan"
@@ -903,7 +903,7 @@
     "date": "2026-11-02",
     "title": "Swim Z2",
     "sport": "swim",
-    "description": "Warmup\n- aquecimento 300m Z1 HR\n\nMain Set 6x\n- serie 200m Z2 HR\n- recuperacao 50m Z1 HR\n\nCooldown\n- solto 200m Z1 HR",
+    "description": "Warmup\n- aquecimento 300mtr Z1 HR\n\nMain Set 6x\n- serie 200mtr Z2 HR\n- recuperacao 50mtr Z1 HR\n\nCooldown\n- solto 200mtr Z1 HR",
     "duration_h": 0.75,
     "distance_m": null,
     "source": "recovery-plan"
@@ -1074,7 +1074,7 @@
     "date": "2026-11-19",
     "title": "Swim Pré-epoca 1",
     "sport": "swim",
-    "description": "Warmup\n- 400m snorkel + fins Z2 HR\n- 200m snorkel + pull Z2 HR\n\nMain Set 4x\n- 50m pernas mariposa / bracos brucos Z3 HR\n\nMain Set\n- 200m pernas Z2 HR\n- 400m pull Z3 HR\n- 200m estilos invertidos Z3 HR\n- 200m crawl Z3 HR\n- 200m pernas Z2 HR\n- 400m pull Z3 HR\n\nCooldown\n- 200m easy Z1 HR",
+    "description": "Warmup\n- snorkel + fins 400mtr Z2 HR\n- snorkel + pull 200mtr Z2 HR\n\nMain Set 4x\n- pernas mariposa / bracos brucos 50mtr Z3 HR\n\nMain Set\n- pernas 200mtr Z2 HR\n- pull 400mtr Z3 HR\n- estilos invertidos 200mtr Z3 HR\n- crawl 200mtr Z3 HR\n- pernas 200mtr Z2 HR\n- pull 400mtr Z3 HR\n\nCooldown\n- easy 200mtr Z1 HR",
     "duration_h": 0.833,
     "distance_m": 2600.0,
     "source": "history"
@@ -1155,7 +1155,7 @@
     "date": "2026-11-26",
     "title": "Swim Pré-epoca 1",
     "sport": "swim",
-    "description": "Warmup\n- snorkel + fins 400m Z2 HR\n- snorkel + pull 200m Z2 HR\n\nMain Set 4x\n- pernas mariposa, bracos brucos 50m Z3 HR\n\nMain Set 4x\n- 25 sculling + 25 normal 50m Z2 HR\n\nMain Set\n- pernas 200m Z2 HR\n- pull 400m Z3 HR\n- estilos invertidos 200m Z3 HR\n- crawl 200m Z3 HR\n- pernas 200m Z2 HR\n- pull 400m Z3 HR\n\nCooldown\n- easy 200m Z1 HR",
+    "description": "Warmup\n- snorkel + fins 400mtr Z2 HR\n- snorkel + pull 200mtr Z2 HR\n\nMain Set 4x\n- pernas mariposa, bracos brucos 50mtr Z3 HR\n\nMain Set 4x\n- 25 sculling + 25 normal 50mtr Z2 HR\n\nMain Set\n- pernas 200mtr Z2 HR\n- pull 400mtr Z3 HR\n- estilos invertidos 200mtr Z3 HR\n- crawl 200mtr Z3 HR\n- pernas 200mtr Z2 HR\n- pull 400mtr Z3 HR\n\nCooldown\n- easy 200mtr Z1 HR",
     "duration_h": 0.917,
     "distance_m": 2800.0,
     "source": "history"
@@ -1362,7 +1362,7 @@
     "date": "2026-12-17",
     "title": "Swim #5",
     "sport": "swim",
-    "description": "Warmup\n- 400m livre snorkel + fins 400m Z2 HR\n\nMain Set\n- snorkel + pull 400m Z2 HR\n\nMain Set 8x\n- tecnica punho fechado 100m Z2 HR\n\nMain Set 3x\n- respiracao 3,5,7,9 200m Z3 HR\n\nCooldown\n- 200m Z1 HR",
+    "description": "Warmup\n- livre snorkel + fins 400mtr Z2 HR\n\nMain Set\n- snorkel + pull 400mtr Z2 HR\n\nMain Set 8x\n- tecnica punho fechado 100mtr Z2 HR\n\nMain Set 3x\n- respiracao 3,5,7,9 200mtr Z3 HR\n\nCooldown\n- 200mtr Z1 HR",
     "duration_h": 0.833,
     "distance_m": 2400.0,
     "source": "history"
@@ -1506,7 +1506,7 @@
     "date": "2026-12-29",
     "title": "Swim Z2",
     "sport": "swim",
-    "description": "Warmup\n- snorkel + fins 400m Z1 HR\n- pull 200m Z2 HR\n- pernas com fins 400m Z2 HR\n\nMain Set\n- catch-up com palas 200m Z2 HR\n- palas braco parado a frente 200m Z2 HR\n- braco ao longo do corpo respira lado oposto 200m Z2 HR\n\nMain Set 6x\n- 100m Z2 HR\n\nCooldown\n- easy 200m Z1 HR",
+    "description": "Warmup\n- snorkel + fins 400mtr Z1 HR\n- pull 200mtr Z2 HR\n- pernas com fins 400mtr Z2 HR\n\nMain Set\n- catch-up com palas 200mtr Z2 HR\n- palas braco parado a frente 200mtr Z2 HR\n- braco ao longo do corpo respira lado oposto 200mtr Z2 HR\n\nMain Set 6x\n- 100mtr Z2 HR\n\nCooldown\n- easy 200mtr Z1 HR",
     "duration_h": 0.833,
     "distance_m": 2400.0,
     "source": "history"
