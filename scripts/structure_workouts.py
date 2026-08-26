@@ -54,9 +54,26 @@ SYNTAX_RULES = """Sintaxe de treino estruturado do intervals.icu (CONFIRMADA a f
   "Cooldown". Nomes de seccao NAO levam "-" a frente, e tem de haver uma
   LINHA EM BRANCO antes de cada cabecalho de seccao (senao cola-se ao passo
   anterior e nao funciona).
-- Cada passo dentro de uma seccao comeca com "- " e tem: duracao (Xh, Xm ou
-  Xs) + alvo. Pode ter texto livre curto em portugues ANTES da duracao,
-  como pista/legenda (ex: "- aquecimento 10m Z1 HR").
+- Cada passo dentro de uma seccao comeca com "- " e tem EXATAMENTE UMA
+  quantidade (duracao OU distancia) + alvo. Pode ter texto livre curto em
+  portugues ANTES dessa quantidade, como pista/legenda (ex:
+  "- aquecimento 10m Z1 HR").
+- CUIDADO CRITICO: no intervals.icu, um numero colado a "m" (ex: "200m",
+  "400m") e SEMPRE lido como MINUTOS, nunca como metros -- e isto aplica-se
+  a QUALQUER numero+"m" na linha do passo, incluindo dentro do texto livre
+  da legenda, nao so no valor "oficial" do passo (ex: "- 200m forte 30s Z5
+  HR" e uma ARMADILHA: o parser le tanto os "200m" da legenda como MINUTOS
+  como os "30s" -- resultando num passo de duracao absurda). Regras:
+    * Para uma distancia em metros, usa SEMPRE o sufixo "mtr", nunca "m"
+      sozinho (ex: "- 200mtr Z5 HR", nunca "- 200m Z5 HR").
+    * Se precisares de mencionar uma distancia em metros dentro do texto
+      livre da legenda (ex: repeticoes de pista "200m forte / 200m leve"),
+      escreve por extenso "200 metros" (com espaco, nunca "200m" colado) ou
+      usa "mtr" -- nunca deixes um numero colado a "m" em lado nenhum da
+      linha, mesmo que nao seja o valor do passo.
+    * Cada passo tem UM SO numero de quantidade (a duracao real do passo,
+      em h/m/s, OU a distancia em mtr/km) -- nao repitas a mesma
+      informacao (distancia e duracao) duas vezes no mesmo passo.
 - Alvo: usa zonas "Z1" a "Z7" SEMPRE seguidas de "{zone_suffix}" (ex: "Z3 {zone_suffix}"),
   nunca uma zona sozinha (fica ambiguo/errado).
 - Repeticao: escreve o cabecalho da seccao como "Main Set Nx" (ex:
@@ -76,6 +93,20 @@ Main Set 4x
 
 Cooldown
 - 10m Z1 HR
+
+Exemplo real validado (corrida em pista, repeticoes por distancia -- repara
+que a legenda usa "200 metros" por extenso e o passo usa a duracao real do
+esforco em segundos, NUNCA "200m"):
+
+Warmup
+- aquecimento 15m Z2 HR
+
+Main Set 10x
+- 200 metros forte 40s Z5 HR
+- recuperacao 60s Z1 HR
+
+Cooldown
+- 5m Z1 HR
 """
 
 
