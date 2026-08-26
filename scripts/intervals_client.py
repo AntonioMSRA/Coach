@@ -18,6 +18,12 @@ def api_request(method, path, api_key, body=None):
     headers = {
         "Authorization": f"Basic {token}",
         "Content-Type": "application/json",
+        "Accept": "application/json",
+        # o Cloudflare a frente do intervals.icu bloqueia (HTTP 403, erro 1010)
+        # o User-Agent por omissao do urllib ("Python-urllib/3.x") por
+        # parecer trafego de bot -- um User-Agent normal resolve.
+        "User-Agent": "Mozilla/5.0 (compatible; Coach-Plan-Sync/1.0; "
+                      "+https://github.com/AntonioMSRA/Coach)",
     }
     data = json.dumps(body).encode() if body is not None else None
     req = urllib.request.Request(url, data=data, headers=headers, method=method)
