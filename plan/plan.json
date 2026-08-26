@@ -1,57 +1,48 @@
 [
   {
     "date": "2026-08-27",
-    "title": "Tempo Run 4x5'",
-    "sport": "run",
-    "description": "Warmup\n- 20m Z2 HR\n\nMain Set 4x\n- 5m Z3 HR\n- 2m Z1 HR\n\nCooldown\n- 10m Z1 HR",
-    "duration_h": 0.967,
-    "distance_m": null,
-    "source": "history"
-  },
-  {
-    "date": "2026-08-28",
     "title": "Zn1 - Regenerativo",
     "sport": "bike",
     "description": "Treino regenerativo Percurso plano Zn1 - rolar fácil",
     "duration_h": 1.0,
     "distance_m": null,
-    "source": "history"
+    "source": "real-coach-tp"
   },
   {
-    "date": "2026-08-28",
+    "date": "2026-08-27",
     "title": "AE1",
     "sport": "run",
     "description": "Imediatamente a seguir à bike, corrida em zona 1 num percurso plano e piso macio",
     "duration_h": 0.25,
     "distance_m": null,
-    "source": "history"
+    "source": "real-coach-tp"
+  },
+  {
+    "date": "2026-08-28",
+    "title": "Uphill Stride Work",
+    "sport": "run",
+    "description": "Warm up about 20 minutes in zones 1-2. Then run 5x20 seconds up a moderate grade (3-5%) hill at RPE 9 (very high effort). Powerful, quick strides. Use arms vigorously. After each uphill, walk down slowly taking a minute or more for recovery. Cool down with heart rate in zone 1 for the remainder of the scheduled workout time.",
+    "duration_h": 0.5,
+    "distance_m": null,
+    "source": "real-coach-tp"
   },
   {
     "date": "2026-08-29",
-    "title": "Bike Tempo 4x8' - dia de nutrição",
+    "title": "Bike Tempo 4x8'",
     "sport": "bike",
     "description": "",
-    "duration_h": 3.0,
+    "duration_h": 1.533,
     "distance_m": null,
-    "source": "history"
+    "source": "real-coach-tp"
   },
   {
     "date": "2026-08-29",
-    "title": "Transição - LSD - dia de nutrição",
+    "title": "Transição - 4x1km",
     "sport": "run",
-    "description": "Long Slow Distance Ritmo baixa e técnica correta",
-    "duration_h": 1.0,
+    "description": "Transição para: 4x1km em Z3 com 1' de trote muito devagar para recuperar. 5' easy",
+    "duration_h": 0.407,
     "distance_m": null,
-    "source": "history"
-  },
-  {
-    "date": "2026-08-30",
-    "title": "Zn1 - Recuperação pós-brick",
-    "sport": "bike",
-    "description": "Rolar muito fácil em Zn1, percurso plano. Pernas ainda cansadas do dia anterior (3h bike + 1h corrida) -- foco em soltar, não em treinar.",
-    "duration_h": 1.0,
-    "distance_m": null,
-    "source": "adjusted"
+    "source": "real-coach-tp"
   },
   {
     "date": "2026-08-30",
