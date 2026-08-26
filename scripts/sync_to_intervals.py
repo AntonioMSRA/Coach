@@ -47,7 +47,11 @@ SPORT_MAP = {
     "mobility": ("Yoga", "WORKOUT"),
     "other":    ("Other", "WORKOUT"),
     "rest":     ("Other", "NOTE"),
-    "race":     ("Triathlon", "RACE"),
+    # "Triathlon" nao e um "type" valido na API (HTTP 400 "JSON parse error" --
+    # provavelmente um enum estrito do lado do servidor). "Other" e um type
+    # generico que ja confirmamos funcionar; o que distingue este evento como
+    # a prova e o category="RACE".
+    "race":     ("Other", "RACE"),
 }
 
 
