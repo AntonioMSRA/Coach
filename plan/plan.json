@@ -67,7 +67,7 @@
     "title": "LSD",
     "sport": "run",
     "description": "Long Slow Distance Ritmo baixa e técnica correta",
-    "duration_h": 1.5,
+    "duration_h": 0.8333333333333334,
     "distance_m": null,
     "source": "history"
   },
@@ -76,7 +76,7 @@
     "title": "12,5 Fast",
     "sport": "swim",
     "description": "400 snorkel + fins 400 snorkel + pull 8x25 progressivo nos 25m - saída 40\" 20x50 (12,5 fast + 37,5 easy) - 15\" descanso 200 easy",
-    "duration_h": 0.75,
+    "duration_h": 0.4166666666666667,
     "distance_m": 2000.0,
     "source": "history"
   },
@@ -85,7 +85,7 @@
     "title": "Bike tempo - 4x5'",
     "sport": "bike",
     "description": "20' aquecimento easy 4x5min Zn3 - recuperação 2' easy 12' cooldwon",
-    "duration_h": 1.0,
+    "duration_h": 0.5833333333333334,
     "distance_m": null,
     "source": "history"
   },
@@ -94,7 +94,7 @@
     "title": "Intervalado Curto 200+200",
     "sport": "run",
     "description": "20' Aquecimento 4 retas progressivas 10x(200 fast + 200 easy) NON STOP 5' Cooldown",
-    "duration_h": 1.0,
+    "duration_h": 0.5833333333333334,
     "distance_m": null,
     "source": "history"
   },
@@ -103,7 +103,7 @@
     "title": "Zn1 - Regenerativo",
     "sport": "bike",
     "description": "Treino regenerativo Percurso plano Zn1 - rolar fácil",
-    "duration_h": 1.0,
+    "duration_h": 0.5833333333333334,
     "distance_m": null,
     "source": "history"
   },
@@ -130,7 +130,7 @@
     "title": "Bike Tempo 4x8' - dia de nutrição",
     "sport": "bike",
     "description": "",
-    "duration_h": 3.0,
+    "duration_h": 1.6666666666666667,
     "distance_m": null,
     "source": "history"
   },
@@ -139,7 +139,7 @@
     "title": "Transição - LSD - dia de nutrição",
     "sport": "run",
     "description": "Long Slow Distance Ritmo baixa e técnica correta",
-    "duration_h": 1.0,
+    "duration_h": 0.5833333333333334,
     "distance_m": null,
     "source": "history"
   },
@@ -148,7 +148,7 @@
     "title": "Desnível acumulado",
     "sport": "bike",
     "description": "Máximo desnível acumulado com subidas em 60/70 Rpm sentado",
-    "duration_h": 3.0,
+    "duration_h": 1.6666666666666667,
     "distance_m": null,
     "source": "history"
   },
@@ -166,7 +166,7 @@
     "title": "LSD",
     "sport": "run",
     "description": "Long Slow Distance Ritmo baixa e técnica correta",
-    "duration_h": 1.0,
+    "duration_h": 0.75,
     "distance_m": null,
     "source": "history"
   },
@@ -175,7 +175,7 @@
     "title": "Swim #2",
     "sport": "swim",
     "description": "800 snorkel 4x50 pull saída 1' 5x100 @ 2'30 Zn2 palas, snorkel, elástico, pull 5x100 @ 1'30 with snorkel + fins 4x50 pernas (25 fast + 25 easy) 200 easy",
-    "duration_h": 0.75,
+    "duration_h": 0.5833333333333334,
     "distance_m": 2400.0,
     "source": "history"
   },
@@ -184,7 +184,7 @@
     "title": "Base Builder (Power)",
     "sport": "bike",
     "description": "Ride on a flat to gently rolling course. Get at least 50% of ride time in power zone 2. Avoid 3-5 zones. Keep the 2-zone effort steady and continuous. After the ride confirm that you got at least 50% of the ride in zone 2.",
-    "duration_h": 1.5,
+    "duration_h": 1.0833333333333333,
     "distance_m": null,
     "source": "history"
   },
@@ -202,7 +202,7 @@
     "title": "Tempo run progressivo",
     "sport": "run",
     "description": "15' aquecimento 1' fast + 1' easy 2' fast + 2' easy 3' fast + 3' easy 4'fast + 4' easy 5' fast + 5' easy 5' cooldown",
-    "duration_h": 0.833,
+    "duration_h": 0.5833333333333334,
     "distance_m": null,
     "source": "history"
   },
@@ -211,7 +211,7 @@
     "title": "12,5 Fast",
     "sport": "swim",
     "description": "400 snorkel + fins 400 snorkel + pull 8x25 progressivo nos 25m - saída 40\" 20x50 (12,5 fast + 37,5 easy) - 15\" descanso 200 easy",
-    "duration_h": 0.75,
+    "duration_h": 0.5833333333333334,
     "distance_m": 2000.0,
     "source": "history"
   },
@@ -220,7 +220,7 @@
     "title": "Pre-race Run",
     "sport": "run",
     "description": "Corrida em zona2 com 3 a 4x ritmo de prova durante 30\"",
-    "duration_h": 0.333,
+    "duration_h": 0.25,
     "distance_m": null,
     "source": "history"
   },
@@ -229,7 +229,7 @@
     "title": "Cycling",
     "sport": "bike",
     "description": "",
-    "duration_h": 1.5,
+    "duration_h": 1.0833333333333333,
     "distance_m": null,
     "source": "history"
   },
@@ -247,7 +247,7 @@
     "title": "Zn1 - Regenerativo",
     "sport": "bike",
     "description": "Treino regenerativo Percurso plano Zn1 - rolar fácil",
-    "duration_h": 1.0,
+    "duration_h": 0.5833333333333334,
     "distance_m": null,
     "source": "history"
   },
@@ -256,7 +256,7 @@
     "title": "Swim - palas",
     "sport": "swim",
     "description": "10' aquecimento 20' z2 com palas 5' easy",
-    "duration_h": 0.583,
+    "duration_h": 0.3333333333333333,
     "distance_m": null,
     "source": "history"
   },
@@ -265,7 +265,7 @@
     "title": "Base Builder (Power)",
     "sport": "bike",
     "description": "Ride on a flat to gently rolling course. Get at least 50% of ride time in power zone 2. Avoid 3-5 zones. Keep the 2-zone effort steady and continuous. After the ride confirm that you got at least 50% of the ride in zone 2.",
-    "duration_h": 1.5,
+    "duration_h": 0.8333333333333334,
     "distance_m": null,
     "source": "history"
   },
@@ -274,7 +274,7 @@
     "title": "LSD",
     "sport": "run",
     "description": "Long Slow Distance Ritmo baixa e técnica correta",
-    "duration_h": 1.0,
+    "duration_h": 0.5833333333333334,
     "distance_m": null,
     "source": "history"
   },
@@ -283,7 +283,7 @@
     "title": "2kms",
     "sport": "swim",
     "description": "2kms seguidos em ritmo de prova",
-    "duration_h": 0.75,
+    "duration_h": 0.4166666666666667,
     "distance_m": 2000.0,
     "source": "history"
   },
@@ -292,7 +292,7 @@
     "title": "Zona 2 + 30\" Maximo",
     "sport": "bike",
     "description": "20' Aquecimento 15x 9'30 Zona 3 30\" MUITO FORTES 10' easy",
-    "duration_h": 3.0,
+    "duration_h": 1.6666666666666667,
     "distance_m": null,
     "source": "history"
   },
@@ -301,7 +301,7 @@
     "title": "Surfing",
     "sport": "other",
     "description": "",
-    "duration_h": 0.5,
+    "duration_h": 0.25,
     "distance_m": null,
     "source": "history"
   },
@@ -310,7 +310,7 @@
     "title": "Tempo run progressivo",
     "sport": "run",
     "description": "15' aquecimento 1' fast + 1' easy 2' fast + 2' easy 3' fast + 3' easy 4'fast + 4' easy 5' fast + 5' easy 5' cooldown",
-    "duration_h": 0.833,
+    "duration_h": 0.5,
     "distance_m": null,
     "source": "history"
   },
@@ -319,7 +319,7 @@
     "title": "Surfing",
     "sport": "other",
     "description": "",
-    "duration_h": 0.5,
+    "duration_h": 0.25,
     "distance_m": null,
     "source": "history"
   },
@@ -328,7 +328,7 @@
     "title": "Águas abertas 1",
     "sport": "swim",
     "description": "10' aquecimento 4x(5' race pace + 4' zona 2) 5' cooldown",
-    "duration_h": 0.85,
+    "duration_h": 0.5,
     "distance_m": 3070.0,
     "source": "history"
   },
@@ -337,7 +337,7 @@
     "title": "Base Builder (Power)",
     "sport": "bike",
     "description": "Ride on a flat to gently rolling course. Get at least 50% of ride time in power zone 2. Avoid 3-5 zones. Keep the 2-zone effort steady and continuous. After the ride confirm that you got at least 50% of the ride in zone 2.",
-    "duration_h": 1.5,
+    "duration_h": 0.8333333333333334,
     "distance_m": null,
     "source": "history"
   },
@@ -346,7 +346,7 @@
     "title": "Transição - 30' Run - Zn2",
     "sport": "run",
     "description": "Corrida em Zn2 com piso soft Pulso @140",
-    "duration_h": 0.5,
+    "duration_h": 0.25,
     "distance_m": null,
     "source": "history"
   },
@@ -355,7 +355,7 @@
     "title": "Surfing",
     "sport": "other",
     "description": "",
-    "duration_h": 0.5,
+    "duration_h": 0.25,
     "distance_m": null,
     "source": "history"
   },
@@ -364,7 +364,7 @@
     "title": "Level 2",
     "sport": "bike",
     "description": "Flat course Rolar com acelarações a cada 10' (sprint de 10\")",
-    "duration_h": 2.167,
+    "duration_h": 1.25,
     "distance_m": null,
     "source": "history"
   },
@@ -382,7 +382,7 @@
     "title": "LSD - 18kms",
     "sport": "run",
     "description": "Correr 18kms em LSD",
-    "duration_h": 1.8,
+    "duration_h": 0.9166666666666666,
     "distance_m": 18000.0,
     "source": "history"
   },
@@ -391,7 +391,7 @@
     "title": "Swim - palas + fins",
     "sport": "swim",
     "description": "400 snorkel + fins 400 snorkel + pull 8x50 pernas com barbatanas - saída 50\" 4x100 - saída 1'45 com palas + fins 200 easy 4x100 - saída 1'45 com palas + fins 200 easy 4x100 - saída 1'45 com palas + fins 200 easy",
-    "duration_h": 1.0,
+    "duration_h": 0.5,
     "distance_m": 3000.0,
     "source": "history"
   },
@@ -400,7 +400,7 @@
     "title": "Bike tempo - 4x5'",
     "sport": "bike",
     "description": "20' aquecimento easy 4x5min Zn3 - recuperação 2' easy 12' cooldwon",
-    "duration_h": 1.0,
+    "duration_h": 0.5,
     "distance_m": null,
     "source": "history"
   },
@@ -409,7 +409,7 @@
     "title": "60' Easy pace",
     "sport": "run",
     "description": "60' easy pace + 4 retas 20\" . recuperação a andar na distância percorrida",
-    "duration_h": 1.033,
+    "duration_h": 0.5,
     "distance_m": null,
     "source": "history"
   },
@@ -418,7 +418,7 @@
     "title": "Swim - 2sets - wetsuit",
     "sport": "swim",
     "description": "300 snorkel + fins 300 snorkel + pull 5x100 zona 2 - descanso 15\" 2x 300 zona 2 com palas - descanso 50\" 2x200 zona 3 com palas e fins - descanso 30\" 100 com fins - máximo 100 easy",
-    "duration_h": 1.0,
+    "duration_h": 0.5,
     "distance_m": 2900.0,
     "source": "history"
   },
@@ -427,7 +427,7 @@
     "title": "Uphill Stride Work",
     "sport": "run",
     "description": "Warm up about 20 minutes in zones 1-2. Then run 5x20 seconds up a moderate grade (3-5%) hill at RPE 9 (very high effort). Powerful, quick strides. Use arms vigorously. After each uphill, walk down slowly taking a minute or more for recovery. Cool down with heart rate in zone 1 for the remainder of the scheduled workout time. (This is best outdoors but may be done on a treadmill).",
-    "duration_h": 0.5,
+    "duration_h": 0.25,
     "distance_m": null,
     "source": "history"
   },
@@ -436,7 +436,7 @@
     "title": "Bike Tempo 4x10'",
     "sport": "bike",
     "description": "",
-    "duration_h": 3.133,
+    "duration_h": 1.5833333333333333,
     "distance_m": null,
     "source": "history"
   },
@@ -445,7 +445,7 @@
     "title": "Transição-Tempo Run 4x5'",
     "sport": "run",
     "description": "4x5' Zona 3 / 2' easy pace 10' Cooldown",
-    "duration_h": 0.633,
+    "duration_h": 0.3333333333333333,
     "distance_m": null,
     "source": "history"
   },
@@ -454,7 +454,7 @@
     "title": "Base Builder (Power)",
     "sport": "bike",
     "description": "Ride on a flat to gently rolling course. Get at least 50% of ride time in power zone 2. Avoid 3-5 zones. Keep the 2-zone effort steady and continuous. After the ride confirm that you got at least 50% of the ride in zone 2.",
-    "duration_h": 3.0,
+    "duration_h": 1.5,
     "distance_m": null,
     "source": "history"
   },
@@ -472,7 +472,7 @@
     "title": "LSD - 16kms",
     "sport": "run",
     "description": "Correr 16kms em LSD",
-    "duration_h": 1.6,
+    "duration_h": 0.5833333333333334,
     "distance_m": 16000.0,
     "source": "history"
   },
@@ -481,7 +481,7 @@
     "title": "Swim",
     "sport": "swim",
     "description": "300 snorkel + fins 300 snorkel + pull 5x100 zona 2 - descanso 15\" 300 zona 2 com palas - descanso 50\" 2x200 zona 3 com palas e fins - descanso 30\" 100 com fins - máximo 100 easy",
-    "duration_h": 0.667,
+    "duration_h": 0.25,
     "distance_m": 2000.0,
     "source": "history"
   },
@@ -490,7 +490,7 @@
     "title": "Bike tempo - 4x5'",
     "sport": "bike",
     "description": "20' aquecimento easy 4x5min Zn3 - recuperação 2' easy 12' cooldwon",
-    "duration_h": 1.0,
+    "duration_h": 0.3333333333333333,
     "distance_m": null,
     "source": "history"
   },
@@ -517,7 +517,7 @@
     "title": "Tempo run progressivo",
     "sport": "run",
     "description": "15' aquecimento 1' fast + 1' easy 2' fast + 2' easy 3' fast + 3' easy 4'fast + 4' easy 5' fast + 5' easy 5' cooldown",
-    "duration_h": 0.833,
+    "duration_h": 0.3333333333333333,
     "distance_m": null,
     "source": "history"
   },
@@ -526,7 +526,7 @@
     "title": "Swim - palas + fins",
     "sport": "swim",
     "description": "400 snorkel + fins 400 snorkel + pull 8x50 pernas com barbatanas - saída 50\" 4x100 - saída 1'45 com palas + fins 200 easy 4x100 - saída 1'45 com palas + fins 200 easy",
-    "duration_h": 0.667,
+    "duration_h": 0.25,
     "distance_m": 2400.0,
     "source": "history"
   },
@@ -535,7 +535,7 @@
     "title": "Running",
     "sport": "run",
     "description": "",
-    "duration_h": 0.75,
+    "duration_h": 0.25,
     "distance_m": null,
     "source": "history"
   },
@@ -544,7 +544,7 @@
     "title": "Sweet Spot + zona 2",
     "sport": "bike",
     "description": "Warm up 15' 5' @ 100% 5' Easy 2x20' @ Sweet Spot 1 (15' Intervalo) 10x1' @ Sweet Spot 2 (+105 rpm) 2' Intervalo 1h30 Zona 2 15' Cooldown",
-    "duration_h": 3.583,
+    "duration_h": 1.25,
     "distance_m": null,
     "source": "history"
   },
@@ -553,7 +553,7 @@
     "title": "Transição - 8kms a race pace",
     "sport": "run",
     "description": "Transição 1km - W-up 8kms - race pace 1km - easy",
-    "duration_h": 0.842,
+    "duration_h": 0.3333333333333333,
     "distance_m": null,
     "source": "history"
   },
@@ -562,7 +562,7 @@
     "title": "Base Builder (Power)",
     "sport": "bike",
     "description": "Ride on a flat to gently rolling course. Get at least 50% of ride time in power zone 2. Avoid 3-5 zones. Keep the 2-zone effort steady and continuous. After the ride confirm that you got at least 50% of the ride in zone 2.",
-    "duration_h": 2.0,
+    "duration_h": 0.75,
     "distance_m": null,
     "source": "history"
   },
@@ -580,7 +580,7 @@
     "title": "LSD - 20kms",
     "sport": "run",
     "description": "Correr 20kms em LSD",
-    "duration_h": 2.0,
+    "duration_h": 0.5,
     "distance_m": 20000.0,
     "source": "history"
   },
@@ -589,7 +589,7 @@
     "title": "Swim - VO2 - wetsuit",
     "sport": "swim",
     "description": "400snorkel + 100 estilos + 100 pernas 2X150L - 50 braço direito , 50 braço esquerdo, 50 normal 10X100L 25 mãximo 25 Zona2 25 máximo 25 zona 2 - descanso 15\" 200 easy 8X50L 25 MARIPOSA 25 crawl - com barbatanas 200 easy",
-    "duration_h": 0.833,
+    "duration_h": 0.25,
     "distance_m": 2400.0,
     "source": "history"
   },
@@ -598,7 +598,7 @@
     "title": "Bike tempo - 4x5'",
     "sport": "bike",
     "description": "20' aquecimento easy 4x5min Zn3 - recuperação 2' easy 12' cooldwon",
-    "duration_h": 1.0,
+    "duration_h": 0.25,
     "distance_m": null,
     "source": "history"
   },
@@ -616,7 +616,7 @@
     "title": "40' Run @Zn2 + 6 retas",
     "sport": "run",
     "description": "Corrida em Zn2, piso soft e cadência +88 Pulso @140 No final fazer 6 retas progressivas de 20\"",
-    "duration_h": 0.667,
+    "duration_h": 0.25,
     "distance_m": null,
     "source": "history"
   },
@@ -625,7 +625,7 @@
     "title": "Swim Endurance",
     "sport": "swim",
     "description": "400 snorkel 200 fins (snorkel opcional) - aumento da cadência de braçada 8x50 (25 crawl FAST + 25 corrida) NON STOP 2000 Zn2 - palas (snorkel opcional) 200 easy",
-    "duration_h": 1.0,
+    "duration_h": 0.25,
     "distance_m": 3000.0,
     "source": "history"
   },
@@ -634,7 +634,7 @@
     "title": "Sweet Spot",
     "sport": "bike",
     "description": "Warm up 15' 5' @ 100% 5' Easy 2x20' @ Sweet Spot 1 (15' Intervalo) 10x1' @ Sweet Spot 2 (+105 rpm) 2' Intervalo 15' Cooldown",
-    "duration_h": 2.25,
+    "duration_h": 0.5833333333333334,
     "distance_m": null,
     "source": "history"
   },
@@ -643,7 +643,7 @@
     "title": "Transição - 8kms a race pace",
     "sport": "run",
     "description": "Transição 1km - W-up 8kms - race pace 1km - easy",
-    "duration_h": 0.842,
+    "duration_h": 0.25,
     "distance_m": null,
     "source": "history"
   },
@@ -652,7 +652,7 @@
     "title": "Base Builder (Power)",
     "sport": "bike",
     "description": "Ride on a flat to gently rolling course. Get at least 50% of ride time in power zone 2. Avoid 3-5 zones. Keep the 2-zone effort steady and continuous. After the ride confirm that you got at least 50% of the ride in zone 2.",
-    "duration_h": 1.5,
+    "duration_h": 0.4166666666666667,
     "distance_m": null,
     "source": "history"
   },
@@ -661,7 +661,7 @@
     "title": "Open Water Swimming",
     "sport": "swim",
     "description": "",
-    "duration_h": 0.75,
+    "duration_h": 0.25,
     "distance_m": null,
     "source": "history"
   },
