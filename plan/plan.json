@@ -1,0 +1,1550 @@
+[
+  {
+    "date": "2026-08-27",
+    "title": "Tempo Run 4x5'",
+    "sport": "run",
+    "description": "20' Aquecimento 4x5' Zona 3 / 2' easy pace 10' Cooldown",
+    "duration_h": 0.967,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-08-28",
+    "title": "Zn1 - Regenerativo",
+    "sport": "bike",
+    "description": "Treino regenerativo Percurso plano Zn1 - rolar fácil",
+    "duration_h": 1.0,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-08-28",
+    "title": "AE1",
+    "sport": "run",
+    "description": "Imediatamente a seguir à bike, corrida em zona 1 num percurso plano e piso macio",
+    "duration_h": 0.25,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-08-29",
+    "title": "Bike Tempo 4x8' - dia de nutrição",
+    "sport": "bike",
+    "description": "",
+    "duration_h": 3.0,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-08-29",
+    "title": "Transição - LSD - dia de nutrição",
+    "sport": "run",
+    "description": "Long Slow Distance Ritmo baixa e técnica correta",
+    "duration_h": 1.0,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-08-30",
+    "title": "Base Builder (Power)",
+    "sport": "bike",
+    "description": "Ride on a flat to gently rolling course. Get at least 50% of ride time in power zone 2. Avoid 3-5 zones. Keep the 2-zone effort steady and continuous. After the ride confirm that you got at least 50% of the ride in zone 2.",
+    "duration_h": 3.0,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-08-30",
+    "title": "Mobilidade / Rolo de espuma",
+    "sport": "mobility",
+    "description": "Rolo de espuma + alongamentos, 20-25'.",
+    "duration_h": 0.4,
+    "distance_m": null,
+    "source": "added-mobility"
+  },
+  {
+    "date": "2026-08-31",
+    "title": "LSD",
+    "sport": "run",
+    "description": "Long Slow Distance Ritmo baixa e técnica correta",
+    "duration_h": 1.5,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-09-01",
+    "title": "12,5 Fast",
+    "sport": "swim",
+    "description": "400 snorkel + fins 400 snorkel + pull 8x25 progressivo nos 25m - saída 40\" 20x50 (12,5 fast + 37,5 easy) - 15\" descanso 200 easy",
+    "duration_h": 0.75,
+    "distance_m": 2000.0,
+    "source": "history"
+  },
+  {
+    "date": "2026-09-02",
+    "title": "Bike tempo - 4x5'",
+    "sport": "bike",
+    "description": "20' aquecimento easy 4x5min Zn3 - recuperação 2' easy 12' cooldwon",
+    "duration_h": 1.0,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-09-03",
+    "title": "Intervalado Curto 200+200",
+    "sport": "run",
+    "description": "20' Aquecimento 4 retas progressivas 10x(200 fast + 200 easy) NON STOP 5' Cooldown",
+    "duration_h": 1.0,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-09-04",
+    "title": "Zn1 - Regenerativo",
+    "sport": "bike",
+    "description": "Treino regenerativo Percurso plano Zn1 - rolar fácil",
+    "duration_h": 1.0,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-09-04",
+    "title": "AE1",
+    "sport": "run",
+    "description": "Imediatamente a seguir à bike, corrida em zona 1 num percurso plano e piso macio",
+    "duration_h": 0.25,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-09-04",
+    "title": "Strength",
+    "sport": "strength",
+    "description": "",
+    "duration_h": 0.75,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-09-05",
+    "title": "Bike Tempo 4x8' - dia de nutrição",
+    "sport": "bike",
+    "description": "",
+    "duration_h": 3.0,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-09-05",
+    "title": "Transição - LSD - dia de nutrição",
+    "sport": "run",
+    "description": "Long Slow Distance Ritmo baixa e técnica correta",
+    "duration_h": 1.0,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-09-06",
+    "title": "Desnível acumulado",
+    "sport": "bike",
+    "description": "Máximo desnível acumulado com subidas em 60/70 Rpm sentado",
+    "duration_h": 3.0,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-09-06",
+    "title": "Mobilidade / Rolo de espuma",
+    "sport": "mobility",
+    "description": "Rolo de espuma + alongamentos, 20-25'.",
+    "duration_h": 0.4,
+    "distance_m": null,
+    "source": "added-mobility"
+  },
+  {
+    "date": "2026-09-07",
+    "title": "LSD",
+    "sport": "run",
+    "description": "Long Slow Distance Ritmo baixa e técnica correta",
+    "duration_h": 1.0,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-09-08",
+    "title": "Swim #2",
+    "sport": "swim",
+    "description": "800 snorkel 4x50 pull saída 1' 5x100 @ 2'30 Zn2 palas, snorkel, elástico, pull 5x100 @ 1'30 with snorkel + fins 4x50 pernas (25 fast + 25 easy) 200 easy",
+    "duration_h": 0.75,
+    "distance_m": 2400.0,
+    "source": "history"
+  },
+  {
+    "date": "2026-09-09",
+    "title": "Base Builder (Power)",
+    "sport": "bike",
+    "description": "Ride on a flat to gently rolling course. Get at least 50% of ride time in power zone 2. Avoid 3-5 zones. Keep the 2-zone effort steady and continuous. After the ride confirm that you got at least 50% of the ride in zone 2.",
+    "duration_h": 1.5,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-09-09",
+    "title": "Strength",
+    "sport": "strength",
+    "description": "",
+    "duration_h": 0.75,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-09-10",
+    "title": "Tempo run progressivo",
+    "sport": "run",
+    "description": "15' aquecimento 1' fast + 1' easy 2' fast + 2' easy 3' fast + 3' easy 4'fast + 4' easy 5' fast + 5' easy 5' cooldown",
+    "duration_h": 0.833,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-09-11",
+    "title": "12,5 Fast",
+    "sport": "swim",
+    "description": "400 snorkel + fins 400 snorkel + pull 8x25 progressivo nos 25m - saída 40\" 20x50 (12,5 fast + 37,5 easy) - 15\" descanso 200 easy",
+    "duration_h": 0.75,
+    "distance_m": 2000.0,
+    "source": "history"
+  },
+  {
+    "date": "2026-09-12",
+    "title": "Pre-race Run",
+    "sport": "run",
+    "description": "Corrida em zona2 com 3 a 4x ritmo de prova durante 30\"",
+    "duration_h": 0.333,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-09-12",
+    "title": "Cycling",
+    "sport": "bike",
+    "description": "",
+    "duration_h": 1.5,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-09-13",
+    "title": "Mobilidade / Rolo de espuma",
+    "sport": "mobility",
+    "description": "Rolo de espuma + alongamentos, 20-25'.",
+    "duration_h": 0.4,
+    "distance_m": null,
+    "source": "added-mobility"
+  },
+  {
+    "date": "2026-09-14",
+    "title": "Zn1 - Regenerativo",
+    "sport": "bike",
+    "description": "Treino regenerativo Percurso plano Zn1 - rolar fácil",
+    "duration_h": 1.0,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-09-15",
+    "title": "Swim - palas",
+    "sport": "swim",
+    "description": "10' aquecimento 20' z2 com palas 5' easy",
+    "duration_h": 0.583,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-09-15",
+    "title": "Base Builder (Power)",
+    "sport": "bike",
+    "description": "Ride on a flat to gently rolling course. Get at least 50% of ride time in power zone 2. Avoid 3-5 zones. Keep the 2-zone effort steady and continuous. After the ride confirm that you got at least 50% of the ride in zone 2.",
+    "duration_h": 1.5,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-09-16",
+    "title": "LSD",
+    "sport": "run",
+    "description": "Long Slow Distance Ritmo baixa e técnica correta",
+    "duration_h": 1.0,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-09-17",
+    "title": "2kms",
+    "sport": "swim",
+    "description": "2kms seguidos em ritmo de prova",
+    "duration_h": 0.75,
+    "distance_m": 2000.0,
+    "source": "history"
+  },
+  {
+    "date": "2026-09-17",
+    "title": "Zona 2 + 30\" Maximo",
+    "sport": "bike",
+    "description": "20' Aquecimento 15x 9'30 Zona 3 30\" MUITO FORTES 10' easy",
+    "duration_h": 3.0,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-09-17",
+    "title": "Surfing",
+    "sport": "other",
+    "description": "",
+    "duration_h": 0.5,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-09-18",
+    "title": "Tempo run progressivo",
+    "sport": "run",
+    "description": "15' aquecimento 1' fast + 1' easy 2' fast + 2' easy 3' fast + 3' easy 4'fast + 4' easy 5' fast + 5' easy 5' cooldown",
+    "duration_h": 0.833,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-09-18",
+    "title": "Surfing",
+    "sport": "other",
+    "description": "",
+    "duration_h": 0.5,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-09-19",
+    "title": "Águas abertas 1",
+    "sport": "swim",
+    "description": "10' aquecimento 4x(5' race pace + 4' zona 2) 5' cooldown",
+    "duration_h": 0.85,
+    "distance_m": 3070.0,
+    "source": "history"
+  },
+  {
+    "date": "2026-09-19",
+    "title": "Base Builder (Power)",
+    "sport": "bike",
+    "description": "Ride on a flat to gently rolling course. Get at least 50% of ride time in power zone 2. Avoid 3-5 zones. Keep the 2-zone effort steady and continuous. After the ride confirm that you got at least 50% of the ride in zone 2.",
+    "duration_h": 1.5,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-09-19",
+    "title": "Transição - 30' Run - Zn2",
+    "sport": "run",
+    "description": "Corrida em Zn2 com piso soft Pulso @140",
+    "duration_h": 0.5,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-09-19",
+    "title": "Surfing",
+    "sport": "other",
+    "description": "",
+    "duration_h": 0.5,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-09-20",
+    "title": "Level 2",
+    "sport": "bike",
+    "description": "Flat course Rolar com acelarações a cada 10' (sprint de 10\")",
+    "duration_h": 2.167,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-09-20",
+    "title": "Mobilidade / Rolo de espuma",
+    "sport": "mobility",
+    "description": "Rolo de espuma + alongamentos, 20-25'.",
+    "duration_h": 0.4,
+    "distance_m": null,
+    "source": "added-mobility"
+  },
+  {
+    "date": "2026-09-21",
+    "title": "LSD - 18kms",
+    "sport": "run",
+    "description": "Correr 18kms em LSD",
+    "duration_h": 1.8,
+    "distance_m": 18000.0,
+    "source": "history"
+  },
+  {
+    "date": "2026-09-22",
+    "title": "Swim - palas + fins",
+    "sport": "swim",
+    "description": "400 snorkel + fins 400 snorkel + pull 8x50 pernas com barbatanas - saída 50\" 4x100 - saída 1'45 com palas + fins 200 easy 4x100 - saída 1'45 com palas + fins 200 easy 4x100 - saída 1'45 com palas + fins 200 easy",
+    "duration_h": 1.0,
+    "distance_m": 3000.0,
+    "source": "history"
+  },
+  {
+    "date": "2026-09-23",
+    "title": "Bike tempo - 4x5'",
+    "sport": "bike",
+    "description": "20' aquecimento easy 4x5min Zn3 - recuperação 2' easy 12' cooldwon",
+    "duration_h": 1.0,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-09-24",
+    "title": "60' Easy pace",
+    "sport": "run",
+    "description": "60' easy pace + 4 retas 20\" . recuperação a andar na distância percorrida",
+    "duration_h": 1.033,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-09-25",
+    "title": "Swim - 2sets - wetsuit",
+    "sport": "swim",
+    "description": "300 snorkel + fins 300 snorkel + pull 5x100 zona 2 - descanso 15\" 2x 300 zona 2 com palas - descanso 50\" 2x200 zona 3 com palas e fins - descanso 30\" 100 com fins - máximo 100 easy",
+    "duration_h": 1.0,
+    "distance_m": 2900.0,
+    "source": "history"
+  },
+  {
+    "date": "2026-09-25",
+    "title": "Uphill Stride Work",
+    "sport": "run",
+    "description": "Warm up about 20 minutes in zones 1-2. Then run 5x20 seconds up a moderate grade (3-5%) hill at RPE 9 (very high effort). Powerful, quick strides. Use arms vigorously. After each uphill, walk down slowly taking a minute or more for recovery. Cool down with heart rate in zone 1 for the remainder of the scheduled workout time. (This is best outdoors but may be done on a treadmill).",
+    "duration_h": 0.5,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-09-26",
+    "title": "Bike Tempo 4x10'",
+    "sport": "bike",
+    "description": "",
+    "duration_h": 3.133,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-09-26",
+    "title": "Transição-Tempo Run 4x5'",
+    "sport": "run",
+    "description": "4x5' Zona 3 / 2' easy pace 10' Cooldown",
+    "duration_h": 0.633,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-09-27",
+    "title": "Base Builder (Power)",
+    "sport": "bike",
+    "description": "Ride on a flat to gently rolling course. Get at least 50% of ride time in power zone 2. Avoid 3-5 zones. Keep the 2-zone effort steady and continuous. After the ride confirm that you got at least 50% of the ride in zone 2.",
+    "duration_h": 3.0,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-09-27",
+    "title": "Mobilidade / Rolo de espuma",
+    "sport": "mobility",
+    "description": "Rolo de espuma + alongamentos, 20-25'.",
+    "duration_h": 0.4,
+    "distance_m": null,
+    "source": "added-mobility"
+  },
+  {
+    "date": "2026-09-28",
+    "title": "LSD - 16kms",
+    "sport": "run",
+    "description": "Correr 16kms em LSD",
+    "duration_h": 1.6,
+    "distance_m": 16000.0,
+    "source": "history"
+  },
+  {
+    "date": "2026-09-29",
+    "title": "Swim",
+    "sport": "swim",
+    "description": "300 snorkel + fins 300 snorkel + pull 5x100 zona 2 - descanso 15\" 300 zona 2 com palas - descanso 50\" 2x200 zona 3 com palas e fins - descanso 30\" 100 com fins - máximo 100 easy",
+    "duration_h": 0.667,
+    "distance_m": 2000.0,
+    "source": "history"
+  },
+  {
+    "date": "2026-09-30",
+    "title": "Bike tempo - 4x5'",
+    "sport": "bike",
+    "description": "20' aquecimento easy 4x5min Zn3 - recuperação 2' easy 12' cooldwon",
+    "duration_h": 1.0,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-09-30",
+    "title": "AE1",
+    "sport": "run",
+    "description": "Imediatamente a seguir à bike, corrida em zona 1 num percurso plano e piso macio",
+    "duration_h": 0.25,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-09-30",
+    "title": "Strength",
+    "sport": "strength",
+    "description": "",
+    "duration_h": 0.75,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-10-01",
+    "title": "Tempo run progressivo",
+    "sport": "run",
+    "description": "15' aquecimento 1' fast + 1' easy 2' fast + 2' easy 3' fast + 3' easy 4'fast + 4' easy 5' fast + 5' easy 5' cooldown",
+    "duration_h": 0.833,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-10-02",
+    "title": "Swim - palas + fins",
+    "sport": "swim",
+    "description": "400 snorkel + fins 400 snorkel + pull 8x50 pernas com barbatanas - saída 50\" 4x100 - saída 1'45 com palas + fins 200 easy 4x100 - saída 1'45 com palas + fins 200 easy",
+    "duration_h": 0.667,
+    "distance_m": 2400.0,
+    "source": "history"
+  },
+  {
+    "date": "2026-10-02",
+    "title": "Running",
+    "sport": "run",
+    "description": "",
+    "duration_h": 0.75,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-10-03",
+    "title": "Sweet Spot + zona 2",
+    "sport": "bike",
+    "description": "Warm up 15' 5' @ 100% 5' Easy 2x20' @ Sweet Spot 1 (15' Intervalo) 10x1' @ Sweet Spot 2 (+105 rpm) 2' Intervalo 1h30 Zona 2 15' Cooldown",
+    "duration_h": 3.583,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-10-03",
+    "title": "Transição - 8kms a race pace",
+    "sport": "run",
+    "description": "Transição 1km - W-up 8kms - race pace 1km - easy",
+    "duration_h": 0.842,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-10-04",
+    "title": "Base Builder (Power)",
+    "sport": "bike",
+    "description": "Ride on a flat to gently rolling course. Get at least 50% of ride time in power zone 2. Avoid 3-5 zones. Keep the 2-zone effort steady and continuous. After the ride confirm that you got at least 50% of the ride in zone 2.",
+    "duration_h": 2.0,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-10-04",
+    "title": "Mobilidade / Rolo de espuma",
+    "sport": "mobility",
+    "description": "Rolo de espuma + alongamentos, 20-25'.",
+    "duration_h": 0.4,
+    "distance_m": null,
+    "source": "added-mobility"
+  },
+  {
+    "date": "2026-10-05",
+    "title": "LSD - 20kms",
+    "sport": "run",
+    "description": "Correr 20kms em LSD",
+    "duration_h": 2.0,
+    "distance_m": 20000.0,
+    "source": "history"
+  },
+  {
+    "date": "2026-10-06",
+    "title": "Swim - VO2 - wetsuit",
+    "sport": "swim",
+    "description": "400snorkel + 100 estilos + 100 pernas 2X150L - 50 braço direito , 50 braço esquerdo, 50 normal 10X100L 25 mãximo 25 Zona2 25 máximo 25 zona 2 - descanso 15\" 200 easy 8X50L 25 MARIPOSA 25 crawl - com barbatanas 200 easy",
+    "duration_h": 0.833,
+    "distance_m": 2400.0,
+    "source": "history"
+  },
+  {
+    "date": "2026-10-07",
+    "title": "Bike tempo - 4x5'",
+    "sport": "bike",
+    "description": "20' aquecimento easy 4x5min Zn3 - recuperação 2' easy 12' cooldwon",
+    "duration_h": 1.0,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-10-07",
+    "title": "Strength",
+    "sport": "strength",
+    "description": "",
+    "duration_h": 0.75,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-10-08",
+    "title": "40' Run @Zn2 + 6 retas",
+    "sport": "run",
+    "description": "Corrida em Zn2, piso soft e cadência +88 Pulso @140 No final fazer 6 retas progressivas de 20\"",
+    "duration_h": 0.667,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-10-09",
+    "title": "Swim Endurance",
+    "sport": "swim",
+    "description": "400 snorkel 200 fins (snorkel opcional) - aumento da cadência de braçada 8x50 (25 crawl FAST + 25 corrida) NON STOP 2000 Zn2 - palas (snorkel opcional) 200 easy",
+    "duration_h": 1.0,
+    "distance_m": 3000.0,
+    "source": "history"
+  },
+  {
+    "date": "2026-10-10",
+    "title": "Sweet Spot",
+    "sport": "bike",
+    "description": "Warm up 15' 5' @ 100% 5' Easy 2x20' @ Sweet Spot 1 (15' Intervalo) 10x1' @ Sweet Spot 2 (+105 rpm) 2' Intervalo 15' Cooldown",
+    "duration_h": 2.25,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-10-10",
+    "title": "Transição - 8kms a race pace",
+    "sport": "run",
+    "description": "Transição 1km - W-up 8kms - race pace 1km - easy",
+    "duration_h": 0.842,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-10-11",
+    "title": "Base Builder (Power)",
+    "sport": "bike",
+    "description": "Ride on a flat to gently rolling course. Get at least 50% of ride time in power zone 2. Avoid 3-5 zones. Keep the 2-zone effort steady and continuous. After the ride confirm that you got at least 50% of the ride in zone 2.",
+    "duration_h": 1.5,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-10-11",
+    "title": "Open Water Swimming",
+    "sport": "swim",
+    "description": "",
+    "duration_h": 0.75,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-10-11",
+    "title": "Mobilidade / Rolo de espuma",
+    "sport": "mobility",
+    "description": "Rolo de espuma + alongamentos, 20-25'.",
+    "duration_h": 0.4,
+    "distance_m": null,
+    "source": "added-mobility"
+  },
+  {
+    "date": "2026-10-12",
+    "title": "30' Run - Zn2",
+    "sport": "run",
+    "description": "Corrida em Zn2 com piso soft Pulso @140",
+    "duration_h": 0.5,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-10-13",
+    "title": "Swim#3",
+    "sport": "swim",
+    "description": "400 Snorkel 4x50 progressivo @1'20 4x50 Zn5 @ 2' 4x50 pull easy 2x100 Zn4 @ 2'30 4x50 pull easy 200 Zn3 4x50 pernas com barbatanas @45\" 200 cooldown",
+    "duration_h": 0.667,
+    "distance_m": 2000.0,
+    "source": "history"
+  },
+  {
+    "date": "2026-10-14",
+    "title": "Bike progressiva",
+    "sport": "bike",
+    "description": "1h progressiva: 20' Aquecimento progressivo Zn2 to Zn3 no final: 20' @Zn3 + 20' com 5x2' Threshold pace / 2' RI",
+    "duration_h": 1.05,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-10-14",
+    "title": "Transição 3x1000 Intensidade Progressiva",
+    "sport": "run",
+    "description": "Transição 3x1000 em ritmo progressivo \"By the feel\" 1º Tempo Pace / 1' RI 2º - Treshold Pace / 2'RI 3º - VO2 Máx Cooldown",
+    "duration_h": 0.417,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-10-15",
+    "title": "Recovery Day",
+    "sport": "rest",
+    "description": "Actively focus on recovery today: 1) stay off of legs all you can 2) watch nutrition closely (healthy carbs, lean protein, and good fats) 3) strech 4) drink when thirsty",
+    "duration_h": null,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-10-16",
+    "title": "Pre-Race Swim @Pool",
+    "sport": "swim",
+    "description": "200L 4x50 (25 sculling + 25 normal) 4x50 (25 punho, 25 normal) 200 pernas (25 fast + 25 easy) 2x100 Estilos progressivo nos 100 4x25 FAST / 2' RI 300 @ Zn3 com 25m race pace em cada 100 100 easy",
+    "duration_h": 0.5,
+    "distance_m": 1500.0,
+    "source": "history"
+  },
+  {
+    "date": "2026-10-16",
+    "title": "Pre Race Bike",
+    "sport": "bike",
+    "description": "30' a rolar com 4 a 6 acelarações",
+    "duration_h": 0.5,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-10-16",
+    "title": "Pre-race Run",
+    "sport": "run",
+    "description": "",
+    "duration_h": 0.25,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "IronMan 70.3 Cascais",
+    "sport": "race",
+    "description": "Prova: 1.9km natacao + 90km bike + 21.1km corrida.",
+    "duration_h": null,
+    "distance_m": null,
+    "source": "race"
+  },
+  {
+    "date": "2026-10-18",
+    "title": "Recovery Day",
+    "sport": "rest",
+    "description": "Recuperacao pos-prova: pernas para cima, hidratar, sem treino.",
+    "duration_h": null,
+    "distance_m": null,
+    "source": "recovery-plan"
+  },
+  {
+    "date": "2026-10-18",
+    "title": "Mobilidade / Rolo de espuma",
+    "sport": "mobility",
+    "description": "Rolo de espuma + alongamentos, 20-25'.",
+    "duration_h": 0.4,
+    "distance_m": null,
+    "source": "added-mobility"
+  },
+  {
+    "date": "2026-10-19",
+    "title": "Caminhada + Mobilidade",
+    "sport": "mobility",
+    "description": "Caminhada leve 20-30' + mobilidade articular suave.",
+    "duration_h": 0.5,
+    "distance_m": null,
+    "source": "recovery-plan"
+  },
+  {
+    "date": "2026-10-20",
+    "title": "Swim muito leve",
+    "sport": "swim",
+    "description": "Nadar solto sem intensidade, foco em soltar os ombros.",
+    "duration_h": 0.4,
+    "distance_m": null,
+    "source": "recovery-plan"
+  },
+  {
+    "date": "2026-10-21",
+    "title": "Recovery Day",
+    "sport": "rest",
+    "description": "Descanso total.",
+    "duration_h": null,
+    "distance_m": null,
+    "source": "recovery-plan"
+  },
+  {
+    "date": "2026-10-22",
+    "title": "Zn1 - Bike regenerativa",
+    "sport": "bike",
+    "description": "Rolar muito facil em Zn1, percurso plano.",
+    "duration_h": 0.75,
+    "distance_m": null,
+    "source": "recovery-plan"
+  },
+  {
+    "date": "2026-10-23",
+    "title": "Mobilidade / Rolo de espuma",
+    "sport": "mobility",
+    "description": "Rolo de espuma + alongamentos 20-25'.",
+    "duration_h": 0.4,
+    "distance_m": null,
+    "source": "recovery-plan"
+  },
+  {
+    "date": "2026-10-24",
+    "title": "AE1 - Run muito leve",
+    "sport": "run",
+    "description": "Corrida muito leve em Zn1, piso macio, sem pressa nenhuma.",
+    "duration_h": 0.4,
+    "distance_m": null,
+    "source": "recovery-plan"
+  },
+  {
+    "date": "2026-10-25",
+    "title": "Zn1/2 - Bike facil",
+    "sport": "bike",
+    "description": "Rolar facil Zn1/Zn2, percurso plano.",
+    "duration_h": 1.0,
+    "distance_m": null,
+    "source": "recovery-plan"
+  },
+  {
+    "date": "2026-10-25",
+    "title": "Mobilidade / Rolo de espuma",
+    "sport": "mobility",
+    "description": "Rolo de espuma + alongamentos, 20-25'.",
+    "duration_h": 0.4,
+    "distance_m": null,
+    "source": "added-mobility"
+  },
+  {
+    "date": "2026-10-26",
+    "title": "Swim tecnica",
+    "sport": "swim",
+    "description": "Foco 100% em tecnica, sem intensidade. Drills.",
+    "duration_h": 0.5,
+    "distance_m": null,
+    "source": "recovery-plan"
+  },
+  {
+    "date": "2026-10-27",
+    "title": "Strength - retoma leve",
+    "sport": "strength",
+    "description": "Forca funcional leve, foco em mobilidade e core, cargas baixas.",
+    "duration_h": 0.75,
+    "distance_m": null,
+    "source": "recovery-plan"
+  },
+  {
+    "date": "2026-10-28",
+    "title": "Recovery Day",
+    "sport": "rest",
+    "description": "Descanso.",
+    "duration_h": null,
+    "distance_m": null,
+    "source": "recovery-plan"
+  },
+  {
+    "date": "2026-10-29",
+    "title": "30' Run - Zn2",
+    "sport": "run",
+    "description": "Corrida facil em Zn2, piso soft.",
+    "duration_h": 0.5,
+    "distance_m": null,
+    "source": "recovery-plan"
+  },
+  {
+    "date": "2026-10-30",
+    "title": "Mobilidade / Rolo de espuma",
+    "sport": "mobility",
+    "description": "Rolo de espuma + alongamentos 20-25'.",
+    "duration_h": 0.4,
+    "distance_m": null,
+    "source": "recovery-plan"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "Base Builder (Heart Rate)",
+    "sport": "bike",
+    "description": "Rolar Zn2, percurso plano a ondulado, minimo 50% do tempo em Zn2.",
+    "duration_h": 1.5,
+    "distance_m": null,
+    "source": "recovery-plan"
+  },
+  {
+    "date": "2026-11-01",
+    "title": "Base Builder (Heart Rate)",
+    "sport": "bike",
+    "description": "Rolar Zn2, percurso plano a ondulado, minimo 50% do tempo em Zn2.",
+    "duration_h": 1.5,
+    "distance_m": null,
+    "source": "recovery-plan"
+  },
+  {
+    "date": "2026-11-01",
+    "title": "Mobilidade / Rolo de espuma",
+    "sport": "mobility",
+    "description": "Rolo de espuma + alongamentos, 20-25'.",
+    "duration_h": 0.4,
+    "distance_m": null,
+    "source": "added-mobility"
+  },
+  {
+    "date": "2026-11-02",
+    "title": "Swim Z2",
+    "sport": "swim",
+    "description": "Series de 100-200 em Zn2, tecnica limpa.",
+    "duration_h": 0.75,
+    "distance_m": null,
+    "source": "recovery-plan"
+  },
+  {
+    "date": "2026-11-03",
+    "title": "Treino com a PT",
+    "sport": "pt",
+    "description": "Sessao com o personal trainer.",
+    "duration_h": 1.0,
+    "distance_m": null,
+    "source": "recovery-plan"
+  },
+  {
+    "date": "2026-11-04",
+    "title": "40' Run @Zn2",
+    "sport": "run",
+    "description": "Corrida em Zn2, piso soft e cadencia +88.",
+    "duration_h": 0.67,
+    "distance_m": null,
+    "source": "recovery-plan"
+  },
+  {
+    "date": "2026-11-05",
+    "title": "Base Builder (Power)",
+    "sport": "bike",
+    "description": "Rolar Zn2, minimo 50% do tempo em zona 2 de potencia.",
+    "duration_h": 1.75,
+    "distance_m": null,
+    "source": "recovery-plan"
+  },
+  {
+    "date": "2026-11-06",
+    "title": "Mobilidade / Rolo de espuma",
+    "sport": "mobility",
+    "description": "Rolo de espuma + alongamentos 20-25'.",
+    "duration_h": 0.4,
+    "distance_m": null,
+    "source": "recovery-plan"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "50' Run - Zn2",
+    "sport": "run",
+    "description": "Corrida em Zn2 com piso soft.",
+    "duration_h": 0.83,
+    "distance_m": null,
+    "source": "recovery-plan"
+  },
+  {
+    "date": "2026-11-08",
+    "title": "Base Builder (Heart Rate)",
+    "sport": "bike",
+    "description": "Rolar Zn2, minimo 50% do tempo em zona 2.",
+    "duration_h": 1.75,
+    "distance_m": null,
+    "source": "recovery-plan"
+  },
+  {
+    "date": "2026-11-08",
+    "title": "Mobilidade / Rolo de espuma",
+    "sport": "mobility",
+    "description": "Rolo de espuma + alongamentos, 20-25'.",
+    "duration_h": 0.4,
+    "distance_m": null,
+    "source": "added-mobility"
+  },
+  {
+    "date": "2026-11-09",
+    "title": "Swim - palas",
+    "sport": "swim",
+    "description": "Aquecimento + 20' Zn2 com palas + easy.",
+    "duration_h": 0.6,
+    "distance_m": null,
+    "source": "recovery-plan"
+  },
+  {
+    "date": "2026-11-10",
+    "title": "Strength",
+    "sport": "strength",
+    "description": "Forca geral, retoma de cargas normais.",
+    "duration_h": 0.75,
+    "distance_m": null,
+    "source": "recovery-plan"
+  },
+  {
+    "date": "2026-11-11",
+    "title": "Recovery Day",
+    "sport": "rest",
+    "description": "Descanso.",
+    "duration_h": null,
+    "distance_m": null,
+    "source": "recovery-plan"
+  },
+  {
+    "date": "2026-11-12",
+    "title": "Base Builder (Power)",
+    "sport": "bike",
+    "description": "Rolar Zn2, minimo 50% do tempo em zona 2 de potencia.",
+    "duration_h": 1.75,
+    "distance_m": null,
+    "source": "recovery-plan"
+  },
+  {
+    "date": "2026-11-13",
+    "title": "Mobilidade / Rolo de espuma",
+    "sport": "mobility",
+    "description": "Rolo de espuma + alongamentos 20-25'.",
+    "duration_h": 0.4,
+    "distance_m": null,
+    "source": "recovery-plan"
+  },
+  {
+    "date": "2026-11-14",
+    "title": "60' Run - Zn2",
+    "sport": "run",
+    "description": "Corrida em Zn2 com piso soft.",
+    "duration_h": 1.0,
+    "distance_m": null,
+    "source": "recovery-plan"
+  },
+  {
+    "date": "2026-11-15",
+    "title": "Mobilidade / Rolo de espuma",
+    "sport": "mobility",
+    "description": "Rolo de espuma + alongamentos, 20-25'.",
+    "duration_h": 0.4,
+    "distance_m": null,
+    "source": "added-mobility"
+  },
+  {
+    "date": "2026-11-16",
+    "title": "Zn1 - Regenerativo",
+    "sport": "bike",
+    "description": "Treino regenerativo Percurso plano Zn1 - rolar fácil",
+    "duration_h": 0.667,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-11-17",
+    "title": "25' Run @Zn2",
+    "sport": "run",
+    "description": "Corrida em Zn2, piso soft e cadência +88 Pulso @140",
+    "duration_h": 0.417,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-11-17",
+    "title": "Strength",
+    "sport": "strength",
+    "description": "",
+    "duration_h": 0.75,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-11-18",
+    "title": "DAY OFF",
+    "sport": "rest",
+    "description": "",
+    "duration_h": null,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-11-19",
+    "title": "Swim Pré-epoca 1",
+    "sport": "swim",
+    "description": "400 snorkel + fins 200 snorkel + pull 4x50 (pernas mariposa, braços bruços) 200 pernas+400pull + 200 estilos invertidos + 200 crawl + 200 pernas + 400 pull 200 easy",
+    "duration_h": 0.833,
+    "distance_m": 2600.0,
+    "source": "history"
+  },
+  {
+    "date": "2026-11-19",
+    "title": "Running",
+    "sport": "run",
+    "description": "",
+    "duration_h": 0.75,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-11-20",
+    "title": "30' Run - Zn2",
+    "sport": "run",
+    "description": "Corrida em Zn2 com piso soft Pulso @140",
+    "duration_h": 0.5,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-11-21",
+    "title": "Zn2",
+    "sport": "bike",
+    "description": "Rolar Zn2 95-100rpm Manter pulso 130-140",
+    "duration_h": 1.0,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-11-22",
+    "title": "DAY OFF",
+    "sport": "rest",
+    "description": "",
+    "duration_h": null,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-11-22",
+    "title": "Mobilidade / Rolo de espuma",
+    "sport": "mobility",
+    "description": "Rolo de espuma + alongamentos, 20-25'.",
+    "duration_h": 0.4,
+    "distance_m": null,
+    "source": "added-mobility"
+  },
+  {
+    "date": "2026-11-24",
+    "title": "Rolos 1 - Técnica",
+    "sport": "bike",
+    "description": "20min up to Zn2 (easy) @90rpm 10min 5x(30\"SPR + 30\"SPL + 1'spin easy) Pedalar redondo 22min (cadência(90/100/110/120/130/all out/130/120/110/100/90) - 30\" cada degrau e 1'30RI @90rpm) Não tirar o rabo do selim e não oscilar o tronco (speed) 10min cooldown @90rpm",
+    "duration_h": 1.033,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-11-24",
+    "title": "Strength",
+    "sport": "strength",
+    "description": "",
+    "duration_h": 0.75,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-11-25",
+    "title": "DAY OFF",
+    "sport": "rest",
+    "description": "",
+    "duration_h": null,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-11-26",
+    "title": "Swim Pré-epoca 1",
+    "sport": "swim",
+    "description": "400 snorkel + fins 200 snorkel + pull 4x50 (pernas mariposa, braços bruços) 4x50 sculling (25 sculling + 25 normal) 200 pernas+400pull + 200 estilos invertidos + 200 crawl + 200 pernas + 400 pull 200 easy",
+    "duration_h": 0.917,
+    "distance_m": 2800.0,
+    "source": "history"
+  },
+  {
+    "date": "2026-11-27",
+    "title": "30' Run - Zn2",
+    "sport": "run",
+    "description": "Corrida em Zn2 com piso soft Pulso @140",
+    "duration_h": 0.5,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-11-28",
+    "title": "Base Builder (Power)",
+    "sport": "bike",
+    "description": "Ride on a flat to gently rolling course. Get at least 50% of ride time in power zone 2. Avoid 3-5 zones. Keep the 2-zone effort steady and continuous. After the ride confirm that you got at least 50% of the ride in zone 2.",
+    "duration_h": 1.5,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-11-29",
+    "title": "DAY OFF",
+    "sport": "rest",
+    "description": "",
+    "duration_h": null,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-11-29",
+    "title": "Mobilidade / Rolo de espuma",
+    "sport": "mobility",
+    "description": "Rolo de espuma + alongamentos, 20-25'.",
+    "duration_h": 0.4,
+    "distance_m": null,
+    "source": "added-mobility"
+  },
+  {
+    "date": "2026-11-30",
+    "title": "Base Builder (Power)",
+    "sport": "bike",
+    "description": "Ride on a flat to gently rolling course. Get at least 50% of ride time in power zone 2. Avoid 3-5 zones. Keep the 2-zone effort steady and continuous. After the ride confirm that you got at least 50% of the ride in zone 2.",
+    "duration_h": 1.5,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-12-01",
+    "title": "Treino com a PT",
+    "sport": "pt",
+    "description": "",
+    "duration_h": 1.0,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-12-02",
+    "title": "30' Run - Zn2 + 4 retas",
+    "sport": "run",
+    "description": "Corrida em Zn2 com piso soft Pulso @140 No final fazer 4 retas progressivas de 20\"",
+    "duration_h": 0.5,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-12-04",
+    "title": "30' Run - Zn2 + 4 retas",
+    "sport": "run",
+    "description": "Corrida em Zn2 com piso soft Pulso @140-150 No final fazer 4 retas progressivas de 20\"",
+    "duration_h": 0.5,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-12-05",
+    "title": "Base Builder (Power)",
+    "sport": "bike",
+    "description": "Ride on a flat to gently rolling course. Get at least 50% of ride time in power zone 2. Avoid 3-5 zones. Keep the 2-zone effort steady and continuous. After the ride confirm that you got at least 50% of the ride in zone 2.",
+    "duration_h": 1.5,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-12-06",
+    "title": "DAY OFF",
+    "sport": "rest",
+    "description": "",
+    "duration_h": null,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-12-06",
+    "title": "Mobilidade / Rolo de espuma",
+    "sport": "mobility",
+    "description": "Rolo de espuma + alongamentos, 20-25'.",
+    "duration_h": 0.4,
+    "distance_m": null,
+    "source": "added-mobility"
+  },
+  {
+    "date": "2026-12-07",
+    "title": "Base Builder (Heart Rate)",
+    "sport": "bike",
+    "description": "Ride on a flat to gently rolling course. Get at least 50% of ride time in heart rate zone 2. Avoid 3-5 zones. Keep the 2-zone effort steady and continuous. After the ride confirm that you got at least 50% of the ride in zone 2.",
+    "duration_h": 1.5,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-12-07",
+    "title": "Running",
+    "sport": "run",
+    "description": "",
+    "duration_h": 0.75,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-12-08",
+    "title": "Treino com a PT",
+    "sport": "pt",
+    "description": "",
+    "duration_h": 1.0,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-12-09",
+    "title": "30' Run - Zn2",
+    "sport": "run",
+    "description": "Corrida em Zn2 com piso soft Pulso @140",
+    "duration_h": 0.667,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-12-12",
+    "title": "Base Builder (Heart Rate)",
+    "sport": "bike",
+    "description": "Ride on a flat to gently rolling course. Get at least 50% of ride time in heart rate zone 2. Avoid 3-5 zones. Keep the 2-zone effort steady and continuous. After the ride confirm that you got at least 50% of the ride in zone 2.",
+    "duration_h": 1.5,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-12-13",
+    "title": "DAY OFF",
+    "sport": "rest",
+    "description": "",
+    "duration_h": null,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-12-13",
+    "title": "Mobilidade / Rolo de espuma",
+    "sport": "mobility",
+    "description": "Rolo de espuma + alongamentos, 20-25'.",
+    "duration_h": 0.4,
+    "distance_m": null,
+    "source": "added-mobility"
+  },
+  {
+    "date": "2026-12-14",
+    "title": "30' Run - Zn2",
+    "sport": "run",
+    "description": "Corrida em Zn2 com piso soft Pulso @140",
+    "duration_h": 0.5,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-12-15",
+    "title": "Treino com a PT",
+    "sport": "pt",
+    "description": "",
+    "duration_h": 1.0,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-12-15",
+    "title": "Running",
+    "sport": "run",
+    "description": "",
+    "duration_h": 0.75,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-12-16",
+    "title": "30' Run - Zn2 + 4 retas",
+    "sport": "run",
+    "description": "Corrida em Zn2 com piso soft Pulso @140-145 No final fazer 4 retas progressivas de 20\"",
+    "duration_h": 0.5,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-12-17",
+    "title": "Swim #5",
+    "sport": "swim",
+    "description": "400L Snorkel + fins 400 snorkel + pull 8x100 Técnica 2x(1. Punho fechado na mão direita; 2.Punho fechado na mão esquerda; 3. Punho fechado nas duas mãos; 4. Normal) 3x200L respiração 3,5,7,9 (muda a cada 50 metros dentro dos 200)descanso 20\" 200 Coldown",
+    "duration_h": 0.833,
+    "distance_m": 2400.0,
+    "source": "history"
+  },
+  {
+    "date": "2026-12-18",
+    "title": "40' Run @Zn2",
+    "sport": "run",
+    "description": "Corrida em Zn2, piso soft e cadência +88 Pulso @140 5' descontração a andar",
+    "duration_h": 0.667,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-12-19",
+    "title": "Base Builder (Heart Rate)",
+    "sport": "bike",
+    "description": "Ride on a flat to gently rolling course. Get at least 50% of ride time in heart rate zone 2. Avoid 3-5 zones. Keep the 2-zone effort steady and continuous. After the ride confirm that you got at least 50% of the ride in zone 2.",
+    "duration_h": 1.5,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-12-20",
+    "title": "Base Builder (Heart Rate)",
+    "sport": "bike",
+    "description": "Ride on a flat to gently rolling course. Get at least 50% of ride time in heart rate zone 2. Avoid 3-5 zones. Keep the 2-zone effort steady and continuous. After the ride confirm that you got at least 50% of the ride in zone 2.",
+    "duration_h": 1.5,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-12-20",
+    "title": "Mobilidade / Rolo de espuma",
+    "sport": "mobility",
+    "description": "Rolo de espuma + alongamentos, 20-25'.",
+    "duration_h": 0.4,
+    "distance_m": null,
+    "source": "added-mobility"
+  },
+  {
+    "date": "2026-12-21",
+    "title": "40 com 100metros",
+    "sport": "run",
+    "description": "15' Aquecimento Depois do aquecimento a cada km os primeiros 100 são em sprint e os restantes 900m em zona 2",
+    "duration_h": 0.761,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-12-23",
+    "title": "Minute Monster (Heart Rate)",
+    "sport": "bike",
+    "description": "",
+    "duration_h": 1.217,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-12-23",
+    "title": "Running",
+    "sport": "run",
+    "description": "",
+    "duration_h": 0.75,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-12-24",
+    "title": "DAY OFF - Natal",
+    "sport": "rest",
+    "description": "",
+    "duration_h": null,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-12-25",
+    "title": "40' Run @Zn2",
+    "sport": "run",
+    "description": "Corrida em Zn2, piso soft e cadência +88 Pulso @140 5' descontração a andar",
+    "duration_h": 0.667,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-12-26",
+    "title": "Base Builder (Heart Rate)",
+    "sport": "bike",
+    "description": "Ride on a flat to gently rolling course. Get at least 50% of ride time in heart rate zone 2. Avoid 3-5 zones. Keep the 2-zone effort steady and continuous. After the ride confirm that you got at least 50% of the ride in zone 2.",
+    "duration_h": 1.5,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-12-26",
+    "title": "Running",
+    "sport": "run",
+    "description": "",
+    "duration_h": 0.75,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-12-26",
+    "title": "Running",
+    "sport": "run",
+    "description": "",
+    "duration_h": 0.75,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-12-27",
+    "title": "Base Builder (Heart Rate)",
+    "sport": "bike",
+    "description": "Ride on a flat to gently rolling course. Get at least 50% of ride time in heart rate zone 2. Avoid 3-5 zones. Keep the 2-zone effort steady and continuous. After the ride confirm that you got at least 50% of the ride in zone 2.",
+    "duration_h": 2.0,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-12-27",
+    "title": "Mobilidade / Rolo de espuma",
+    "sport": "mobility",
+    "description": "Rolo de espuma + alongamentos, 20-25'.",
+    "duration_h": 0.4,
+    "distance_m": null,
+    "source": "added-mobility"
+  },
+  {
+    "date": "2026-12-28",
+    "title": "30' Run - Zn2",
+    "sport": "run",
+    "description": "Corrida em Zn2 com piso soft Pulso @140",
+    "duration_h": 0.5,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-12-29",
+    "title": "Swim Z2",
+    "sport": "swim",
+    "description": "400 snorkel + fins 200 pull 400 pernas com fins - 200 Catch-up com palas 200 com palas - braço parado à frente (25 braço direito + 25 braço esquerdo) 200 com braço ao longo do corpo e respira para o lado oposto (25 braço direito + 25 braço esquerdo) 6x100 zona 2 - 20\" intervalo 200 easy",
+    "duration_h": 0.833,
+    "distance_m": 2400.0,
+    "source": "history"
+  },
+  {
+    "date": "2026-12-30",
+    "title": "Minute Monster (Heart Rate)",
+    "sport": "bike",
+    "description": "",
+    "duration_h": 1.217,
+    "distance_m": null,
+    "source": "history"
+  },
+  {
+    "date": "2026-12-31",
+    "title": "Descanso - Fim de ano",
+    "sport": "rest",
+    "description": "Fecho do plano de 2026. Descanso.",
+    "duration_h": null,
+    "distance_m": null,
+    "source": "recovery-plan"
+  }
+]

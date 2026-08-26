@@ -1,0 +1,37 @@
+name: Sync training plan to intervals.icu
+
+on:
+  schedule:
+    # todas as segundas-feiras as 06:00 UTC (07:00/08:00 em Lisboa consoante DST)
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Correr em modo dry-run (nao escreve nada no intervals.icu)"
+        type: boolean
+        default: false
+  push:
+    branches: [main]
+    paths:
+      - "plan/plan.json"
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Sync
+        env:
+          INTERVALS_API_KEY: ${{ secrets.INTERVALS_API_KEY }}
+          INTERVALS_ATHLETE_ID: ${{ secrets.INTERVALS_ATHLETE_ID }}
+        run: |
+          if [ "${{ inputs.dry_run }}" = "true" ]; then
+            python3 scripts/sync_to_intervals.py --dry-run
+          else
+            python3 scripts/sync_to_intervals.py
+          fi
