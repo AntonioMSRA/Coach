@@ -44,3 +44,10 @@ def fetch_events(athlete_id, api_key, oldest, newest):
 def fetch_activities(athlete_id, api_key, oldest, newest):
     path = f"/athlete/{athlete_id}/activities?oldest={oldest}&newest={newest}"
     return api_request("GET", path, api_key) or []
+
+
+def fetch_wellness(athlete_id, api_key, oldest, newest):
+    """Registos diarios de wellness (fadiga, sono, stress, motivacao, etc.)
+    que o atleta preenche no site/telemovel do intervals.icu."""
+    path = f"/athlete/{athlete_id}/wellness?oldest={oldest}&newest={newest}"
+    return api_request("GET", path, api_key) or []

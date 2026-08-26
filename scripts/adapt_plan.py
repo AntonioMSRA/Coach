@@ -2,6 +2,8 @@
 """
 Ajusta as proximas ~2 semanas de plan/plan.json com base em:
   - o que foi realmente treinado na ultima semana (via API do intervals.icu)
+  - o wellness diario que preencheste no telemovel/site do intervals.icu
+    (fadiga, sono, stress, motivacao, dores)
   - as notas que tu escreveste em plan/athlete_input.md
   - o que estava planeado
 
@@ -37,7 +39,7 @@ import sys
 from typing import List, Literal, Optional
 
 sys.path.insert(0, os.path.dirname(__file__))
-from intervals_client import fetch_activities  # noqa: E402
+from intervals_client import fetch_activities, fetch_wellness  # noqa: E402
 
 HERE = os.path.dirname(__file__)
 PLAN_PATH = os.path.join(HERE, "..", "plan", "plan.json")
@@ -75,7 +77,7 @@ class ChangeOp:
         self.duration_h = d.get("duration_h")
 
 
-def build_prompt(upcoming, adherence_text, notes_text, today):
+def build_prompt(upcoming, adherence_text, wellness_text, notes_text, today):
     upcoming_json = json.dumps(
         [{"index": i, **{k: w[k] for k in ("date", "title", "sport", "description", "duration_h")}}
          for i, w in enumerate(upcoming)],
@@ -89,6 +91,12 @@ Hoje e {today.isoformat()}.
 
 ## O que estava planeado vs. o que foi feito na ultima semana
 {adherence_text}
+
+## Wellness diario que o atleta preencheu no telemovel/site (ultimos 7 dias)
+Escala tipica do intervals.icu: fadiga/stress/dores 1 (otimo) a 4/5 (mau),
+motivacao 1 (mau) a 4/5 (otimo) -- usa o teu bom senso se os numeros nao
+baterem exatamente certo com isto.
+{wellness_text}
 
 ## Notas recentes do atleta (podem nao ter nada de relevante)
 {notes_text or "(sem notas novas)"}
@@ -171,6 +179,34 @@ def summarize_adherence(activities, upcoming, today):
         h = f"{moving / 3600:.1f}h" if moving else "?"
         lines.append(f"- {date}: {name} ({act.get('type', '?')}, {h})")
     return "\n".join(lines)
+
+
+# Campos ruidosos/internos que nao interessam ao coach.
+WELLNESS_SKIP_FIELDS = {"id", "icu_pm_col", "icu_updated", "athlete_id", "updated"}
+
+
+def summarize_wellness(wellness_entries):
+    """Formata os registos de wellness do atleta para o prompt.
+
+    Os nomes exatos dos campos devolvidos pela API nao foram confirmados
+    ao vivo (sem acesso de rede ao intervals.icu neste ambiente) -- por
+    isso mostramos todos os campos preenchidos em vez de assumir nomes
+    fixos, para nao perdermos dados por causa de um nome errado.
+    """
+    if not wellness_entries:
+        return "(sem registos de wellness nos ultimos 7 dias -- o atleta ainda nao preencheu, ou a ligacao esta vazia)"
+    lines = []
+    for entry in sorted(wellness_entries, key=lambda e: e.get("id") or ""):
+        date = entry.get("id") or entry.get("date") or "?"
+        fields = {
+            k: v for k, v in entry.items()
+            if k not in WELLNESS_SKIP_FIELDS and v not in (None, "", [])
+        }
+        if not fields:
+            continue
+        parts = ", ".join(f"{k}={v}" for k, v in fields.items())
+        lines.append(f"- {date}: {parts}")
+    return "\n".join(lines) if lines else "(registos de wellness sem dados uteis preenchidos)"
 
 
 def validate_and_apply(full_plan, upcoming, changes, today):
@@ -278,16 +314,19 @@ def main():
         notes_text = open(NOTES_PATH, encoding="utf-8").read()
 
     activities = []
+    wellness_entries = []
     api_key = os.environ.get("INTERVALS_API_KEY")
     athlete_id = os.environ.get("INTERVALS_ATHLETE_ID")
     if api_key and athlete_id:
         oldest = (today - datetime.timedelta(days=7)).isoformat()
         activities = fetch_activities(athlete_id, api_key, oldest, today.isoformat())
+        wellness_entries = fetch_wellness(athlete_id, api_key, oldest, today.isoformat())
     else:
         print("aviso: sem INTERVALS_API_KEY/INTERVALS_ATHLETE_ID - a adaptar sem dados reais de execucao.")
 
     adherence_text = summarize_adherence(activities, upcoming, today)
-    prompt = build_prompt(upcoming, adherence_text, notes_text, today)
+    wellness_text = summarize_wellness(wellness_entries)
+    prompt = build_prompt(upcoming, adherence_text, wellness_text, notes_text, today)
 
     if not os.environ.get("ANTHROPIC_API_KEY") and not args.dry_run:
         print("ERRO: define ANTHROPIC_API_KEY no ambiente.", file=sys.stderr)

@@ -51,17 +51,21 @@ workflow corre `scripts/adapt_plan.py`, que:
 
 1. Vai buscar ao intervals.icu o que treinaste **de facto** nos últimos 7
    dias e compara com o que estava planeado.
-2. Lê as tuas notas em `plan/athlete_input.md`.
-3. Pede a Claude (a IA da Anthropic) para propor ajustes pequenos e
+2. Vai buscar também os teus registos de **Wellness** (fadiga, sono, stress,
+   motivação, dores) que preenches diretamente no site/telemóvel do
+   intervals.icu — é aí que deves registar "como te sentes", não precisas de
+   nenhuma app nova.
+3. Lê as tuas notas em `plan/athlete_input.md`.
+4. Pede a Claude (a IA da Anthropic) para propor ajustes pequenos e
    conservadores às **próximas ~2 semanas** — nunca ao plano todo.
-4. Cada proposta passa por regras fixas antes de ser aceite: no máximo 10
+5. Cada proposta passa por regras fixas antes de ser aceite: no máximo 10
    alterações por semana, nunca em datas passadas, nunca durante o taper /
    semana de prova / primeira semana pós-prova (17/set → 24/out fica sempre
    intocável), nunca no próprio dia da prova, e a duração de qualquer treino
    tem um teto razoável por modalidade. Se não houver motivo para mudar
    nada — que vai ser a maioria das semanas — a lista de alterações fica
    vazia, e é suposto ser assim.
-5. Escreve sempre uma entrada em `plan/CHANGELOG.md` a explicar o que
+6. Escreve sempre uma entrada em `plan/CHANGELOG.md` a explicar o que
    mudou (ou que não mudou nada) e porquê, para leres quando quiseres.
    Se discordares de um ajuste, o histórico do Git permite reverter
    (`git revert`) o commit desse dia.
@@ -166,8 +170,12 @@ Depois do primeiro teste manual correr bem, já não precisas de fazer nada:
 
 ### 6. Como ajustar o plano no futuro
 
-- **Para o dia a dia** (cansaço, dores, viagens, boa forma): escreve uma
-  linha em `plan/athlete_input.md` — o ajuste automático semanal lê isto.
+- **Para o dia a dia** (cansaço, dores, motivação, sono): usa o **Wellness**
+  do intervals.icu (site ou telemóvel — "Adicionar ao ecrã principal" no
+  browser do telemóvel funciona como uma app) — o ajuste automático semanal
+  lê isto sozinho, não precisas de tocar no GitHub.
+- **Para notas mais específicas/livres** (viagens, contexto que não encaixa
+  no Wellness): escreve uma linha em `plan/athlete_input.md`.
 - Para pequenos ajustes manuais e imediatos (mudar um treino, mover um dia):
   edita `plan/plan.json` diretamente (ou `plan/plan.csv` numa folha de
   cálculo e depois converte) e faz commit/push — a sincronização
