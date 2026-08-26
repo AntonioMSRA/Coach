@@ -47,11 +47,13 @@ SPORT_MAP = {
     "mobility": ("Yoga", "WORKOUT"),
     "other":    ("Other", "WORKOUT"),
     "rest":     ("Other", "NOTE"),
-    # "Triathlon" nao e um "type" valido na API (HTTP 400 "JSON parse error" --
-    # provavelmente um enum estrito do lado do servidor). "Other" e um type
-    # generico que ja confirmamos funcionar; o que distingue este evento como
-    # a prova e o category="RACE".
-    "race":     ("Other", "RACE"),
+    # Nem "type": "Triathlon" nem "category": "RACE" foram aceites pela API
+    # (HTTP 400 "JSON parse error" nos dois casos -- provavelmente enums
+    # estritos do lado do servidor que nao conseguimos confirmar sem acesso
+    # a documentacao ao vivo). Usamos os valores ja comprovados; o evento
+    # fica no calendario com o nome/data certos, so sem a marcacao especial
+    # de "prova" -- ver README para como ativar isso a mao no intervals.icu.
+    "race":     ("Other", "WORKOUT"),
 }
 
 
