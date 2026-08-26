@@ -7,13 +7,20 @@ on:
   workflow_dispatch:
     inputs:
       dry_run:
-        description: "Correr em modo dry-run (nao escreve nada no intervals.icu)"
+        description: "Correr em modo dry-run (nao escreve nada no intervals.icu nem no plano)"
+        type: boolean
+        default: false
+      skip_adapt:
+        description: "Saltar o ajuste automatico do plano e ir direto a sincronizar"
         type: boolean
         default: false
   push:
     branches: [main]
     paths:
       - "plan/plan.json"
+
+permissions:
+  contents: write
 
 jobs:
   sync:
@@ -25,7 +32,36 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Sync
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Adapt plan based on last week's data
+        if: ${{ inputs.skip_adapt != true }}
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          INTERVALS_API_KEY: ${{ secrets.INTERVALS_API_KEY }}
+          INTERVALS_ATHLETE_ID: ${{ secrets.INTERVALS_ATHLETE_ID }}
+        run: |
+          if [ "${{ inputs.dry_run }}" = "true" ]; then
+            python3 scripts/adapt_plan.py --dry-run
+          else
+            python3 scripts/adapt_plan.py
+          fi
+
+      - name: Commit plan changes (if any)
+        if: ${{ inputs.dry_run != true && inputs.skip_adapt != true }}
+        run: |
+          git config user.name "coach-bot"
+          git config user.email "coach-bot@users.noreply.github.com"
+          if ! git diff --quiet -- plan/plan.json plan/CHANGELOG.md; then
+            git add plan/plan.json plan/CHANGELOG.md
+            git commit -m "Ajuste automatico semanal do plano"
+            git push
+          else
+            echo "Sem alteracoes ao plano esta semana."
+          fi
+
+      - name: Sync to intervals.icu
         env:
           INTERVALS_API_KEY: ${{ secrets.INTERVALS_API_KEY }}
           INTERVALS_ATHLETE_ID: ${{ secrets.INTERVALS_ATHLETE_ID }}

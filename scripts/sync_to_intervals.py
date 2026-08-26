@@ -2,35 +2,41 @@
 """
 Sincroniza plan/plan.json com o calendario do intervals.icu.
 
-E idempotente: antes de criar, verifica os eventos ja existentes no
-intervalo de datas (por data + nome) e salta os que ja la estao. So mexe
-em datas de hoje em diante - nunca toca em dias passados.
+So mexe em datas de hoje em diante - nunca toca em dias passados. Tem duas
+partes:
+
+  1. Cria os eventos que ainda nao existem, em todo o plano futuro
+     (comparando por data+nome).
+  2. Nos proximos RECONCILE_WINDOW_DAYS dias (onde o scripts/adapt_plan.py
+     pode ter mudado coisas), tambem ATUALIZA eventos que mudaram e APAGA
+     eventos que deixaram de estar no plano - mas só os que TEM a marca
+     MARKER na descricao (ou seja, só eventos que este script criou). Nunca
+     mexe num evento que tu proprio tenhas criado a mao no intervals.icu.
 
 Requer duas variaveis de ambiente:
   INTERVALS_API_KEY      a tua API key (Settings > Developer no intervals.icu)
   INTERVALS_ATHLETE_ID   o teu id de atleta, formato "i123456"
 
 Uso:
-  python3 scripts/sync_to_intervals.py            # cria o que faltar
+  python3 scripts/sync_to_intervals.py            # cria/atualiza o que for preciso
   python3 scripts/sync_to_intervals.py --dry-run   # so mostra o que faria
 
 Nota: os nomes exatos dos campos da API (start_date_local, moving_time, etc.)
 seguem a documentacao publica em https://intervals.icu/api-docs.html. Este
 script nao foi corrido contra a API ao vivo neste ambiente (sem acesso de
 rede a intervals.icu) - corre primeiro `--dry-run` e depois uma vez a serio
-manualmente (workflow_dispatch) antes de confiares no cron semanal. Se algum
-campo tiver mudado de nome, o erro da API costuma dizer exatamente qual.
+manualmente (workflow_dispatch) antes de confiares no cron semanal.
 """
 import argparse
-import base64
 import datetime
-import json
 import os
 import sys
-import urllib.error
-import urllib.request
 
-API_BASE = "https://intervals.icu/api/v1"
+sys.path.insert(0, os.path.dirname(__file__))
+import json as _json  # noqa: E402
+from intervals_client import MARKER, api_request, fetch_events  # noqa: E402
+
+RECONCILE_WINDOW_DAYS = 21
 
 SPORT_MAP = {
     "run":      ("Run", "WORKOUT"),
@@ -45,35 +51,6 @@ SPORT_MAP = {
 }
 
 
-def api_request(method, path, api_key, body=None):
-    url = f"{API_BASE}{path}"
-    token = base64.b64encode(f"API_KEY:{api_key}".encode()).decode()
-    headers = {
-        "Authorization": f"Basic {token}",
-        "Content-Type": "application/json",
-    }
-    data = json.dumps(body).encode() if body is not None else None
-    req = urllib.request.Request(url, data=data, headers=headers, method=method)
-    try:
-        with urllib.request.urlopen(req) as resp:
-            raw = resp.read()
-            return json.loads(raw) if raw else None
-    except urllib.error.HTTPError as e:
-        detail = e.read().decode(errors="replace")
-        raise RuntimeError(f"{method} {path} -> HTTP {e.code}: {detail}") from e
-
-
-def fetch_existing(athlete_id, api_key, oldest, newest):
-    path = f"/athlete/{athlete_id}/events?oldest={oldest}&newest={newest}"
-    events = api_request("GET", path, api_key) or []
-    existing = set()
-    for ev in events:
-        date = (ev.get("start_date_local") or "")[:10]
-        name = ev.get("name") or ""
-        existing.add((date, name))
-    return existing
-
-
 def to_event_body(workout):
     sport_type, category = SPORT_MAP.get(workout["sport"], ("Other", "WORKOUT"))
     body = {
@@ -81,11 +58,18 @@ def to_event_body(workout):
         "start_date_local": f"{workout['date']}T00:00:00",
         "type": sport_type,
         "name": workout["title"],
-        "description": workout.get("description") or "",
+        "description": (workout.get("description") or "") + MARKER,
     }
     if workout.get("duration_h"):
         body["moving_time"] = int(round(workout["duration_h"] * 3600))
     return body
+
+
+def needs_update(existing, desired_body):
+    for key in ("name", "type", "category", "description", "moving_time"):
+        if str(existing.get(key) or "") != str(desired_body.get(key) or ""):
+            return True
+    return False
 
 
 def main():
@@ -101,43 +85,97 @@ def main():
         sys.exit(1)
 
     with open(args.plan, encoding="utf-8") as f:
-        plan = json.load(f)
+        plan = _json.load(f)
 
-    today = datetime.date.today().isoformat()
-    future = [w for w in plan if w["date"] >= today]
+    today = datetime.date.today()
+    today_s = today.isoformat()
+    reconcile_end = (today + datetime.timedelta(days=RECONCILE_WINDOW_DAYS)).isoformat()
+    future = [w for w in plan if w["date"] >= today_s]
     if not future:
         print("Nada para sincronizar (plano sem treinos futuros).")
         return
 
     oldest, newest = future[0]["date"], future[-1]["date"]
     print(f"Plano: {len(future)} treinos futuros entre {oldest} e {newest}.")
+    print(f"Janela de reconciliacao (update/delete): {today_s} -> {reconcile_end}")
 
     if args.dry_run:
-        existing = set()
+        existing_events = []
     else:
-        existing = fetch_existing(athlete_id, api_key, oldest, newest)
-        print(f"Ja existem {len(existing)} eventos nesse intervalo no intervals.icu.")
+        existing_events = fetch_events(athlete_id, api_key, oldest, newest)
+        print(f"Ja existem {len(existing_events)} eventos nesse intervalo no intervals.icu.")
 
-    created, skipped, failed = 0, 0, 0
+    # indexar eventos existentes por (data, nome) -> evento
+    existing_by_key = {}
+    for ev in existing_events:
+        date = (ev.get("start_date_local") or "")[:10]
+        existing_by_key[(date, ev.get("name") or "")] = ev
+
+    created, updated, deleted, skipped, failed = 0, 0, 0, 0, 0
+
     for w in future:
         key = (w["date"], w["title"])
-        if key in existing:
+        body = to_event_body(w)
+        existing = existing_by_key.pop(key, None)
+
+        if existing is None:
+            if args.dry_run:
+                print(f"[dry-run] criaria: {w['date']} - {w['title']} ({w['sport']})")
+                created += 1
+                continue
+            try:
+                api_request("POST", f"/athlete/{athlete_id}/events", api_key, body)
+                print(f"criado: {w['date']} - {w['title']}")
+                created += 1
+            except RuntimeError as e:
+                print(f"FALHOU (criar): {w['date']} - {w['title']}: {e}", file=sys.stderr)
+                failed += 1
+            continue
+
+        # ja existe um evento com a mesma data+nome
+        if w["date"] > reconcile_end:
+            skipped += 1  # fora da janela de reconciliacao, nao mexer
+            continue
+        if MARKER not in (existing.get("description") or ""):
+            print(f"aviso: evento manual em {w['date']} - {w['title']} ignorado (nao foi criado por nos).")
             skipped += 1
             continue
-        body = to_event_body(w)
+        if not needs_update(existing, body):
+            skipped += 1
+            continue
         if args.dry_run:
-            print(f"[dry-run] criaria: {w['date']} - {w['title']} ({w['sport']})")
-            created += 1
+            print(f"[dry-run] atualizaria: {w['date']} - {w['title']}")
+            updated += 1
             continue
         try:
-            api_request("POST", f"/athlete/{athlete_id}/events", api_key, body)
-            print(f"criado: {w['date']} - {w['title']}")
-            created += 1
+            api_request("PUT", f"/athlete/{athlete_id}/events/{existing['id']}", api_key, body)
+            print(f"atualizado: {w['date']} - {w['title']}")
+            updated += 1
         except RuntimeError as e:
-            print(f"FALHOU: {w['date']} - {w['title']}: {e}", file=sys.stderr)
+            print(f"FALHOU (atualizar): {w['date']} - {w['title']}: {e}", file=sys.stderr)
             failed += 1
 
-    print(f"\nResumo: {created} criados, {skipped} ja existiam, {failed} falharam.")
+    # o que sobrou em existing_by_key, dentro da janela de reconciliacao e
+    # com a nossa marca, ja nao esta no plano -> apagar
+    for (date, name), ev in existing_by_key.items():
+        if date > reconcile_end:
+            continue
+        if MARKER not in (ev.get("description") or ""):
+            continue
+        if args.dry_run:
+            print(f"[dry-run] apagaria: {date} - {name}")
+            deleted += 1
+            continue
+        try:
+            api_request("DELETE", f"/athlete/{athlete_id}/events/{ev['id']}", api_key)
+            print(f"apagado: {date} - {name}")
+            deleted += 1
+        except RuntimeError as e:
+            print(f"FALHOU (apagar): {date} - {name}: {e}", file=sys.stderr)
+            failed += 1
+
+    print(f"\nResumo: {created} criados, {updated} atualizados, {deleted} apagados, "
+          f"{skipped} sem alteracao, {failed} falharam.")
     if failed:
         sys.exit(1)
 
