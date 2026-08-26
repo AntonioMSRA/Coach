@@ -14,6 +14,10 @@ on:
         description: "Saltar o ajuste automatico do plano e ir direto a sincronizar"
         type: boolean
         default: false
+      reconcile_days:
+        description: "Janela (dias) para update/delete no sync -- normalmente 21, usa um numero maior so para um refresh pontual ao plano todo"
+        type: string
+        default: "21"
   push:
     branches: [main]
     paths:
@@ -66,8 +70,9 @@ jobs:
           INTERVALS_API_KEY: ${{ secrets.INTERVALS_API_KEY }}
           INTERVALS_ATHLETE_ID: ${{ secrets.INTERVALS_ATHLETE_ID }}
         run: |
+          RDAYS="${{ inputs.reconcile_days }}"
           if [ "${{ inputs.dry_run }}" = "true" ]; then
-            python3 scripts/sync_to_intervals.py --dry-run
+            python3 scripts/sync_to_intervals.py --dry-run --reconcile-days "${RDAYS:-21}"
           else
-            python3 scripts/sync_to_intervals.py
+            python3 scripts/sync_to_intervals.py --reconcile-days "${RDAYS:-21}"
           fi

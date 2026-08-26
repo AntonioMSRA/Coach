@@ -18,14 +18,9 @@ Requer duas variaveis de ambiente:
   INTERVALS_ATHLETE_ID   o teu id de atleta, formato "i123456"
 
 Uso:
-  python3 scripts/sync_to_intervals.py            # cria/atualiza o que for preciso
-  python3 scripts/sync_to_intervals.py --dry-run   # so mostra o que faria
-
-Nota: os nomes exatos dos campos da API (start_date_local, moving_time, etc.)
-seguem a documentacao publica em https://intervals.icu/api-docs.html. Este
-script nao foi corrido contra a API ao vivo neste ambiente (sem acesso de
-rede a intervals.icu) - corre primeiro `--dry-run` e depois uma vez a serio
-manualmente (workflow_dispatch) antes de confiares no cron semanal.
+  python3 scripts/sync_to_intervals.py                        # cria/atualiza o que for preciso
+  python3 scripts/sync_to_intervals.py --dry-run                # so mostra o que faria
+  python3 scripts/sync_to_intervals.py --reconcile-days 200      # janela maior, para um refresh pontual ao plano todo
 """
 import argparse
 import datetime
@@ -82,6 +77,8 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--plan", default=os.path.join(os.path.dirname(__file__), "..", "plan", "plan.json"))
+    ap.add_argument("--reconcile-days", type=int, default=RECONCILE_WINDOW_DAYS,
+                     help="janela (dias a partir de hoje) onde update/delete sao aplicados")
     args = ap.parse_args()
 
     api_key = os.environ.get("INTERVALS_API_KEY")
@@ -95,7 +92,7 @@ def main():
 
     today = datetime.date.today()
     today_s = today.isoformat()
-    reconcile_end = (today + datetime.timedelta(days=RECONCILE_WINDOW_DAYS)).isoformat()
+    reconcile_end = (today + datetime.timedelta(days=args.reconcile_days)).isoformat()
     future = [w for w in plan if w["date"] >= today_s]
     if not future:
         print("Nada para sincronizar (plano sem treinos futuros).")
