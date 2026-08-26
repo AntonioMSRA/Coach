@@ -5,8 +5,8 @@ plan/plan.json para a sintaxe de treino estruturado do intervals.icu, para
 que o relogio consiga guiar o atleta durante o treino (avisos por troço,
 zonas alvo), em vez de mostrar so um titulo/duracao.
 
-So mexe em sport in ("run", "bike") -- natacao/forca/mobilidade/PT ficam
-como texto livre (nao sao tao "zone-based" e o ganho e menor). Sintaxe
+So mexe em sport in ("run", "bike", "swim") -- forca/mobilidade/PT ficam
+como texto livre (nao sao "zone-based"). Sintaxe
 confirmada manualmente num treino real (ver commits "Retry structured
 workout..." e "Add blank lines between workout sections..."):
 
@@ -45,7 +45,8 @@ import sys
 HERE = os.path.dirname(__file__)
 PLAN_PATH = os.path.join(HERE, "..", "plan", "plan.json")
 
-ZONE_TARGET = {"run": "HR", "bike": "Power"}
+ZONE_TARGET = {"run": "HR", "bike": "Power", "swim": "HR"}
+SPORT_NAME_PT = {"run": "corrida", "bike": "bicicleta", "swim": "natação"}
 
 SYNTAX_RULES = """Sintaxe de treino estruturado do intervals.icu (CONFIRMADA a funcionar):
 
@@ -83,22 +84,32 @@ def already_structured(description):
 
 
 def build_prompt(workout):
-    zone_suffix = ZONE_TARGET[workout["sport"]]
+    sport = workout["sport"]
+    zone_suffix = ZONE_TARGET[sport]
+    swim_note = (
+        "\nEste treino e de natacao: os passos sao normalmente por distancia "
+        "(ex: \"- 100m Z2 HR\", \"- 50m Z4 HR\") em vez de duracao, porque e "
+        "assim que a descricao original os da (series de piscina). Repeticoes "
+        "de series (ex: \"8x50\") continuam a usar \"Main Set 8x\" + um passo "
+        "\"- 50m Z_ HR\" por baixo, tal como nos outros desportos.\n"
+        if sport == "swim" else ""
+    )
     return f"""{SYNTAX_RULES.format(zone_suffix=zone_suffix)}
-
-Converte este treino de {"corrida" if workout["sport"] == "run" else "bicicleta"}
+{swim_note}
+Converte este treino de {SPORT_NAME_PT[sport]}
 para essa sintaxe, usando SEMPRE "{zone_suffix}" depois de cada zona (nunca
-outro tipo de alvo). A duracao total dos passos deve somar aproximadamente
-a duracao total dada.
+outro tipo de alvo). A duracao/distancia total dos passos deve somar
+aproximadamente o total dado.
 
 Titulo: {workout['title']}
 Duracao total: {workout['duration_h']} horas
+{"Distancia total: " + str(workout['distance_m']) + " metros" if workout.get('distance_m') else ""}
 Descricao original: {workout['description'] or '(sem descricao -- usa o titulo e o teu bom senso de treinador para decidir a zona, ex: "Regenerativo"/"Zn1"=Z1, "LSD"/"Base"=Z2, "Tempo"=Z3, "Threshold"/"Limiar"=Z4, "VO2"=Z5+)'}
 
 Responde APENAS com o texto estruturado (sem explicacoes, sem markdown ```,
 sem comentarios). Se o treino for um esforco continuo sem intervalos, usa
-so uma seccao "Warmup" com um unico passo cobrindo a duracao toda -- nao
-inventes uma estrutura que a descricao original nao tem.
+so uma seccao "Warmup" com um unico passo cobrindo a duracao/distancia toda
+-- nao inventes uma estrutura que a descricao original nao tem.
 """
 
 
