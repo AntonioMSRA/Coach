@@ -258,6 +258,22 @@ def build_year_end_tail():
     }]
 
 
+def dedupe_titles(workouts):
+    """scripts/sync_to_intervals.py identifica cada treino por (data, titulo) --
+    se dois treinos no mesmo dia tiverem o mesmo titulo generico (ex: duas
+    entradas "Running" no historico original, que eram treinos diferentes mas
+    ficaram com o mesmo nome), o sync nao os consegue distinguir e cria
+    duplicados. Aqui desambiguamos, acrescentando " (2)", " (3)", etc.
+    """
+    from collections import Counter
+    seen = Counter()
+    for w in workouts:
+        key = (w["date"], w["title"])
+        seen[key] += 1
+        if seen[key] > 1:
+            w["title"] = f"{w['title']} ({seen[key]})"
+
+
 def main():
     rows = load_history()
 
@@ -277,6 +293,7 @@ def main():
     # so o intervalo pedido: amanha -> 31/dez, sem duplicar o dia de hoje
     workouts = [w for w in workouts if TODAY < datetime.date.fromisoformat(w["date"]) <= PLAN_END]
     workouts.sort(key=lambda w: (w["date"], w["sport"] != "rest"))
+    dedupe_titles(workouts)
 
     HERE.mkdir(exist_ok=True)
     with open(HERE / "plan.json", "w", encoding="utf-8") as f:
