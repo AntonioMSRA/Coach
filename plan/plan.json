@@ -3,7 +3,7 @@
     "date": "2026-08-27",
     "title": "Zn1 - Regenerativo",
     "sport": "bike",
-    "description": "Treino regenerativo Percurso plano Zn1 - rolar fácil",
+    "description": "Warmup\n- rolar fácil percurso plano 1h Z1 Power",
     "duration_h": 1.0,
     "distance_m": null,
     "source": "real-coach-tp"
@@ -12,7 +12,7 @@
     "date": "2026-08-27",
     "title": "AE1",
     "sport": "run",
-    "description": "Imediatamente a seguir à bike, corrida em zona 1 num percurso plano e piso macio",
+    "description": "Warmup\n- corrida transicao pos-bike, percurso plano e piso macio 15m Z1 HR",
     "duration_h": 0.25,
     "distance_m": null,
     "source": "real-coach-tp"
@@ -21,7 +21,7 @@
     "date": "2026-08-28",
     "title": "Uphill Stride Work",
     "sport": "run",
-    "description": "Warm up about 20 minutes in zones 1-2. Then run 5x20 seconds up a moderate grade (3-5%) hill at RPE 9 (very high effort). Powerful, quick strides. Use arms vigorously. After each uphill, walk down slowly taking a minute or more for recovery. Cool down with heart rate in zone 1 for the remainder of the scheduled workout time.",
+    "description": "Warmup\n- aquecimento 20m ramp Z1-Z2 HR\n\nMain Set 5x\n- subida forte 20s Z5 HR\n- recuperacao a andar 1m Z1 HR\n\nCooldown\n- 3m Z1 HR",
     "duration_h": 0.5,
     "distance_m": null,
     "source": "real-coach-tp"
@@ -30,7 +30,7 @@
     "date": "2026-08-29",
     "title": "Bike Tempo 4x8'",
     "sport": "bike",
-    "description": "",
+    "description": "Warmup\n- aquecimento 20m Z2 Power\n\nMain Set 4x\n- bloco tempo 8m Z3 Power\n- recuperacao 5m Z1 Power\n\nCooldown\n- retorno a calma 20m Z1 Power",
     "duration_h": 1.533,
     "distance_m": null,
     "source": "real-coach-tp"
@@ -39,7 +39,7 @@
     "date": "2026-08-29",
     "title": "Transição - 4x1km",
     "sport": "run",
-    "description": "Transição para: 4x1km em Z3 com 1' de trote muito devagar para recuperar. 5' easy",
+    "description": "Main Set 4x\n- 4m Z3 HR\n- 1m Z1 HR\n\nCooldown\n- 5m Z1 HR",
     "duration_h": 0.407,
     "distance_m": null,
     "source": "real-coach-tp"
@@ -57,7 +57,7 @@
     "date": "2026-08-31",
     "title": "LSD",
     "sport": "run",
-    "description": "Long Slow Distance Ritmo baixa e técnica correta",
+    "description": "Warmup\n- corrida continua ritmo baixo 50m Z2 HR",
     "duration_h": 0.8333333333333334,
     "distance_m": null,
     "source": "history"
@@ -66,7 +66,7 @@
     "date": "2026-09-01",
     "title": "12,5 Fast",
     "sport": "swim",
-    "description": "400 snorkel + fins 400 snorkel + pull 8x25 progressivo nos 25m - saída 40\" 20x50 (12,5 fast + 37,5 easy) - 15\" descanso 200 easy",
+    "description": "Warmup\n- 400m snorkel + fins 400m Z2 HR\n- 400m snorkel + pull 400m Z2 HR\n\nMain Set 8x\n- progressivo saida 40\" 25m Z3 HR\n\nMain Set 20x\n- 12,5 fast / 37,5 easy 50m Z4 HR\n\nCooldown\n- easy 200m Z1 HR",
     "duration_h": 0.4166666666666667,
     "distance_m": 2000.0,
     "source": "history"
@@ -75,7 +75,7 @@
     "date": "2026-09-02",
     "title": "Bike tempo - 4x5'",
     "sport": "bike",
-    "description": "20' aquecimento easy 4x5min Zn3 - recuperação 2' easy 12' cooldwon",
+    "description": "Warmup\n- aquecimento 20m Z1 Power\n\nMain Set 4x\n- 5m Z3 Power\n- recuperacao 2m Z1 Power\n\nCooldown\n- 12m Z1 Power",
     "duration_h": 0.5833333333333334,
     "distance_m": null,
     "source": "history"
@@ -84,7 +84,7 @@
     "date": "2026-09-03",
     "title": "Intervalado Curto 200+200",
     "sport": "run",
-    "description": "20' Aquecimento 4 retas progressivas 10x(200 fast + 200 easy) NON STOP 5' Cooldown",
+    "description": "Warmup\n- aquecimento 20m Z2 HR\n\nMain Set 10x\n- 200m forte 30s Z5 HR\n- 200m leve 30s Z1 HR\n\nCooldown\n- 5m Z1 HR",
     "duration_h": 0.5833333333333334,
     "distance_m": null,
     "source": "history"
@@ -93,7 +93,7 @@
     "date": "2026-09-04",
     "title": "Zn1 - Regenerativo",
     "sport": "bike",
-    "description": "Treino regenerativo Percurso plano Zn1 - rolar fácil",
+    "description": "Warmup\n- regenerativo percurso plano rolar facil 35m Z1 Power",
     "duration_h": 0.5833333333333334,
     "distance_m": null,
     "source": "history"
@@ -102,7 +102,7 @@
     "date": "2026-09-04",
     "title": "AE1",
     "sport": "run",
-    "description": "Imediatamente a seguir à bike, corrida em zona 1 num percurso plano e piso macio",
+    "description": "Warmup\n- corrida continua a seguir a bike, percurso plano e piso macio 15m Z1 HR",
     "duration_h": 0.25,
     "distance_m": null,
     "source": "history"
@@ -120,7 +120,7 @@
     "date": "2026-09-05",
     "title": "Bike Tempo 4x8' - dia de nutrição",
     "sport": "bike",
-    "description": "",
+    "description": "Warmup\n- aquecimento progressivo 20m ramp Z1-Z2 Power\n\nMain Set 4x\n- bloco tempo 8m Z3 Power\n- recuperacao 7m Z1 Power\n\nCooldown\n- retorno a calma 20m Z1 Power",
     "duration_h": 1.6666666666666667,
     "distance_m": null,
     "source": "history"
@@ -129,7 +129,7 @@
     "date": "2026-09-05",
     "title": "Transição - LSD - dia de nutrição",
     "sport": "run",
-    "description": "Long Slow Distance Ritmo baixa e técnica correta",
+    "description": "Warmup\n- corrida continua LSD ritmo baixo e tecnica correta 35m Z2 HR",
     "duration_h": 0.5833333333333334,
     "distance_m": null,
     "source": "history"
@@ -138,7 +138,7 @@
     "date": "2026-09-06",
     "title": "Desnível acumulado",
     "sport": "bike",
-    "description": "Máximo desnível acumulado com subidas em 60/70 Rpm sentado",
+    "description": "Warmup\n- aquecimento 15m Z2 Power\n\nMain Set 5x\n- subida sentado 60-70rpm 10m Z3 Power\n- recuperacao 4m Z1 Power\n\nCooldown\n- 15m Z1 Power",
     "duration_h": 1.6666666666666667,
     "distance_m": null,
     "source": "history"
@@ -156,7 +156,7 @@
     "date": "2026-09-07",
     "title": "LSD",
     "sport": "run",
-    "description": "Long Slow Distance Ritmo baixa e técnica correta",
+    "description": "Warmup\n- aquecimento 10m Z1 HR\n\nMain Set\n- corrida continua ritmo baixo 25m Z2 HR\n\nCooldown\n- 10m Z1 HR",
     "duration_h": 0.75,
     "distance_m": null,
     "source": "history"
@@ -165,7 +165,7 @@
     "date": "2026-09-08",
     "title": "Swim #2",
     "sport": "swim",
-    "description": "800 snorkel 4x50 pull saída 1' 5x100 @ 2'30 Zn2 palas, snorkel, elástico, pull 5x100 @ 1'30 with snorkel + fins 4x50 pernas (25 fast + 25 easy) 200 easy",
+    "description": "Warmup\n- 800m snorkel Z2 HR\n\nMain Set 4x\n- pull saida 1' 50m Z2 HR\n\nMain Set 5x\n- palas snorkel elastico pull 100m Z2 HR\n\nMain Set 5x\n- snorkel e fins 100m Z3 HR\n\nMain Set 4x\n- pernas 25 fast + 25 easy 50m Z4 HR\n\nCooldown\n- 200m Z1 HR",
     "duration_h": 0.5833333333333334,
     "distance_m": 2400.0,
     "source": "history"
@@ -174,7 +174,7 @@
     "date": "2026-09-09",
     "title": "Base Builder (Power)",
     "sport": "bike",
-    "description": "Ride on a flat to gently rolling course. Get at least 50% of ride time in power zone 2. Avoid 3-5 zones. Keep the 2-zone effort steady and continuous. After the ride confirm that you got at least 50% of the ride in zone 2.",
+    "description": "Warmup\n- aquecimento 10m ramp Z1-Z2 Power\n\nMain Set\n- bloco continuo 45m Z2 Power\n\nCooldown\n- retorno a calma 10m Z1 Power",
     "duration_h": 1.0833333333333333,
     "distance_m": null,
     "source": "history"
@@ -192,7 +192,7 @@
     "date": "2026-09-10",
     "title": "Tempo run progressivo",
     "sport": "run",
-    "description": "15' aquecimento 1' fast + 1' easy 2' fast + 2' easy 3' fast + 3' easy 4'fast + 4' easy 5' fast + 5' easy 5' cooldown",
+    "description": "Warmup\n- aquecimento 15m Z2 HR\n\nMain Set\n- 1m Z4 HR\n- 1m Z1 HR\n- 2m Z4 HR\n- 2m Z1 HR\n- 3m Z4 HR\n- 3m Z1 HR\n- 4m Z4 HR\n- 4m Z1 HR\n- 5m Z4 HR\n- 5m Z1 HR\n\nCooldown\n- 5m Z1 HR",
     "duration_h": 0.5833333333333334,
     "distance_m": null,
     "source": "history"
@@ -201,7 +201,7 @@
     "date": "2026-09-11",
     "title": "12,5 Fast",
     "sport": "swim",
-    "description": "400 snorkel + fins 400 snorkel + pull 8x25 progressivo nos 25m - saída 40\" 20x50 (12,5 fast + 37,5 easy) - 15\" descanso 200 easy",
+    "description": "Warmup\n- 400m snorkel + fins Z1 HR\n- 400m snorkel + pull Z2 HR\n\nMain Set 8x\n- 25m progressivo saida 40\" Z3 HR\n\nMain Set 20x\n- 50m 12,5 fast + 37,5 easy Z4 HR\n\nCooldown\n- 200m easy Z1 HR",
     "duration_h": 0.5833333333333334,
     "distance_m": 2000.0,
     "source": "history"
@@ -210,7 +210,7 @@
     "date": "2026-09-12",
     "title": "Pre-race Run",
     "sport": "run",
-    "description": "Corrida em zona2 com 3 a 4x ritmo de prova durante 30\"",
+    "description": "Warmup\n- aquecimento 6m Z2 HR\n\nMain Set 4x\n- ritmo de prova 30s Z4 HR\n- recuperacao 1m Z2 HR\n\nCooldown\n- 3m Z1 HR",
     "duration_h": 0.25,
     "distance_m": null,
     "source": "history"
@@ -219,7 +219,7 @@
     "date": "2026-09-12",
     "title": "Cycling",
     "sport": "bike",
-    "description": "",
+    "description": "Warmup\n- 65m Z2 Power",
     "duration_h": 1.0833333333333333,
     "distance_m": null,
     "source": "history"
@@ -237,7 +237,7 @@
     "date": "2026-09-14",
     "title": "Zn1 - Regenerativo",
     "sport": "bike",
-    "description": "Treino regenerativo Percurso plano Zn1 - rolar fácil",
+    "description": "Warmup\n- rolar fácil percurso plano 35m Z1 Power",
     "duration_h": 0.5833333333333334,
     "distance_m": null,
     "source": "history"
@@ -246,7 +246,7 @@
     "date": "2026-09-15",
     "title": "Swim - palas",
     "sport": "swim",
-    "description": "10' aquecimento 20' z2 com palas 5' easy",
+    "description": "Warmup\n- aquecimento 10m Z1 HR\n\nMain Set\n- com palas 20m Z2 HR\n\nCooldown\n- easy 5m Z1 HR",
     "duration_h": 0.3333333333333333,
     "distance_m": null,
     "source": "history"
@@ -255,7 +255,7 @@
     "date": "2026-09-15",
     "title": "Base Builder (Power)",
     "sport": "bike",
-    "description": "Ride on a flat to gently rolling course. Get at least 50% of ride time in power zone 2. Avoid 3-5 zones. Keep the 2-zone effort steady and continuous. After the ride confirm that you got at least 50% of the ride in zone 2.",
+    "description": "Warmup\n- aquecimento 10m ramp Z1-Z2 Power\n\nMain Set\n- bloco continuo 30m Z2 Power\n\nCooldown\n- retorno a calma 10m Z1 Power",
     "duration_h": 0.8333333333333334,
     "distance_m": null,
     "source": "history"
@@ -264,7 +264,7 @@
     "date": "2026-09-16",
     "title": "LSD",
     "sport": "run",
-    "description": "Long Slow Distance Ritmo baixa e técnica correta",
+    "description": "Warmup\n- LSD ritmo baixo e tecnica correta 35m Z2 HR",
     "duration_h": 0.5833333333333334,
     "distance_m": null,
     "source": "history"
@@ -273,7 +273,7 @@
     "date": "2026-09-17",
     "title": "2kms",
     "sport": "swim",
-    "description": "2kms seguidos em ritmo de prova",
+    "description": "Warmup\n- 2kms seguidos em ritmo de prova 2000m Z3 HR",
     "duration_h": 0.4166666666666667,
     "distance_m": 2000.0,
     "source": "history"
@@ -282,7 +282,7 @@
     "date": "2026-09-17",
     "title": "Zona 2 + 30\" Maximo",
     "sport": "bike",
-    "description": "20' Aquecimento 15x 9'30 Zona 3 30\" MUITO FORTES 10' easy",
+    "description": "Warmup\n- aquecimento 20m Z2 Power\n\nMain Set 7x\n- 9m Z2 Power\n- 30s Z6 Power\n\nCooldown\n- 10m Z1 Power",
     "duration_h": 1.6666666666666667,
     "distance_m": null,
     "source": "history"
@@ -300,7 +300,7 @@
     "date": "2026-09-18",
     "title": "Tempo run progressivo",
     "sport": "run",
-    "description": "15' aquecimento 1' fast + 1' easy 2' fast + 2' easy 3' fast + 3' easy 4'fast + 4' easy 5' fast + 5' easy 5' cooldown",
+    "description": "Warmup\n- aquecimento 5m Z2 HR\n\nMain Set\n- 1m Z4 HR\n- 1m Z1 HR\n- 2m Z4 HR\n- 2m Z1 HR\n- 3m Z4 HR\n- 3m Z1 HR\n- 4m Z4 HR\n- 4m Z1 HR\n\nCooldown\n- 5m Z1 HR",
     "duration_h": 0.5,
     "distance_m": null,
     "source": "history"
@@ -318,7 +318,7 @@
     "date": "2026-09-19",
     "title": "Águas abertas 1",
     "sport": "swim",
-    "description": "10' aquecimento 4x(5' race pace + 4' zona 2) 5' cooldown",
+    "description": "Warmup\n- aquecimento 10m Z2 HR\n\nMain Set 4x\n- race pace 5m Z4 HR\n- recuperacao 4m Z2 HR\n\nCooldown\n- 5m Z1 HR",
     "duration_h": 0.5,
     "distance_m": 3070.0,
     "source": "history"
@@ -327,7 +327,7 @@
     "date": "2026-09-19",
     "title": "Base Builder (Power)",
     "sport": "bike",
-    "description": "Ride on a flat to gently rolling course. Get at least 50% of ride time in power zone 2. Avoid 3-5 zones. Keep the 2-zone effort steady and continuous. After the ride confirm that you got at least 50% of the ride in zone 2.",
+    "description": "Warmup\n- aquecimento 10m ramp Z1-Z2 Power\n\nMain Set\n- bloco continuo 30m Z2 Power\n\nCooldown\n- retorno a calma 10m Z1 Power",
     "duration_h": 0.8333333333333334,
     "distance_m": null,
     "source": "history"
@@ -336,7 +336,7 @@
     "date": "2026-09-19",
     "title": "Transição - 30' Run - Zn2",
     "sport": "run",
-    "description": "Corrida em Zn2 com piso soft Pulso @140",
+    "description": "Warmup\n- corrida continua piso soft 15m Z2 HR",
     "duration_h": 0.25,
     "distance_m": null,
     "source": "history"
@@ -354,7 +354,7 @@
     "date": "2026-09-20",
     "title": "Level 2",
     "sport": "bike",
-    "description": "Flat course Rolar com acelarações a cada 10' (sprint de 10\")",
+    "description": "Warmup\n- aquecimento 10m Z2 Power\n\nMain Set 6x\n- rolar 9m50s Z2 Power\n- sprint 10s Z7 Power\n\nCooldown\n- 5m Z1 Power",
     "duration_h": 1.25,
     "distance_m": null,
     "source": "history"
@@ -372,7 +372,7 @@
     "date": "2026-09-21",
     "title": "LSD - 18kms",
     "sport": "run",
-    "description": "Correr 18kms em LSD",
+    "description": "Warmup\n- LSD continuo 55m Z2 HR",
     "duration_h": 0.9166666666666666,
     "distance_m": 18000.0,
     "source": "history"
@@ -381,7 +381,7 @@
     "date": "2026-09-22",
     "title": "Swim - palas + fins",
     "sport": "swim",
-    "description": "400 snorkel + fins 400 snorkel + pull 8x50 pernas com barbatanas - saída 50\" 4x100 - saída 1'45 com palas + fins 200 easy 4x100 - saída 1'45 com palas + fins 200 easy 4x100 - saída 1'45 com palas + fins 200 easy",
+    "description": "Warmup\n- snorkel + fins 400m Z2 HR\n- snorkel + pull 400m Z2 HR\n\nMain Set 8x\n- pernas com barbatanas 50m Z3 HR\n\nMain Set 4x\n- palas + fins 100m Z4 HR\n\nMain Set\n- easy 200m Z1 HR\n\nMain Set 4x\n- palas + fins 100m Z4 HR\n\nMain Set\n- easy 200m Z1 HR\n\nMain Set 4x\n- palas + fins 100m Z4 HR\n\nCooldown\n- easy 200m Z1 HR",
     "duration_h": 0.5,
     "distance_m": 3000.0,
     "source": "history"
@@ -390,7 +390,7 @@
     "date": "2026-09-23",
     "title": "Bike tempo - 4x5'",
     "sport": "bike",
-    "description": "20' aquecimento easy 4x5min Zn3 - recuperação 2' easy 12' cooldwon",
+    "description": "Warmup\n- aquecimento 5m Z2 Power\n\nMain Set 4x\n- 4m Z3 Power\n- 1m Z1 Power\n\nCooldown\n- 5m Z1 Power",
     "duration_h": 0.5,
     "distance_m": null,
     "source": "history"
@@ -399,7 +399,7 @@
     "date": "2026-09-24",
     "title": "60' Easy pace",
     "sport": "run",
-    "description": "60' easy pace + 4 retas 20\" . recuperação a andar na distância percorrida",
+    "description": "Warmup\n- easy pace 24m Z2 HR\n\nMain Set 4x\n- reta 20s Z5 HR\n- recuperacao a andar 1m Z1 HR\n\nCooldown\n- 1m Z1 HR",
     "duration_h": 0.5,
     "distance_m": null,
     "source": "history"
@@ -408,7 +408,7 @@
     "date": "2026-09-25",
     "title": "Swim - 2sets - wetsuit",
     "sport": "swim",
-    "description": "300 snorkel + fins 300 snorkel + pull 5x100 zona 2 - descanso 15\" 2x 300 zona 2 com palas - descanso 50\" 2x200 zona 3 com palas e fins - descanso 30\" 100 com fins - máximo 100 easy",
+    "description": "Warmup\n- snorkel + fins 300m Z1 HR\n- snorkel + pull 300m Z1 HR\n\nMain Set 5x\n- 100m Z2 HR\n- descanso 15s Z1 HR\n\nMain Set 2x\n- palas 300m Z2 HR\n- descanso 50s Z1 HR\n\nMain Set 2x\n- palas e fins 200m Z3 HR\n- descanso 30s Z1 HR\n\nCooldown\n- fins maximo 100m Z5 HR\n- easy 100m Z1 HR",
     "duration_h": 0.5,
     "distance_m": 2900.0,
     "source": "history"
@@ -417,7 +417,7 @@
     "date": "2026-09-25",
     "title": "Uphill Stride Work",
     "sport": "run",
-    "description": "Warm up about 20 minutes in zones 1-2. Then run 5x20 seconds up a moderate grade (3-5%) hill at RPE 9 (very high effort). Powerful, quick strides. Use arms vigorously. After each uphill, walk down slowly taking a minute or more for recovery. Cool down with heart rate in zone 1 for the remainder of the scheduled workout time. (This is best outdoors but may be done on a treadmill).",
+    "description": "Warmup\n- aquecimento 6m ramp Z1-Z2 HR\n\nMain Set 5x\n- subida forte 20s Z6 HR\n- recuperacao a andar 1m Z1 HR\n\nCooldown\n- 3m Z1 HR",
     "duration_h": 0.25,
     "distance_m": null,
     "source": "history"
@@ -426,7 +426,7 @@
     "date": "2026-09-26",
     "title": "Bike Tempo 4x10'",
     "sport": "bike",
-    "description": "",
+    "description": "Warmup\n- aquecimento 20m Z2 Power\n\nMain Set 4x\n- tempo 10m Z3 Power\n- recuperacao 5m Z1 Power\n\nCooldown\n- 15m Z1 Power",
     "duration_h": 1.5833333333333333,
     "distance_m": null,
     "source": "history"
@@ -435,7 +435,7 @@
     "date": "2026-09-26",
     "title": "Transição-Tempo Run 4x5'",
     "sport": "run",
-    "description": "4x5' Zona 3 / 2' easy pace 10' Cooldown",
+    "description": "Warmup\n- aquecimento 2m Z2 HR\n\nMain Set 2x\n- 5m Z3 HR\n- 2m Z1 HR\n\nCooldown\n- 4m Z1 HR",
     "duration_h": 0.3333333333333333,
     "distance_m": null,
     "source": "history"
@@ -444,7 +444,7 @@
     "date": "2026-09-27",
     "title": "Base Builder (Power)",
     "sport": "bike",
-    "description": "Ride on a flat to gently rolling course. Get at least 50% of ride time in power zone 2. Avoid 3-5 zones. Keep the 2-zone effort steady and continuous. After the ride confirm that you got at least 50% of the ride in zone 2.",
+    "description": "Warmup\n- aquecimento 15m ramp Z1-Z2\n\nMain Set 2x\n- bloco continuo 25m Z2 Power\n- recuperacao suave 5m Z1 Power\n\nCooldown\n- 15m Z1 Power",
     "duration_h": 1.5,
     "distance_m": null,
     "source": "history"
@@ -462,7 +462,7 @@
     "date": "2026-09-28",
     "title": "LSD - 16kms",
     "sport": "run",
-    "description": "Correr 16kms em LSD",
+    "description": "Warmup\n- LSD continuo 35m Z2 HR",
     "duration_h": 0.5833333333333334,
     "distance_m": 16000.0,
     "source": "history"
@@ -471,7 +471,7 @@
     "date": "2026-09-29",
     "title": "Swim",
     "sport": "swim",
-    "description": "300 snorkel + fins 300 snorkel + pull 5x100 zona 2 - descanso 15\" 300 zona 2 com palas - descanso 50\" 2x200 zona 3 com palas e fins - descanso 30\" 100 com fins - máximo 100 easy",
+    "description": "Warmup\n- snorkel + fins 300m Z1 HR\n- snorkel + pull 300m Z1 HR\n\nMain Set 5x\n- 100m Z2 HR\n\nMain Set\n- palas 300m Z2 HR\n\nMain Set 2x\n- palas e fins 200m Z3 HR\n\nMain Set\n- fins maximo 100m Z5 HR\n\nCooldown\n- 100m Z1 HR",
     "duration_h": 0.25,
     "distance_m": 2000.0,
     "source": "history"
@@ -480,7 +480,7 @@
     "date": "2026-09-30",
     "title": "Bike tempo - 4x5'",
     "sport": "bike",
-    "description": "20' aquecimento easy 4x5min Zn3 - recuperação 2' easy 12' cooldwon",
+    "description": "Warmup\n- aquecimento 5m Z2 Power\n\nMain Set 4x\n- 2m Z3 Power\n- recuperacao 1m Z1 Power\n\nCooldown\n- 3m Z1 Power",
     "duration_h": 0.3333333333333333,
     "distance_m": null,
     "source": "history"
@@ -489,7 +489,7 @@
     "date": "2026-09-30",
     "title": "AE1",
     "sport": "run",
-    "description": "Imediatamente a seguir à bike, corrida em zona 1 num percurso plano e piso macio",
+    "description": "Warmup\n- corrida transicao pos-bike, percurso plano e piso macio 15m Z1 HR",
     "duration_h": 0.25,
     "distance_m": null,
     "source": "history"
@@ -507,7 +507,7 @@
     "date": "2026-10-01",
     "title": "Tempo run progressivo",
     "sport": "run",
-    "description": "15' aquecimento 1' fast + 1' easy 2' fast + 2' easy 3' fast + 3' easy 4'fast + 4' easy 5' fast + 5' easy 5' cooldown",
+    "description": "Warmup\n- aquecimento 5m Z2 HR\n\nMain Set\n- 1m Z4 HR\n- 1m Z1 HR\n- 2m Z4 HR\n- 2m Z1 HR\n- 3m Z4 HR\n- 3m Z1 HR\n\nCooldown\n- 3m Z1 HR",
     "duration_h": 0.3333333333333333,
     "distance_m": null,
     "source": "history"
@@ -516,7 +516,7 @@
     "date": "2026-10-02",
     "title": "Swim - palas + fins",
     "sport": "swim",
-    "description": "400 snorkel + fins 400 snorkel + pull 8x50 pernas com barbatanas - saída 50\" 4x100 - saída 1'45 com palas + fins 200 easy 4x100 - saída 1'45 com palas + fins 200 easy",
+    "description": "Warmup\n- 400m snorkel + fins Z2 HR\n- 400m snorkel + pull Z2 HR\n\nMain Set 8x\n- 50m pernas com barbatanas Z3 HR\n\nMain Set 4x\n- 100m palas + fins Z4 HR\n\nMain Set\n- 200m easy Z1 HR\n\nMain Set 4x\n- 100m palas + fins Z4 HR\n\nCooldown\n- 200m easy Z1 HR",
     "duration_h": 0.25,
     "distance_m": 2400.0,
     "source": "history"
@@ -525,7 +525,7 @@
     "date": "2026-10-02",
     "title": "Running",
     "sport": "run",
-    "description": "",
+    "description": "Warmup\n- aquecimento 5m Z1 HR\n\nMain Set\n- corrida continua 7m Z2 HR\n\nCooldown\n- retorno a calma 3m Z1 HR",
     "duration_h": 0.25,
     "distance_m": null,
     "source": "history"
@@ -534,7 +534,7 @@
     "date": "2026-10-03",
     "title": "Sweet Spot + zona 2",
     "sport": "bike",
-    "description": "Warm up 15' 5' @ 100% 5' Easy 2x20' @ Sweet Spot 1 (15' Intervalo) 10x1' @ Sweet Spot 2 (+105 rpm) 2' Intervalo 1h30 Zona 2 15' Cooldown",
+    "description": "Warmup\n- aquecimento 15m Z2 Power\n- bloco forte 5m Z4 Power\n- recuperacao 5m Z1 Power\n\nMain Set 2x\n- sweet spot 15m Z3 Power\n- intervalo 5m Z1 Power\n\nCooldown\n- 10m Z1 Power",
     "duration_h": 1.25,
     "distance_m": null,
     "source": "history"
@@ -543,7 +543,7 @@
     "date": "2026-10-03",
     "title": "Transição - 8kms a race pace",
     "sport": "run",
-    "description": "Transição 1km - W-up 8kms - race pace 1km - easy",
+    "description": "Warmup\n- transicao 3m Z2 HR\n\nMain Set\n- race pace 14m Z4 HR\n\nCooldown\n- easy 3m Z1 HR",
     "duration_h": 0.3333333333333333,
     "distance_m": null,
     "source": "history"
@@ -552,7 +552,7 @@
     "date": "2026-10-04",
     "title": "Base Builder (Power)",
     "sport": "bike",
-    "description": "Ride on a flat to gently rolling course. Get at least 50% of ride time in power zone 2. Avoid 3-5 zones. Keep the 2-zone effort steady and continuous. After the ride confirm that you got at least 50% of the ride in zone 2.",
+    "description": "Warmup\n- aquecimento progressivo 10m ramp Z1-Z2 Power\n\nMain Set\n- base continua e estavel 30m Z2 Power\n\nCooldown\n- retorno a calma 5m Z1 Power",
     "duration_h": 0.75,
     "distance_m": null,
     "source": "history"
@@ -570,7 +570,7 @@
     "date": "2026-10-05",
     "title": "LSD - 20kms",
     "sport": "run",
-    "description": "Correr 20kms em LSD",
+    "description": "Warmup\n- LSD continuo 30m Z2 HR",
     "duration_h": 0.5,
     "distance_m": 20000.0,
     "source": "history"
@@ -579,7 +579,7 @@
     "date": "2026-10-06",
     "title": "Swim - VO2 - wetsuit",
     "sport": "swim",
-    "description": "400snorkel + 100 estilos + 100 pernas 2X150L - 50 braço direito , 50 braço esquerdo, 50 normal 10X100L 25 mãximo 25 Zona2 25 máximo 25 zona 2 - descanso 15\" 200 easy 8X50L 25 MARIPOSA 25 crawl - com barbatanas 200 easy",
+    "description": "Warmup\n- snorkel 400m Z2 HR\n- estilos 100m Z2 HR\n- pernas 100m Z2 HR\n\nMain Set 2x\n- braco direito 50m Z2 HR\n- braco esquerdo 50m Z2 HR\n- normal 50m Z3 HR\n\nMain Set 10x\n- 25m Z5 HR\n- 25m Z2 HR\n- 25m Z5 HR\n- 25m Z2 HR\n\nMain Set 8x\n- mariposa 25m Z4 HR\n- crawl com barbatanas 25m Z3 HR\n\nCooldown\n- easy 200m Z1 HR",
     "duration_h": 0.25,
     "distance_m": 2400.0,
     "source": "history"
@@ -588,7 +588,7 @@
     "date": "2026-10-07",
     "title": "Bike tempo - 4x5'",
     "sport": "bike",
-    "description": "20' aquecimento easy 4x5min Zn3 - recuperação 2' easy 12' cooldwon",
+    "description": "Warmup\n- aquecimento easy 20m Z1 Power\n\nMain Set 4x\n- bloco tempo 5m Z3 Power\n- recuperacao easy 2m Z1 Power\n\nCooldown\n- 12m Z1 Power",
     "duration_h": 0.25,
     "distance_m": null,
     "source": "history"
@@ -606,7 +606,7 @@
     "date": "2026-10-08",
     "title": "40' Run @Zn2 + 6 retas",
     "sport": "run",
-    "description": "Corrida em Zn2, piso soft e cadência +88 Pulso @140 No final fazer 6 retas progressivas de 20\"",
+    "description": "Warmup\n- corrida em Zn2 8m Z2 HR\n\nMain Set 6x\n- reta progressiva 20s Z5 HR\n- recuperacao 30s Z1 HR\n\nCooldown\n- 2m Z1 HR",
     "duration_h": 0.25,
     "distance_m": null,
     "source": "history"
@@ -615,7 +615,7 @@
     "date": "2026-10-09",
     "title": "Swim Endurance",
     "sport": "swim",
-    "description": "400 snorkel 200 fins (snorkel opcional) - aumento da cadência de braçada 8x50 (25 crawl FAST + 25 corrida) NON STOP 2000 Zn2 - palas (snorkel opcional) 200 easy",
+    "description": "Warmup\n- snorkel 400m Z2 HR\n- fins 200m Z2 HR\n\nMain Set 8x\n- 25 crawl rapido 50m Z4 HR\n\nMain Set\n- non stop palas 1800m Z2 HR\n\nCooldown\n- 200m Z1 HR",
     "duration_h": 0.25,
     "distance_m": 3000.0,
     "source": "history"
@@ -624,7 +624,7 @@
     "date": "2026-10-10",
     "title": "Sweet Spot",
     "sport": "bike",
-    "description": "Warm up 15' 5' @ 100% 5' Easy 2x20' @ Sweet Spot 1 (15' Intervalo) 10x1' @ Sweet Spot 2 (+105 rpm) 2' Intervalo 15' Cooldown",
+    "description": "Warmup\n- aquecimento 9m Z2 Power\n\nMain Set 3x\n- sweet spot 5m Z3 Power\n- recuperacao 2m Z1 Power\n\nCooldown\n- retorno a calma 5m Z1 Power",
     "duration_h": 0.5833333333333334,
     "distance_m": null,
     "source": "history"
@@ -633,7 +633,7 @@
     "date": "2026-10-10",
     "title": "Transição - 8kms a race pace",
     "sport": "run",
-    "description": "Transição 1km - W-up 8kms - race pace 1km - easy",
+    "description": "Warmup\n- transição 2m Z2 HR\n\nMain Set\n- race pace 11m Z4 HR\n\nCooldown\n- easy 2m Z1 HR",
     "duration_h": 0.25,
     "distance_m": null,
     "source": "history"
@@ -642,7 +642,7 @@
     "date": "2026-10-11",
     "title": "Base Builder (Power)",
     "sport": "bike",
-    "description": "Ride on a flat to gently rolling course. Get at least 50% of ride time in power zone 2. Avoid 3-5 zones. Keep the 2-zone effort steady and continuous. After the ride confirm that you got at least 50% of the ride in zone 2.",
+    "description": "Warmup\n- aquecimento 5m Z1 Power\n\nMain Set\n- bloco continuo em terreno plano 15m Z2 Power\n\nCooldown\n- retorno a calma 5m Z1 Power",
     "duration_h": 0.4166666666666667,
     "distance_m": null,
     "source": "history"
@@ -651,7 +651,7 @@
     "date": "2026-10-11",
     "title": "Open Water Swimming",
     "sport": "swim",
-    "description": "",
+    "description": "Warmup\n- aquecimento 200m Z2 HR\n\nMain Set 4x\n- 100m Z3 HR\n\nCooldown\n- 100m Z1 HR",
     "duration_h": 0.25,
     "distance_m": null,
     "source": "history"
@@ -669,7 +669,7 @@
     "date": "2026-10-12",
     "title": "30' Run - Zn2",
     "sport": "run",
-    "description": "Corrida em Zn2 com piso soft Pulso @140",
+    "description": "Warmup\n- corrida continua piso soft 30m Z2 HR",
     "duration_h": 0.5,
     "distance_m": null,
     "source": "history"
@@ -678,7 +678,7 @@
     "date": "2026-10-13",
     "title": "Swim#3",
     "sport": "swim",
-    "description": "400 Snorkel 4x50 progressivo @1'20 4x50 Zn5 @ 2' 4x50 pull easy 2x100 Zn4 @ 2'30 4x50 pull easy 200 Zn3 4x50 pernas com barbatanas @45\" 200 cooldown",
+    "description": "Warmup\n- 400m Z2 HR\n\nMain Set 4x\n- progressivo 50m Z3 HR\n\nMain Set 2 4x\n- forte 50m Z5 HR\n\nMain Set 3 4x\n- pull easy 50m Z1 HR\n\nMain Set 4 2x\n- 100m Z4 HR\n\nMain Set 5 4x\n- pull easy 50m Z1 HR\n\nMain Set 6\n- 200m Z3 HR\n\nMain Set 7 4x\n- pernas com barbatanas 50m Z3 HR\n\nCooldown\n- 200m Z1 HR",
     "duration_h": 0.667,
     "distance_m": 2000.0,
     "source": "history"
@@ -687,7 +687,7 @@
     "date": "2026-10-14",
     "title": "Bike progressiva",
     "sport": "bike",
-    "description": "1h progressiva: 20' Aquecimento progressivo Zn2 to Zn3 no final: 20' @Zn3 + 20' com 5x2' Threshold pace / 2' RI",
+    "description": "Warmup\n- aquecimento progressivo 20m ramp Z2-Z3 Power\n\nMain Set\n- bloco continuo 20m Z3 Power\n\nMain Set 5x\n- 2m Z4 Power\n- 2m Z1 Power\n\nCooldown\n- 3m Z1 Power",
     "duration_h": 1.05,
     "distance_m": null,
     "source": "history"
@@ -696,7 +696,7 @@
     "date": "2026-10-14",
     "title": "Transição 3x1000 Intensidade Progressiva",
     "sport": "run",
-    "description": "Transição 3x1000 em ritmo progressivo \"By the feel\" 1º Tempo Pace / 1' RI 2º - Treshold Pace / 2'RI 3º - VO2 Máx Cooldown",
+    "description": "Warmup\n- aquecimento 5m Z2 HR\n\nMain Set\n- 1000m tempo 4m Z3 HR\n- recuperacao 1m Z1 HR\n- 1000m threshold 4m Z4 HR\n- recuperacao 2m Z1 HR\n- 1000m vo2max 4m Z5 HR\n\nCooldown\n- 5m Z1 HR",
     "duration_h": 0.417,
     "distance_m": null,
     "source": "history"
@@ -714,7 +714,7 @@
     "date": "2026-10-16",
     "title": "Pre-Race Swim @Pool",
     "sport": "swim",
-    "description": "200L 4x50 (25 sculling + 25 normal) 4x50 (25 punho, 25 normal) 200 pernas (25 fast + 25 easy) 2x100 Estilos progressivo nos 100 4x25 FAST / 2' RI 300 @ Zn3 com 25m race pace em cada 100 100 easy",
+    "description": "Warmup\n- 200m Z2 HR\n\nMain Set 4x\n- 50m Z2 HR\n\nMain Set 4x\n- 50m Z2 HR\n\nMain Set 4x\n- pernas 50m Z3 HR\n\nMain Set 2x\n- estilos progressivo 100m Z3 HR\n\nMain Set 4x\n- fast 25m Z5 HR\n\nMain Set 3x\n- 100m Z3 HR\n\nCooldown\n- 100m Z1 HR",
     "duration_h": 0.5,
     "distance_m": 1500.0,
     "source": "history"
@@ -723,7 +723,7 @@
     "date": "2026-10-16",
     "title": "Pre Race Bike",
     "sport": "bike",
-    "description": "30' a rolar com 4 a 6 acelarações",
+    "description": "Warmup\n- a rolar solto 10m Z1 Power\n\nMain Set 5x\n- aceleracao 30s Z5 Power\n- recuperacao 2m Z1 Power\n\nCooldown\n- 7m Z1 Power",
     "duration_h": 0.5,
     "distance_m": null,
     "source": "history"
@@ -732,7 +732,7 @@
     "date": "2026-10-16",
     "title": "Pre-race Run",
     "sport": "run",
-    "description": "",
+    "description": "Warmup\n- aquecimento 8m Z2 HR\n\nMain Set 4x\n- acelerações curtas 20s Z4 HR\n- recuperação 40s Z1 HR\n\nCooldown\n- 3m Z1 HR",
     "duration_h": 0.25,
     "distance_m": null,
     "source": "history"
@@ -777,7 +777,7 @@
     "date": "2026-10-20",
     "title": "Swim muito leve",
     "sport": "swim",
-    "description": "Nadar solto sem intensidade, foco em soltar os ombros.",
+    "description": "Warmup\n- nadar solto 24m Z1 HR",
     "duration_h": 0.4,
     "distance_m": null,
     "source": "recovery-plan"
@@ -795,7 +795,7 @@
     "date": "2026-10-22",
     "title": "Zn1 - Bike regenerativa",
     "sport": "bike",
-    "description": "Rolar muito facil em Zn1, percurso plano.",
+    "description": "Warmup\n- rolar muito facil 45m Z1 Power",
     "duration_h": 0.75,
     "distance_m": null,
     "source": "recovery-plan"
@@ -813,7 +813,7 @@
     "date": "2026-10-24",
     "title": "AE1 - Run muito leve",
     "sport": "run",
-    "description": "Corrida muito leve em Zn1, piso macio, sem pressa nenhuma.",
+    "description": "Warmup\n- corrida muito leve 24m Z1 HR",
     "duration_h": 0.4,
     "distance_m": null,
     "source": "recovery-plan"
@@ -822,7 +822,7 @@
     "date": "2026-10-25",
     "title": "Zn1/2 - Bike facil",
     "sport": "bike",
-    "description": "Rolar facil Zn1/Zn2, percurso plano.",
+    "description": "Warmup\n- rolar facil 10m Z1 Power\n\nMain Set\n- percurso plano 40m Z2 Power\n\nCooldown\n- 10m Z1 Power",
     "duration_h": 1.0,
     "distance_m": null,
     "source": "recovery-plan"
@@ -840,7 +840,7 @@
     "date": "2026-10-26",
     "title": "Swim tecnica",
     "sport": "swim",
-    "description": "Foco 100% em tecnica, sem intensidade. Drills.",
+    "description": "Warmup\n- aquecimento suave 300m Z1 HR\n\nMain Set 8x\n- drill tecnica 50m Z2 HR\n\nCooldown\n- nado facil 300m Z1 HR",
     "duration_h": 0.5,
     "distance_m": null,
     "source": "recovery-plan"
@@ -867,7 +867,7 @@
     "date": "2026-10-29",
     "title": "30' Run - Zn2",
     "sport": "run",
-    "description": "Corrida facil em Zn2, piso soft.",
+    "description": "Warmup\n- corrida facil piso soft 30m Z2 HR",
     "duration_h": 0.5,
     "distance_m": null,
     "source": "recovery-plan"
@@ -885,7 +885,7 @@
     "date": "2026-10-31",
     "title": "Base Builder (Heart Rate)",
     "sport": "bike",
-    "description": "Rolar Zn2, percurso plano a ondulado, minimo 50% do tempo em Zn2.",
+    "description": "Warmup\n- rolar continuo em Zn2 90m Z2 Power",
     "duration_h": 1.5,
     "distance_m": null,
     "source": "recovery-plan"
@@ -894,7 +894,7 @@
     "date": "2026-11-01",
     "title": "Base Builder (Heart Rate)",
     "sport": "bike",
-    "description": "Rolar Zn2, percurso plano a ondulado, minimo 50% do tempo em Zn2.",
+    "description": "Warmup\n- aquecimento 15m ramp Z1-Z2 Power\n\nMain Set\n- rolar plano a ondulado 60m Z2 Power\n\nCooldown\n- retorno a calma 15m Z1 Power",
     "duration_h": 1.5,
     "distance_m": null,
     "source": "recovery-plan"
@@ -912,7 +912,7 @@
     "date": "2026-11-02",
     "title": "Swim Z2",
     "sport": "swim",
-    "description": "Series de 100-200 em Zn2, tecnica limpa.",
+    "description": "Warmup\n- aquecimento 300m Z1 HR\n\nMain Set 6x\n- serie 200m Z2 HR\n- recuperacao 50m Z1 HR\n\nCooldown\n- solto 200m Z1 HR",
     "duration_h": 0.75,
     "distance_m": null,
     "source": "recovery-plan"
@@ -930,7 +930,7 @@
     "date": "2026-11-04",
     "title": "40' Run @Zn2",
     "sport": "run",
-    "description": "Corrida em Zn2, piso soft e cadencia +88.",
+    "description": "Warmup\n- corrida continua em Zn2, piso soft, cadencia +88 40m Z2 HR",
     "duration_h": 0.67,
     "distance_m": null,
     "source": "recovery-plan"
@@ -939,7 +939,7 @@
     "date": "2026-11-05",
     "title": "Base Builder (Power)",
     "sport": "bike",
-    "description": "Rolar Zn2, minimo 50% do tempo em zona 2 de potencia.",
+    "description": "Warmup\n- rolar base 1h45m Z2 Power",
     "duration_h": 1.75,
     "distance_m": null,
     "source": "recovery-plan"
@@ -957,7 +957,7 @@
     "date": "2026-11-07",
     "title": "50' Run - Zn2",
     "sport": "run",
-    "description": "Corrida em Zn2 com piso soft.",
+    "description": "Warmup\n- corrida continua em piso soft 50m Z2 HR",
     "duration_h": 0.83,
     "distance_m": null,
     "source": "recovery-plan"
@@ -966,7 +966,7 @@
     "date": "2026-11-08",
     "title": "Base Builder (Heart Rate)",
     "sport": "bike",
-    "description": "Rolar Zn2, minimo 50% do tempo em zona 2.",
+    "description": "Warmup\n- rolar continuo em zona 2 105m Z2 Power",
     "duration_h": 1.75,
     "distance_m": null,
     "source": "recovery-plan"
@@ -984,7 +984,7 @@
     "date": "2026-11-09",
     "title": "Swim - palas",
     "sport": "swim",
-    "description": "Aquecimento + 20' Zn2 com palas + easy.",
+    "description": "Warmup\n- aquecimento 10m Z1 HR\n\nMain Set\n- bloco com palas 20m Z2 HR\n\nCooldown\n- easy 6m Z1 HR",
     "duration_h": 0.6,
     "distance_m": null,
     "source": "recovery-plan"
@@ -1011,7 +1011,7 @@
     "date": "2026-11-12",
     "title": "Base Builder (Power)",
     "sport": "bike",
-    "description": "Rolar Zn2, minimo 50% do tempo em zona 2 de potencia.",
+    "description": "Warmup\n- rolar continuo em zona 2 105m Z2 Power",
     "duration_h": 1.75,
     "distance_m": null,
     "source": "recovery-plan"
@@ -1029,7 +1029,7 @@
     "date": "2026-11-14",
     "title": "60' Run - Zn2",
     "sport": "run",
-    "description": "Corrida em Zn2 com piso soft.",
+    "description": "Warmup\n- aquecimento 10m ramp Z1-Z2 HR\n\nMain Set\n- corrida continua em piso soft 45m Z2 HR\n\nCooldown\n- 5m Z1 HR",
     "duration_h": 1.0,
     "distance_m": null,
     "source": "recovery-plan"
@@ -1047,7 +1047,7 @@
     "date": "2026-11-16",
     "title": "Zn1 - Regenerativo",
     "sport": "bike",
-    "description": "Treino regenerativo Percurso plano Zn1 - rolar fácil",
+    "description": "Warmup\n- rolar fácil percurso plano 40m Z1 Power",
     "duration_h": 0.667,
     "distance_m": null,
     "source": "history"
@@ -1056,7 +1056,7 @@
     "date": "2026-11-17",
     "title": "25' Run @Zn2",
     "sport": "run",
-    "description": "Corrida em Zn2, piso soft e cadência +88 Pulso @140",
+    "description": "Warmup\n- corrida continua piso soft cadencia +88 25m Z2 HR",
     "duration_h": 0.417,
     "distance_m": null,
     "source": "history"
@@ -1083,7 +1083,7 @@
     "date": "2026-11-19",
     "title": "Swim Pré-epoca 1",
     "sport": "swim",
-    "description": "400 snorkel + fins 200 snorkel + pull 4x50 (pernas mariposa, braços bruços) 200 pernas+400pull + 200 estilos invertidos + 200 crawl + 200 pernas + 400 pull 200 easy",
+    "description": "Warmup\n- 400m snorkel + fins Z2 HR\n- 200m snorkel + pull Z2 HR\n\nMain Set 4x\n- 50m pernas mariposa / bracos brucos Z3 HR\n\nMain Set\n- 200m pernas Z2 HR\n- 400m pull Z3 HR\n- 200m estilos invertidos Z3 HR\n- 200m crawl Z3 HR\n- 200m pernas Z2 HR\n- 400m pull Z3 HR\n\nCooldown\n- 200m easy Z1 HR",
     "duration_h": 0.833,
     "distance_m": 2600.0,
     "source": "history"
@@ -1092,7 +1092,7 @@
     "date": "2026-11-19",
     "title": "Running",
     "sport": "run",
-    "description": "",
+    "description": "Warmup\n- aquecimento 10m Z1 HR\n\nMain Set\n- corrida continua 27m Z2 HR\n\nCooldown\n- retorno a calma 8m Z1 HR",
     "duration_h": 0.75,
     "distance_m": null,
     "source": "history"
@@ -1101,7 +1101,7 @@
     "date": "2026-11-20",
     "title": "30' Run - Zn2",
     "sport": "run",
-    "description": "Corrida em Zn2 com piso soft Pulso @140",
+    "description": "Warmup\n- corrida continua piso soft 30m Z2 HR",
     "duration_h": 0.5,
     "distance_m": null,
     "source": "history"
@@ -1110,7 +1110,7 @@
     "date": "2026-11-21",
     "title": "Zn2",
     "sport": "bike",
-    "description": "Rolar Zn2 95-100rpm Manter pulso 130-140",
+    "description": "Warmup\n- rolar zona 2, 95-100rpm, pulso 130-140 1h Z2 Power",
     "duration_h": 1.0,
     "distance_m": null,
     "source": "history"
@@ -1137,7 +1137,7 @@
     "date": "2026-11-24",
     "title": "Rolos 1 - Técnica",
     "sport": "bike",
-    "description": "20min up to Zn2 (easy) @90rpm 10min 5x(30\"SPR + 30\"SPL + 1'spin easy) Pedalar redondo 22min (cadência(90/100/110/120/130/all out/130/120/110/100/90) - 30\" cada degrau e 1'30RI @90rpm) Não tirar o rabo do selim e não oscilar o tronco (speed) 10min cooldown @90rpm",
+    "description": "Warmup\n- aquecimento 20m ramp Z1-Z2 Power\n\nMain Set 5x\n- sprint 30s Z6 Power\n- spinning 30s Z2 Power\n- recuperacao 1m Z1 Power\n\nMain Set 2 11x\n- degrau de cadencia 30s Z3 Power\n- recuperacao 90rpm 1m30s Z1 Power\n\nCooldown\n- 10m Z1 Power",
     "duration_h": 1.033,
     "distance_m": null,
     "source": "history"
@@ -1164,7 +1164,7 @@
     "date": "2026-11-26",
     "title": "Swim Pré-epoca 1",
     "sport": "swim",
-    "description": "400 snorkel + fins 200 snorkel + pull 4x50 (pernas mariposa, braços bruços) 4x50 sculling (25 sculling + 25 normal) 200 pernas+400pull + 200 estilos invertidos + 200 crawl + 200 pernas + 400 pull 200 easy",
+    "description": "Warmup\n- snorkel + fins 400m Z2 HR\n- snorkel + pull 200m Z2 HR\n\nMain Set 4x\n- pernas mariposa, bracos brucos 50m Z3 HR\n\nMain Set 4x\n- 25 sculling + 25 normal 50m Z2 HR\n\nMain Set\n- pernas 200m Z2 HR\n- pull 400m Z3 HR\n- estilos invertidos 200m Z3 HR\n- crawl 200m Z3 HR\n- pernas 200m Z2 HR\n- pull 400m Z3 HR\n\nCooldown\n- easy 200m Z1 HR",
     "duration_h": 0.917,
     "distance_m": 2800.0,
     "source": "history"
@@ -1173,7 +1173,7 @@
     "date": "2026-11-27",
     "title": "30' Run - Zn2",
     "sport": "run",
-    "description": "Corrida em Zn2 com piso soft Pulso @140",
+    "description": "Warmup\n- corrida continua em piso soft, pulso ~140 30m Z2 HR",
     "duration_h": 0.5,
     "distance_m": null,
     "source": "history"
@@ -1182,7 +1182,7 @@
     "date": "2026-11-28",
     "title": "Base Builder (Power)",
     "sport": "bike",
-    "description": "Ride on a flat to gently rolling course. Get at least 50% of ride time in power zone 2. Avoid 3-5 zones. Keep the 2-zone effort steady and continuous. After the ride confirm that you got at least 50% of the ride in zone 2.",
+    "description": "Warmup\n- aquecimento progressivo 15m ramp Z1-Z2 Power\n\nMain Set 3x\n- bloco continuo zona 2 20m Z2 Power\n- recuperacao suave 2m Z1 Power\n\nCooldown\n- retorno a calma 9m Z1 Power",
     "duration_h": 1.5,
     "distance_m": null,
     "source": "history"
@@ -1209,7 +1209,7 @@
     "date": "2026-11-30",
     "title": "Base Builder (Power)",
     "sport": "bike",
-    "description": "Ride on a flat to gently rolling course. Get at least 50% of ride time in power zone 2. Avoid 3-5 zones. Keep the 2-zone effort steady and continuous. After the ride confirm that you got at least 50% of the ride in zone 2.",
+    "description": "Warmup\n- aquecimento progressivo 15m ramp Z1-Z2 Power\n\nMain Set\n- bloco base continuo 60m Z2 Power\n\nCooldown\n- retorno a calma 15m Z1 Power",
     "duration_h": 1.5,
     "distance_m": null,
     "source": "history"
@@ -1227,7 +1227,7 @@
     "date": "2026-12-02",
     "title": "30' Run - Zn2 + 4 retas",
     "sport": "run",
-    "description": "Corrida em Zn2 com piso soft Pulso @140 No final fazer 4 retas progressivas de 20\"",
+    "description": "Warmup\n- aquecimento 5m Z1 HR\n\nMain Set\n- corrida continua piso soft 20m Z2 HR\n\nMain Set 4x\n- reta progressiva 20s Z4 HR\n- recuperacao 40s Z1 HR\n\nCooldown\n- 1m Z1 HR",
     "duration_h": 0.5,
     "distance_m": null,
     "source": "history"
@@ -1236,7 +1236,7 @@
     "date": "2026-12-04",
     "title": "30' Run - Zn2 + 4 retas",
     "sport": "run",
-    "description": "Corrida em Zn2 com piso soft Pulso @140-150 No final fazer 4 retas progressivas de 20\"",
+    "description": "Warmup\n- aquecimento 5m Z1 HR\n\nMain Set\n- corrida continua piso soft 19m Z2 HR\n\nMain Set 4x\n- reta progressiva 20s Z4 HR\n- recuperacao 40s Z1 HR\n\nCooldown\n- 2m Z1 HR",
     "duration_h": 0.5,
     "distance_m": null,
     "source": "history"
@@ -1245,7 +1245,7 @@
     "date": "2026-12-05",
     "title": "Base Builder (Power)",
     "sport": "bike",
-    "description": "Ride on a flat to gently rolling course. Get at least 50% of ride time in power zone 2. Avoid 3-5 zones. Keep the 2-zone effort steady and continuous. After the ride confirm that you got at least 50% of the ride in zone 2.",
+    "description": "Warmup\n- aquecimento 15m ramp Z1-Z2 Power\n\nMain Set\n- base continua 60m Z2 Power\n\nCooldown\n- 15m Z1 Power",
     "duration_h": 1.5,
     "distance_m": null,
     "source": "history"
@@ -1272,7 +1272,7 @@
     "date": "2026-12-07",
     "title": "Base Builder (Heart Rate)",
     "sport": "bike",
-    "description": "Ride on a flat to gently rolling course. Get at least 50% of ride time in heart rate zone 2. Avoid 3-5 zones. Keep the 2-zone effort steady and continuous. After the ride confirm that you got at least 50% of the ride in zone 2.",
+    "description": "Warmup\n- aquecimento 15m ramp Z1-Z2 Power\n\nMain Set\n- bloco continuo 60m Z2 Power\n\nCooldown\n- retorno a calma 15m Z1 Power",
     "duration_h": 1.5,
     "distance_m": null,
     "source": "history"
@@ -1281,7 +1281,7 @@
     "date": "2026-12-07",
     "title": "Running",
     "sport": "run",
-    "description": "",
+    "description": "Warmup\n- aquecimento 10m Z1 HR\n\nMain Set\n- corrida continua 30m Z2 HR\n\nCooldown\n- retorno a calma 5m Z1 HR",
     "duration_h": 0.75,
     "distance_m": null,
     "source": "history"
@@ -1299,7 +1299,7 @@
     "date": "2026-12-09",
     "title": "30' Run - Zn2",
     "sport": "run",
-    "description": "Corrida em Zn2 com piso soft Pulso @140",
+    "description": "Warmup\n- corrida continua em piso soft, pulso @140 40m Z2 HR",
     "duration_h": 0.667,
     "distance_m": null,
     "source": "history"
@@ -1308,7 +1308,7 @@
     "date": "2026-12-12",
     "title": "Base Builder (Heart Rate)",
     "sport": "bike",
-    "description": "Ride on a flat to gently rolling course. Get at least 50% of ride time in heart rate zone 2. Avoid 3-5 zones. Keep the 2-zone effort steady and continuous. After the ride confirm that you got at least 50% of the ride in zone 2.",
+    "description": "Warmup\n- aquecimento 15m Z1 Power\n\nMain Set\n- base continua 60m Z2 Power\n\nCooldown\n- retorno a calma 15m Z1 Power",
     "duration_h": 1.5,
     "distance_m": null,
     "source": "history"
@@ -1335,7 +1335,7 @@
     "date": "2026-12-14",
     "title": "30' Run - Zn2",
     "sport": "run",
-    "description": "Corrida em Zn2 com piso soft Pulso @140",
+    "description": "Warmup\n- corrida continua piso soft 30m Z2 HR",
     "duration_h": 0.5,
     "distance_m": null,
     "source": "history"
@@ -1353,7 +1353,7 @@
     "date": "2026-12-15",
     "title": "Running",
     "sport": "run",
-    "description": "",
+    "description": "Warmup\n- aquecimento 10m Z1 HR\n\nMain Set\n- corrida continua 25m Z2 HR\n\nCooldown\n- retorno a calma 10m Z1 HR",
     "duration_h": 0.75,
     "distance_m": null,
     "source": "history"
@@ -1362,7 +1362,7 @@
     "date": "2026-12-16",
     "title": "30' Run - Zn2 + 4 retas",
     "sport": "run",
-    "description": "Corrida em Zn2 com piso soft Pulso @140-145 No final fazer 4 retas progressivas de 20\"",
+    "description": "Warmup\n- aquecimento 5m Z1 HR\n\nMain Set\n- corrida continua piso soft 18m Z2 HR\n\nMain Set 4x\n- reta progressiva 20s Z4 HR\n- recuperacao 40s Z1 HR\n\nCooldown\n- 3m Z1 HR",
     "duration_h": 0.5,
     "distance_m": null,
     "source": "history"
@@ -1371,7 +1371,7 @@
     "date": "2026-12-17",
     "title": "Swim #5",
     "sport": "swim",
-    "description": "400L Snorkel + fins 400 snorkel + pull 8x100 Técnica 2x(1. Punho fechado na mão direita; 2.Punho fechado na mão esquerda; 3. Punho fechado nas duas mãos; 4. Normal) 3x200L respiração 3,5,7,9 (muda a cada 50 metros dentro dos 200)descanso 20\" 200 Coldown",
+    "description": "Warmup\n- 400m livre snorkel + fins 400m Z2 HR\n\nMain Set\n- snorkel + pull 400m Z2 HR\n\nMain Set 8x\n- tecnica punho fechado 100m Z2 HR\n\nMain Set 3x\n- respiracao 3,5,7,9 200m Z3 HR\n\nCooldown\n- 200m Z1 HR",
     "duration_h": 0.833,
     "distance_m": 2400.0,
     "source": "history"
@@ -1380,7 +1380,7 @@
     "date": "2026-12-18",
     "title": "40' Run @Zn2",
     "sport": "run",
-    "description": "Corrida em Zn2, piso soft e cadência +88 Pulso @140 5' descontração a andar",
+    "description": "Warmup\n- corrida em piso soft, cadencia +88, pulso ~140 35m Z2 HR\n\nCooldown\n- descontracao a andar 5m Z1 HR",
     "duration_h": 0.667,
     "distance_m": null,
     "source": "history"
@@ -1389,7 +1389,7 @@
     "date": "2026-12-19",
     "title": "Base Builder (Heart Rate)",
     "sport": "bike",
-    "description": "Ride on a flat to gently rolling course. Get at least 50% of ride time in heart rate zone 2. Avoid 3-5 zones. Keep the 2-zone effort steady and continuous. After the ride confirm that you got at least 50% of the ride in zone 2.",
+    "description": "Warmup\n- aquecimento progressivo 15m ramp Z1-Z2 Power\n\nMain Set 3x\n- bloco continuo z2 15m Z2 Power\n- recuperacao suave 5m Z1 Power\n\nCooldown\n- retorno a calma 15m Z1 Power",
     "duration_h": 1.5,
     "distance_m": null,
     "source": "history"
@@ -1398,7 +1398,7 @@
     "date": "2026-12-20",
     "title": "Base Builder (Heart Rate)",
     "sport": "bike",
-    "description": "Ride on a flat to gently rolling course. Get at least 50% of ride time in heart rate zone 2. Avoid 3-5 zones. Keep the 2-zone effort steady and continuous. After the ride confirm that you got at least 50% of the ride in zone 2.",
+    "description": "Warmup\n- aquecimento progressivo 15m ramp Z1-Z2 Power\n\nMain Set 3x\n- bloco continuo em zona 2 20m Z2 Power\n- alivio curto 2m Z1 Power\n\nCooldown\n- retorno a calma 9m Z1 Power",
     "duration_h": 1.5,
     "distance_m": null,
     "source": "history"
@@ -1416,7 +1416,7 @@
     "date": "2026-12-21",
     "title": "40 com 100metros",
     "sport": "run",
-    "description": "15' Aquecimento Depois do aquecimento a cada km os primeiros 100 são em sprint e os restantes 900m em zona 2",
+    "description": "Warmup\n- aquecimento 15m Z2 HR\n\nMain Set 5x\n- sprint 100m 20s Z6 HR\n- restantes 900m 5m Z2 HR\n\nCooldown\n- 4m Z1 HR",
     "duration_h": 0.761,
     "distance_m": null,
     "source": "history"
@@ -1425,7 +1425,7 @@
     "date": "2026-12-23",
     "title": "Minute Monster (Heart Rate)",
     "sport": "bike",
-    "description": "",
+    "description": "Warmup\n- aquecimento 18m Z2 Power\n\nMain Set 15x\n- 1m Z5 Power\n- 2m Z1 Power\n\nCooldown\n- 10m Z1 Power",
     "duration_h": 1.217,
     "distance_m": null,
     "source": "history"
@@ -1434,7 +1434,7 @@
     "date": "2026-12-23",
     "title": "Running",
     "sport": "run",
-    "description": "",
+    "description": "Warmup\n- aquecimento 10m Z1 HR\n\nMain Set\n- corrida continua 30m Z2 HR\n\nCooldown\n- retorno a calma 5m Z1 HR",
     "duration_h": 0.75,
     "distance_m": null,
     "source": "history"
@@ -1452,7 +1452,7 @@
     "date": "2026-12-25",
     "title": "40' Run @Zn2",
     "sport": "run",
-    "description": "Corrida em Zn2, piso soft e cadência +88 Pulso @140 5' descontração a andar",
+    "description": "Warmup\n- corrida em Zn2, piso soft, cadencia +88, pulso ~140 35m Z2 HR\n\nCooldown\n- descontracao a andar 5m Z1 HR",
     "duration_h": 0.667,
     "distance_m": null,
     "source": "history"
@@ -1461,7 +1461,7 @@
     "date": "2026-12-26",
     "title": "Base Builder (Heart Rate)",
     "sport": "bike",
-    "description": "Ride on a flat to gently rolling course. Get at least 50% of ride time in heart rate zone 2. Avoid 3-5 zones. Keep the 2-zone effort steady and continuous. After the ride confirm that you got at least 50% of the ride in zone 2.",
+    "description": "Warmup\n- aquecimento progressivo 15m ramp Z1-Z2 Power\n\nMain Set 3x\n- bloco continuo em zona 2 20m Z2 Power\n- recuperacao suave 3m Z1 Power\n\nCooldown\n- 6m Z1 Power",
     "duration_h": 1.5,
     "distance_m": null,
     "source": "history"
@@ -1470,7 +1470,7 @@
     "date": "2026-12-26",
     "title": "Running",
     "sport": "run",
-    "description": "",
+    "description": "Warmup\n- aquecimento 10m Z1 HR\n\nMain Set\n- corrida continua 30m Z2 HR\n\nCooldown\n- retorno a calma 5m Z1 HR",
     "duration_h": 0.75,
     "distance_m": null,
     "source": "history"
@@ -1479,7 +1479,7 @@
     "date": "2026-12-26",
     "title": "Running (2)",
     "sport": "run",
-    "description": "",
+    "description": "Warmup\n- aquecimento 10m Z1 HR\n\nMain Set\n- corrida continua 25m Z2 HR\n\nCooldown\n- retorno a calma 10m Z1 HR",
     "duration_h": 0.75,
     "distance_m": null,
     "source": "history"
@@ -1488,7 +1488,7 @@
     "date": "2026-12-27",
     "title": "Base Builder (Heart Rate)",
     "sport": "bike",
-    "description": "Ride on a flat to gently rolling course. Get at least 50% of ride time in heart rate zone 2. Avoid 3-5 zones. Keep the 2-zone effort steady and continuous. After the ride confirm that you got at least 50% of the ride in zone 2.",
+    "description": "Warmup\n- aquecimento progressivo 15m ramp Z1-Z2 Power\n\nMain Set\n- bloco continuo em Z2 estavel 80m Z2 Power\n\nCooldown\n- retorno a calma 25m Z1 Power",
     "duration_h": 2.0,
     "distance_m": null,
     "source": "history"
@@ -1506,7 +1506,7 @@
     "date": "2026-12-28",
     "title": "30' Run - Zn2",
     "sport": "run",
-    "description": "Corrida em Zn2 com piso soft Pulso @140",
+    "description": "Warmup\n- corrida continua em piso soft, pulso @140 30m Z2 HR",
     "duration_h": 0.5,
     "distance_m": null,
     "source": "history"
@@ -1515,7 +1515,7 @@
     "date": "2026-12-29",
     "title": "Swim Z2",
     "sport": "swim",
-    "description": "400 snorkel + fins 200 pull 400 pernas com fins - 200 Catch-up com palas 200 com palas - braço parado à frente (25 braço direito + 25 braço esquerdo) 200 com braço ao longo do corpo e respira para o lado oposto (25 braço direito + 25 braço esquerdo) 6x100 zona 2 - 20\" intervalo 200 easy",
+    "description": "Warmup\n- snorkel + fins 400m Z1 HR\n- pull 200m Z2 HR\n- pernas com fins 400m Z2 HR\n\nMain Set\n- catch-up com palas 200m Z2 HR\n- palas braco parado a frente 200m Z2 HR\n- braco ao longo do corpo respira lado oposto 200m Z2 HR\n\nMain Set 6x\n- 100m Z2 HR\n\nCooldown\n- easy 200m Z1 HR",
     "duration_h": 0.833,
     "distance_m": 2400.0,
     "source": "history"
@@ -1524,7 +1524,7 @@
     "date": "2026-12-30",
     "title": "Minute Monster (Heart Rate)",
     "sport": "bike",
-    "description": "",
+    "description": "Warmup\n- aquecimento 15m Z2 Power\n\nMain Set 15x\n- esforco 1m Z5 Power\n- recuperacao 2m Z1 Power\n\nCooldown\n- retorno a calma 13m Z1 Power",
     "duration_h": 1.217,
     "distance_m": null,
     "source": "history"
