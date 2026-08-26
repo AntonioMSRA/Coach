@@ -3,7 +3,7 @@
     "date": "2026-08-27",
     "title": "Tempo Run 4x5'",
     "sport": "run",
-    "description": "20' Aquecimento 4x5' Zona 3 / 2' easy pace 10' Cooldown",
+    "description": "- 20m warmup Z1-Z2\n- 4x\n  - 5m Z3\n  - 2m Z1\n- 10m cooldown Z1",
     "duration_h": 0.967,
     "distance_m": null,
     "source": "history"
