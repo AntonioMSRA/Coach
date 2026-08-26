@@ -1,21 +1,12 @@
 [
   {
     "date": "2026-08-27",
-    "title": "Zn1 - Regenerativo",
-    "sport": "bike",
-    "description": "Warmup\n- rolar fácil percurso plano 1h Z1 Power",
+    "title": "Corrida fácil (troca de bike)",
+    "sport": "run",
+    "description": "Warmup\n- corrida fácil, percurso plano e piso macio 1h Z2 HR",
     "duration_h": 1.0,
     "distance_m": null,
-    "source": "real-coach-tp"
-  },
-  {
-    "date": "2026-08-27",
-    "title": "AE1",
-    "sport": "run",
-    "description": "Warmup\n- corrida transicao pos-bike, percurso plano e piso macio 15m Z1 HR",
-    "duration_h": 0.25,
-    "distance_m": null,
-    "source": "real-coach-tp"
+    "source": "athlete-swap"
   },
   {
     "date": "2026-08-28",
