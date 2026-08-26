@@ -170,12 +170,25 @@ Depois do primeiro teste manual correr bem, já não precisas de fazer nada:
 
 ### 6. Como ajustar o plano no futuro
 
-- **Para o dia a dia** (cansaço, dores, motivação, sono): usa o **Wellness**
-  do intervals.icu (site ou telemóvel — "Adicionar ao ecrã principal" no
-  browser do telemóvel funciona como uma app) — o ajuste automático diário
-  lê isto sozinho, não precisas de tocar no GitHub.
-- **Para notas mais específicas/livres** (viagens, contexto que não encaixa
-  no Wellness): escreve uma linha em `plan/athlete_input.md`.
+- **Para o dia a dia, tudo no mesmo sítio (o telemóvel, dentro do
+  intervals.icu)**: preenche o **Wellness** todos os dias (fadiga, sono,
+  stress, motivação, dores) e usa o campo de texto livre **"Comments"** do
+  próprio Wellness para qualquer nota específica ("amanhã tenho mais
+  disponibilidade", "dores no joelho esquerdo", viagens, etc.) — o ajuste
+  automático diário lê **todos** os campos do Wellness, incluindo esse
+  texto livre, não só os números. Não precisas de tocar no GitHub nem de
+  vir a este chat para o dia a dia — o campo Comments substitui, no
+  telemóvel, o que `plan/athlete_input.md` fazia só no computador.
+- `plan/athlete_input.md` continua a existir como alternativa (ex: se
+  preferires escrever algo mais longo num computador), mas deixou de ser
+  necessário no uso diário — o Comments do Wellness já chega a Claude da
+  mesma forma.
+- **Para pedidos que precisam de resposta imediata/no próprio dia** (ex:
+  "hoje afinal vou correr em vez de nadar") em vez de esperar pelo ajuste
+  automático da manhã seguinte: manda mensagem aqui mesmo, no chat com o
+  Claude — também dá para usar a partir do telemóvel (app do Claude ou
+  claude.ai no browser), por isso continua a ser "um sítio só" mesmo para
+  isto.
 - Para pequenos ajustes manuais e imediatos (mudar um treino, mover um dia):
   edita `plan/plan.json` diretamente (ou `plan/plan.csv` numa folha de
   cálculo e depois converte) e faz commit/push — a sincronização

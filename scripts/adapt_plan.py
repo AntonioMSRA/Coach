@@ -3,8 +3,13 @@
 Ajusta as proximas ~2 semanas de plan/plan.json com base em:
   - o que foi realmente treinado na ultima semana (via API do intervals.icu)
   - o wellness diario que preencheste no telemovel/site do intervals.icu
-    (fadiga, sono, stress, motivacao, dores)
-  - as notas que tu escreveste em plan/athlete_input.md
+    (fadiga, sono, stress, motivacao, dores) -- incluindo o campo de texto
+    livre "Comments" do Wellness, que e o canal principal para notas
+    especificas feitas so pelo telemovel (summarize_wellness() abaixo
+    despeja TODOS os campos devolvidos pela API, nao so os numericos, por
+    isso o Comments chega aqui automaticamente sem precisar de codigo extra)
+  - as notas que tu escreveste em plan/athlete_input.md (alternativa para
+    quando estas ao computador; o Comments do Wellness cobre o uso diario)
   - o que estava planeado
 
 Usa a API da Anthropic (Claude) para propor ajustes, mas nunca aplica nada
