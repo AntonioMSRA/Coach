@@ -10,12 +10,12 @@
   },
   {
     "date": "2026-08-28",
-    "title": "Uphill Stride Work",
+    "title": "Corrida fácil + técnica (joelho)",
     "sport": "run",
-    "description": "Warmup\n- aquecimento 20m ramp Z1-Z2 HR\n\nMain Set 5x\n- subida forte 20s Z5 HR\n- recuperacao a andar 1m Z1 HR\n\nCooldown\n- 3m Z1 HR",
+    "description": "Warmup\n- 10m Z1 HR\n\nMain Set\n- corrida continua facil 15m Z2 HR\n- 4x 15s de passada solta em plano (sem subida forte), 45s a andar\n\nCooldown\n- 5m Z1 HR\n\nNota: se o joelho direito incomodar, para e faz so mobilidade.",
     "duration_h": 0.5,
     "distance_m": null,
-    "source": "real-coach-tp"
+    "source": "adapted"
   },
   {
     "date": "2026-08-29",
@@ -28,12 +28,12 @@
   },
   {
     "date": "2026-08-29",
-    "title": "Transição - 4x1km",
+    "title": "Transição - 3x1km",
     "sport": "run",
-    "description": "Main Set 4x\n- 1 km forte 4m Z3 HR\n- recuperacao 1m Z1 HR\n\nCooldown\n- 5m Z1 HR",
-    "duration_h": 0.407,
+    "description": "Main Set 3x\n- 1 km controlado 4m Z3 HR\n- recuperacao 1m30 Z1 HR\n\nCooldown\n- 5m Z1 HR",
+    "duration_h": 0.35,
     "distance_m": null,
-    "source": "real-coach-tp"
+    "source": "adapted"
   },
   {
     "date": "2026-08-30",
@@ -73,12 +73,12 @@
   },
   {
     "date": "2026-09-03",
-    "title": "Intervalado Curto 200+200",
+    "title": "Intervalado Curto 8x200",
     "sport": "run",
-    "description": "Warmup\n- aquecimento 20m Z2 HR\n\nMain Set 10x\n- 200 metros forte 30s Z5 HR\n- 200 metros leve 30s Z1 HR\n\nCooldown\n- 5m Z1 HR",
-    "duration_h": 0.5833333333333334,
+    "description": "Warmup\n- aquecimento 20m Z2 HR\n\nMain Set 8x\n- 200 metros forte 30s Z4-Z5 HR\n- 200 metros leve 45s Z1 HR\n\nCooldown\n- 5m Z1 HR",
+    "duration_h": 0.55,
     "distance_m": null,
-    "source": "history"
+    "source": "adapted"
   },
   {
     "date": "2026-09-04",
