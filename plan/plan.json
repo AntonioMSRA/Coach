@@ -28,10 +28,10 @@
   },
   {
     "date": "2026-08-29",
-    "title": "Transição - 3x1km",
+    "title": "Transição - 2x1km (joelho: cautela)",
     "sport": "run",
-    "description": "Main Set 3x\n- 1 km controlado 4m Z3 HR\n- recuperacao 1m30 Z1 HR\n\nCooldown\n- 5m Z1 HR",
-    "duration_h": 0.35,
+    "description": "Main Set 2x\n- 1 km controlado 4m Z3 HR\n- recuperacao 2m Z1 HR\n\nCooldown\n- 5m Z1 HR\n\nSe sentires o joelho direito a incomodar, para o treino e faz so 10m Z1.",
+    "duration_h": 0.3,
     "distance_m": null,
     "source": "adapted"
   },
@@ -73,10 +73,10 @@
   },
   {
     "date": "2026-09-03",
-    "title": "Intervalado Curto 8x200",
+    "title": "Intervalado Curto 6x200",
     "sport": "run",
-    "description": "Warmup\n- aquecimento 20m Z2 HR\n\nMain Set 8x\n- 200 metros forte 30s Z4-Z5 HR\n- 200 metros leve 45s Z1 HR\n\nCooldown\n- 5m Z1 HR",
-    "duration_h": 0.55,
+    "description": "Warmup\n- aquecimento 20m Z2 HR\n\nMain Set 6x\n- 200 metros forte 30s Z4 HR\n- 200 metros muito leve / andar 60s Z1 HR\n\nCooldown\n- 5m Z1 HR\n\nPiso macio se possivel. Corta se o joelho der sinal.",
+    "duration_h": 0.5,
     "distance_m": null,
     "source": "adapted"
   },
