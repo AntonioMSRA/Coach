@@ -17,3 +17,11 @@ Alteracoes aplicadas:
 - modificado 2026-08-29: Transição - 3x1km (0.35h) -> Transição - 2x1km (joelho: cautela) (0.3h)
 - modificado 2026-09-03: Intervalado Curto 8x200 (0.55h) -> Intervalado Curto 6x200 (0.5h)
 
+## 2026-08-29
+
+Semana passada correu bem: fizeste a corrida de sábado e só falhou a corrida curta de técnica de domingo — nada preocupante. O único sinal a que dou peso é a dor leve no joelho direito no fim da corrida de 27/08, com a base de corrida ainda muito baixa. Por isso não mexo na estrutura da semana; só suavizo um pouco os dois treinos de corrida mais intensos, para proteger o joelho enquanto a base cresce. Se o joelho estiver mudo nas próximas duas semanas, voltamos ao volume/intensidade original. Mantém o rolo de espuma e escreve-me nas notas se a dor voltar ou passar de leve.
+
+Alteracoes aplicadas:
+- modificado 2026-09-03: Intervalado Curto 6x200 (0.5h) -> Intervalado Curto 4x200 (0.5h)
+- modificado 2026-09-10: Tempo run progressivo (0.5833333333333334h) -> Tempo run progressivo (pirâmide curta) (0.45h)
+

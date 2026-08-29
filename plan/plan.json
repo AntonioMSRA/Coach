@@ -73,9 +73,9 @@
   },
   {
     "date": "2026-09-03",
-    "title": "Intervalado Curto 6x200",
+    "title": "Intervalado Curto 4x200",
     "sport": "run",
-    "description": "Warmup\n- aquecimento 20m Z2 HR\n\nMain Set 6x\n- 200 metros forte 30s Z4 HR\n- 200 metros muito leve / andar 60s Z1 HR\n\nCooldown\n- 5m Z1 HR\n\nPiso macio se possivel. Corta se o joelho der sinal.",
+    "description": "Warmup\n- aquecimento 20m Z2 HR\n\nMain Set 4x\n- 200 metros controlado (não máximo) 30s Z4 HR\n- 200 metros muito leve / andar 90s Z1 HR\n\nCooldown\n- 5m Z1 HR\n\nPiso macio obrigatório. Para logo se o joelho direito der sinal — melhor cortar do que forçar.",
     "duration_h": 0.5,
     "distance_m": null,
     "source": "adapted"
@@ -181,12 +181,12 @@
   },
   {
     "date": "2026-09-10",
-    "title": "Tempo run progressivo",
+    "title": "Tempo run progressivo (pirâmide curta)",
     "sport": "run",
-    "description": "Warmup\n- aquecimento 10m Z2 HR\n\nMain Set\n- 1m Z4 HR\n- 1m Z1 HR\n- 2m Z4 HR\n- 2m Z1 HR\n- 3m Z4 HR\n- 3m Z1 HR\n- 4m Z4 HR\n- 4m Z1 HR\n\nCooldown\n- 5m Z1 HR",
-    "duration_h": 0.5833333333333334,
+    "description": "Warmup\n- aquecimento 10m Z2 HR\n\nMain Set\n- 1m Z4 HR\n- 1m Z1 HR\n- 2m Z4 HR\n- 2m Z1 HR\n- 3m Z4 HR\n- 3m Z1 HR\n\nCooldown\n- 5m Z1 HR\n\nRetirei o bloco de 4' para poupar o joelho. Se corresse tudo bem no intervalado da semana anterior, podemos voltar a subir.",
+    "duration_h": 0.45,
     "distance_m": null,
-    "source": "history"
+    "source": "adapted"
   },
   {
     "date": "2026-09-11",
