@@ -25,3 +25,12 @@ Alteracoes aplicadas:
 - modificado 2026-09-03: Intervalado Curto 6x200 (0.5h) -> Intervalado Curto 4x200 (0.5h)
 - modificado 2026-09-10: Tempo run progressivo (0.5833333333333334h) -> Tempo run progressivo (pirâmide curta) (0.45h)
 
+## 2026-08-30
+
+Na semana passada só fizeste 1 dos 4 treinos e ainda houve queixa ligeira no joelho direito no fim dessa corrida. Como a base ainda está muito baixa (praticamente a começar), não faz sentido saltar já para semanas cheias — prefiro garantir consistência a apanhar uma lesão a 7 semanas de Cascais. Por isso: encurto ligeiramente o LSD de amanhã, torno o intervalado de 3ª mais curto e mais controlado (piso macio, para se o joelho falar), e corto o volume do rolo/subidas de domingo para uma dose mais realista. Tudo o resto fica igual. Se a semana correr bem e o joelho ficar calado, na próxima já voltamos a subir.
+
+Alteracoes aplicadas:
+- modificado 2026-08-31: LSD (0.8333333333333334h) -> LSD (controlado) (0.6666666666666666h)
+- modificado 2026-09-03: Intervalado Curto 4x200 (0.5h) -> Intervalado Curto 3x200 (0.45h)
+- modificado 2026-09-06: Desnível acumulado (1.6666666666666667h) -> Desnível acumulado (reduzido) (1.25h)
+
