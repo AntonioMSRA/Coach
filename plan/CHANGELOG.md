@@ -34,3 +34,12 @@ Alteracoes aplicadas:
 - modificado 2026-09-03: Intervalado Curto 4x200 (0.5h) -> Intervalado Curto 3x200 (0.45h)
 - modificado 2026-09-06: Desnível acumulado (1.6666666666666667h) -> Desnível acumulado (reduzido) (1.25h)
 
+## 2026-08-31
+
+Na semana passada só ficou feita a corrida de quinta (1h) — falharam 4 das 5 sessões — e registaste dor leve no joelho direito no fim dessa corrida. Com a carga real ainda muito baixa (CTL quase a zero) não faz sentido entrar já nos treinos mais duros: o risco é acumular dor no joelho e falhar mais sessões. Por isso faço três ajustes pequenos e mantenho tudo o resto: (1) troco o intervalado de 3x200 por uma corrida fácil em piso macio com 4 acelerações curtas, para reintroduzir corrida sem stress no joelho; (2) corto o bike tempo de sexta de 4x8' para 3x8' (menos ~20 min); (3) corto o treino de desnível de sábado para 3x8' de subida. O bloco de qualidade da corrida (pirâmide de 10/09) fica como está — se esta semana correr sem dor, voltamos a subir a partir daí. Se as sessões falharam por viagem/agenda e não por cansaço, escreve-me uma nota que eu reponho o volume.
+
+Alteracoes aplicadas:
+- modificado 2026-09-03: Intervalado Curto 3x200 (0.45h) -> AE2 - Corrida fácil + 4x20" (joelho) (0.5h)
+- modificado 2026-09-05: Bike Tempo 4x8' - dia de nutrição (1.6666666666666667h) -> Bike Tempo 3x8' - dia de nutrição (1.3333333333333333h)
+- modificado 2026-09-06: Desnível acumulado (reduzido) (1.25h) -> Desnível acumulado (3x8') (1.0h)
+

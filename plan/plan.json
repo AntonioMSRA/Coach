@@ -73,10 +73,10 @@
   },
   {
     "date": "2026-09-03",
-    "title": "Intervalado Curto 3x200",
+    "title": "AE2 - Corrida fácil + 4x20\" (joelho)",
     "sport": "run",
-    "description": "Warmup\n- aquecimento 20m Z2 HR\n\nMain Set 3x\n- 200 metros controlado (não máximo) 30s Z4 HR\n- 200 metros muito leve / andar 2m Z1 HR\n\nCooldown\n- 5m Z1 HR\n\nPiso macio obrigatório. Ao primeiro sinal no joelho direito, acaba em Z1 — cortar não custa nada.",
-    "duration_h": 0.45,
+    "description": "Warmup\n- 10m Z1 HR\n\nMain Set\n- corrida continua 15m Z2 HR\n- 4x 20\" acelerações leves com 1m30 a andar/trote Z3 HR\n\nCooldown\n- 5m Z1 HR\n\nPiso macio obrigatório. Sem ritmos fortes esta semana — objetivo é voltar a correr sem dor. Ao primeiro sinal no joelho direito, termina em Z1.",
+    "duration_h": 0.5,
     "distance_m": null,
     "source": "adapted"
   },
@@ -109,12 +109,12 @@
   },
   {
     "date": "2026-09-05",
-    "title": "Bike Tempo 4x8' - dia de nutrição",
+    "title": "Bike Tempo 3x8' - dia de nutrição",
     "sport": "bike",
-    "description": "Warmup\n- aquecimento progressivo 20m ramp Z1-Z2 Power\n\nMain Set 4x\n- bloco tempo 8m Z3 Power\n- recuperacao 7m Z1 Power\n\nCooldown\n- retorno a calma 20m Z1 Power",
-    "duration_h": 1.6666666666666667,
+    "description": "Warmup\n- aquecimento progressivo 20m ramp Z1-Z2 Power\n\nMain Set 3x\n- bloco tempo 8m Z3 Power\n- recuperacao 7m Z1 Power\n\nCooldown\n- retorno a calma 15m Z1 Power\n\nCortei um bloco face ao planeado, para não dar um salto grande de carga.",
+    "duration_h": 1.3333333333333333,
     "distance_m": null,
-    "source": "history"
+    "source": "adapted"
   },
   {
     "date": "2026-09-05",
@@ -127,10 +127,10 @@
   },
   {
     "date": "2026-09-06",
-    "title": "Desnível acumulado (reduzido)",
+    "title": "Desnível acumulado (3x8')",
     "sport": "bike",
-    "description": "Warmup\n- aquecimento 15m Z2 Power\n\nMain Set 4x\n- subida sentado 60-70rpm 8m Z3 Power\n- recuperacao 4m Z1 Power\n\nCooldown\n- 10m Z1 Power",
-    "duration_h": 1.25,
+    "description": "Warmup\n- aquecimento 15m Z2 Power\n\nMain Set 3x\n- subida sentado 60-70rpm 8m Z3 Power\n- recuperacao 4m Z1 Power\n\nCooldown\n- 10m Z1 Power",
+    "duration_h": 1.0,
     "distance_m": null,
     "source": "adapted"
   },
