@@ -43,3 +43,12 @@ Alteracoes aplicadas:
 - modificado 2026-09-05: Bike Tempo 4x8' - dia de nutrição (1.6666666666666667h) -> Bike Tempo 3x8' - dia de nutrição (1.3333333333333333h)
 - modificado 2026-09-06: Desnível acumulado (reduzido) (1.25h) -> Desnível acumulado (3x8') (1.0h)
 
+## 2026-09-01
+
+Na semana passada só ficou feita 1 das 6 sessões (a corrida de quarta-feira), e ficou registada dor leve no joelho direito no fim dessa corrida. Com tão pouca carga acumulada nas últimas semanas, o plano desta semana como está dava um salto grande — e é justamente aí que aparecem lesões. Faltam ~6 semanas para Cascais, por isso o mais valioso agora é consistência, não intensidade: prefiro que faças 80% dos treinos com qualidade do que 40% de treinos duros. Aliviei ligeiramente os dois dias mais exigentes de bike (sábado e domingo) e baixei a intensidade do tempo run de 10/09 para proteger o joelho. Se a semana correr toda cumprida e sem dor, na próxima subimos outra vez.
+
+Alteracoes aplicadas:
+- modificado 2026-09-05: Bike Tempo 3x8' - dia de nutrição (1.3333333333333333h) -> Bike Tempo 2x8' - dia de nutrição (1.0833333333333333h)
+- modificado 2026-09-06: Desnível acumulado (3x8') (1.0h) -> Desnível acumulado (2x8') (0.8833333333333333h)
+- modificado 2026-09-10: Tempo run progressivo (pirâmide curta) (0.45h) -> Tempo run progressivo (controlado) (0.45h)
+

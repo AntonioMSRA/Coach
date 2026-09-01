@@ -109,10 +109,10 @@
   },
   {
     "date": "2026-09-05",
-    "title": "Bike Tempo 3x8' - dia de nutrição",
+    "title": "Bike Tempo 2x8' - dia de nutrição",
     "sport": "bike",
-    "description": "Warmup\n- aquecimento progressivo 20m ramp Z1-Z2 Power\n\nMain Set 3x\n- bloco tempo 8m Z3 Power\n- recuperacao 7m Z1 Power\n\nCooldown\n- retorno a calma 15m Z1 Power\n\nCortei um bloco face ao planeado, para não dar um salto grande de carga.",
-    "duration_h": 1.3333333333333333,
+    "description": "Warmup\n- aquecimento progressivo 20m ramp Z1-Z2 Power\n\nMain Set 2x\n- bloco tempo 8m Z3 Power\n- recuperacao 7m Z1 Power\n\nCooldown\n- retorno a calma 12m Z1 Power\n\nCortei para 2 blocos: vens de uma semana com pouca carga feita, não vale a pena dar um salto grande. Foco em treinar a nutrição em andamento.",
+    "duration_h": 1.0833333333333333,
     "distance_m": null,
     "source": "adapted"
   },
@@ -127,10 +127,10 @@
   },
   {
     "date": "2026-09-06",
-    "title": "Desnível acumulado (3x8')",
+    "title": "Desnível acumulado (2x8')",
     "sport": "bike",
-    "description": "Warmup\n- aquecimento 15m Z2 Power\n\nMain Set 3x\n- subida sentado 60-70rpm 8m Z3 Power\n- recuperacao 4m Z1 Power\n\nCooldown\n- 10m Z1 Power",
-    "duration_h": 1.0,
+    "description": "Warmup\n- aquecimento 15m Z2 Power\n\nMain Set 2x\n- subida sentado 60-70rpm 8m Z3 Power\n- recuperacao 5m Z1 Power\n\nCooldown\n- 10m Z1 Power\n\nUm bloco menos, por vir logo a seguir ao dia de tempo + corrida. Cadência baixa mas sem forçar.",
+    "duration_h": 0.8833333333333333,
     "distance_m": null,
     "source": "adapted"
   },
@@ -181,9 +181,9 @@
   },
   {
     "date": "2026-09-10",
-    "title": "Tempo run progressivo (pirâmide curta)",
+    "title": "Tempo run progressivo (controlado)",
     "sport": "run",
-    "description": "Warmup\n- aquecimento 10m Z2 HR\n\nMain Set\n- 1m Z4 HR\n- 1m Z1 HR\n- 2m Z4 HR\n- 2m Z1 HR\n- 3m Z4 HR\n- 3m Z1 HR\n\nCooldown\n- 5m Z1 HR\n\nRetirei o bloco de 4' para poupar o joelho. Se corresse tudo bem no intervalado da semana anterior, podemos voltar a subir.",
+    "description": "Warmup\n- aquecimento 10m Z2 HR\n\nMain Set\n- 1m Z3 HR\n- 1m Z1 HR\n- 2m Z3 HR\n- 2m Z1 HR\n- 3m Z3 HR\n- 3m Z1 HR\n\nCooldown\n- 5m Z1 HR\n\nBaixei os blocos de Z4 para Z3 por causa do joelho direito. Piso macio. Se não houver qualquer incómodo nesta semana e na anterior, na próxima voltamos a Z4.",
     "duration_h": 0.45,
     "distance_m": null,
     "source": "adapted"
