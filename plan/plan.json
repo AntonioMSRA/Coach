@@ -100,12 +100,12 @@
   },
   {
     "date": "2026-09-04",
-    "title": "Strength",
+    "title": "Strength (carga controlada - joelho)",
     "sport": "strength",
-    "description": "",
-    "duration_h": 0.75,
+    "description": "Sessão normal, mas nos exercícios de perna fica 1-2 séries abaixo do habitual e evita amplitudes/cargas que provoquem qualquer incómodo no joelho direito. Core e tronco sem restrições.",
+    "duration_h": 0.6666666666666666,
     "distance_m": null,
-    "source": "history"
+    "source": "adapted"
   },
   {
     "date": "2026-09-05",
@@ -118,19 +118,19 @@
   },
   {
     "date": "2026-09-05",
-    "title": "Transição - LSD - dia de nutrição",
+    "title": "Transição - LSD (curto, controlado)",
     "sport": "run",
-    "description": "Warmup\n- corrida continua LSD ritmo baixo e tecnica correta 35m Z2 HR",
-    "duration_h": 0.5833333333333334,
+    "description": "Warmup\n- corrida continua a seguir a bike, ritmo baixo e tecnica correta 25m Z2 HR\n\nEncurtei de 35' para 25': vens de uma semana quase sem correr e com o joelho a dar sinal. Piso macio. Foco na nutrição em andamento.",
+    "duration_h": 0.4166666666666667,
     "distance_m": null,
-    "source": "history"
+    "source": "adapted"
   },
   {
     "date": "2026-09-06",
-    "title": "Desnível acumulado (2x8')",
+    "title": "Bike Z2 com ondulação (sem blocos)",
     "sport": "bike",
-    "description": "Warmup\n- aquecimento 15m Z2 Power\n\nMain Set 2x\n- subida sentado 60-70rpm 8m Z3 Power\n- recuperacao 5m Z1 Power\n\nCooldown\n- 10m Z1 Power\n\nUm bloco menos, por vir logo a seguir ao dia de tempo + corrida. Cadência baixa mas sem forçar.",
-    "duration_h": 0.8833333333333333,
+    "description": "Warmup\n- aquecimento 15m Z2 Power\n\nMain Set\n- rolar continuo em percurso ondulado, sentado, cadencia livre 30m Z2 Power\n\nCooldown\n- 10m Z1 Power\n\nTirei os blocos de Z3/cadência baixa porque vêm logo depois do dia de tempo + corrida e a carga da semana passada foi muito baixa. Volta na próxima semana.",
+    "duration_h": 0.9166666666666666,
     "distance_m": null,
     "source": "adapted"
   },

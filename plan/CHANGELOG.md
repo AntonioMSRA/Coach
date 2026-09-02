@@ -52,3 +52,12 @@ Alteracoes aplicadas:
 - modificado 2026-09-06: Desnível acumulado (3x8') (1.0h) -> Desnível acumulado (2x8') (0.8833333333333333h)
 - modificado 2026-09-10: Tempo run progressivo (pirâmide curta) (0.45h) -> Tempo run progressivo (controlado) (0.45h)
 
+## 2026-09-02
+
+Semana passada só ficou feita a corrida de 5ª (1h de 7 sessões) e a nota de dor leve no joelho direito é recente, por isso não vale a pena voltar já ao volume/intensidade previsto. Os teus dados de sono/fadiga/motivação estão bons, logo não corto quase nada — apenas suavizo o fim de semana para não empilhar dois dias fortes de bike seguidos e encurto um pouco a corrida de transição, para o joelho reentrar na rotina sem sobressaltos. Força continua, mas com carga controlada nos exercícios de perna. Se a semana correr sem dor, na próxima retomamos os blocos completos (temos ainda 6 semanas até Cascais).
+
+Alteracoes aplicadas:
+- modificado 2026-09-05: Transição - LSD - dia de nutrição (0.5833333333333334h) -> Transição - LSD (curto, controlado) (0.4166666666666667h)
+- modificado 2026-09-06: Desnível acumulado (2x8') (0.8833333333333333h) -> Bike Z2 com ondulação (sem blocos) (0.9166666666666666h)
+- modificado 2026-09-04: Strength (0.75h) -> Strength (carga controlada - joelho) (0.6666666666666666h)
+
